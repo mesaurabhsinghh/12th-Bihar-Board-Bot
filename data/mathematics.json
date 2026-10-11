@@ -1,0 +1,197 @@
+[
+  {
+    "id": 1,
+    "chapter": "आव्यूह (Matrices)",
+    "question": "यदि A = [aᵢⱼ]ₘ×ₙ एक वर्ग आव्यूह (Square Matrix) है, तो कौन-सा संबंध सही है?",
+    "options": {
+      "A": "m < n",
+      "B": "m > n",
+      "C": "m = n",
+      "D": "m ≠ n"
+    },
+    "correct": "C",
+    "explanation": "वर्ग आव्यूह में पंक्तियों की संख्या और स्तंभों की संख्या बराबर होती है, अर्थात् m = n।"
+  },
+  {
+    "id": 2,
+    "chapter": "अवकलन (Differentiation)",
+    "question": "d/dx (sin x) का मान क्या होगा?",
+    "options": {
+      "A": "-cos x",
+      "B": "cos x",
+      "C": "sec x",
+      "D": "-sin x"
+    },
+    "correct": "B",
+    "explanation": "त्रिकोणमितीय सूत्रानुसार d/dx (sin x) = cos x होता है।"
+  },
+  {
+    "id": 3,
+    "chapter": "अवकलन (Differentiation)",
+    "question": "d/dx (tan x) का मान क्या होगा?",
+    "options": {
+      "A": "sec²x",
+      "B": "-sec²x",
+      "C": "cot x",
+      "D": "tan²x"
+    },
+    "correct": "A",
+    "explanation": "tan x का x के सापेक्ष अवकलन sec²x होता है।"
+  },
+  {
+    "id": 4,
+    "chapter": "समाकलन (Integration)",
+    "question": "∫ x dx का मान क्या होगा?",
+    "options": {
+      "A": "x² + k",
+      "B": "x²/2 + k",
+      "C": "2x + k",
+      "D": "x³/3 + k"
+    },
+    "correct": "B",
+    "explanation": "∫ xⁿ dx = (xⁿ⁺¹)/(n+1) + k नियम से ∫ x¹ dx = x²/2 + k।"
+  },
+  {
+    "id": 5,
+    "chapter": "समाकलन (Integration)",
+    "question": "∫ eˣ dx का मान क्या होगा?",
+    "options": {
+      "A": "eˣ + k",
+      "B": "-eˣ + k",
+      "C": "e⁻ˣ + k",
+      "D": "x eˣ + k"
+    },
+    "correct": "A",
+    "explanation": "चरघातांकी फलन eˣ का समाकलन स्वयं eˣ + k होता है।"
+  },
+  {
+    "id": 6,
+    "chapter": "समाकलन (Integration)",
+    "question": "∫ (1/x) dx का मान क्या होगा?",
+    "options": {
+      "A": "-1/x² + k",
+      "B": "log|x| + k",
+      "C": "1/x + k",
+      "D": "x + k"
+    },
+    "correct": "B",
+    "explanation": "1/x का x के सापेक्ष समाकलन log|x| + k होता है।"
+  },
+  {
+    "id": 7,
+    "chapter": "सारणिक (Determinants)",
+    "question": "यदि किसी सारणिक की दो पंक्तियाँ (या दो स्तंभ) सर्वसम (Identical) हों, तो सारणिक का मान होता है:",
+    "options": {
+      "A": "1",
+      "B": "-1",
+      "C": "0",
+      "D": "अनंत"
+    },
+    "correct": "C",
+    "explanation": "सारणिक के गुणधर्म के अनुसार, यदि किन्हीं दो पंक्तियों या स्तंभों के संगत अवयव समान हों, तो उसका मान 0 होता है।"
+  },
+  {
+    "id": 8,
+    "chapter": "प्रतिलोम त्रिकोणमितीय फलन (ITF)",
+    "question": "sin⁻¹(x) + cos⁻¹(x) का मान क्या होगा? (जहाँ x ∈ [-1, 1])",
+    "options": {
+      "A": "π",
+      "B": "π/2",
+      "C": "π/4",
+      "D": "0"
+    },
+    "correct": "B",
+    "explanation": "प्रतिलोम त्रिकोणमितीय सर्वसमिका के अनुसार sin⁻¹(x) + cos⁻¹(x) = π/2 होता है।"
+  },
+  {
+    "id": 9,
+    "chapter": "प्रतिलोम त्रिकोणमितीय फलन",
+    "question": "tan⁻¹(1) का मुख्य मान (Principal Value) क्या है?",
+    "options": {
+      "A": "π/4",
+      "B": "π/2",
+      "C": "π/3",
+      "D": "π/6"
+    },
+    "correct": "A",
+    "explanation": "चूँकि tan(π/4) = 1 है और π/4 ∈ (-π/2, π/2), अतः tan⁻¹(1) = π/4।"
+  },
+  {
+    "id": 10,
+    "chapter": "सदिश बीजगणित (Vector Algebra)",
+    "question": "î · î का मान क्या होगा? (जहाँ î एकांक सदिश है)",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "k̂",
+      "D": "-1"
+    },
+    "correct": "B",
+    "explanation": "समान एकांक सदिशों का अदिश गुणन (Dot product) 1 होता है: î · î = ĵ · ĵ = k̂ · k̂ = 1।"
+  },
+  {
+    "id": 11,
+    "chapter": "सदिश बीजगणित (Vector Algebra)",
+    "question": "î × ĵ का मान क्या होगा? (सदिश गुणन / Cross Product)",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "k̂",
+      "D": "-k̂"
+    },
+    "correct": "C",
+    "explanation": "दाहिने हाथ के नियम के अनुसार î × ĵ = k̂, ĵ × k̂ = î, k̂ × î = ĵ होता है।"
+  },
+  {
+    "id": 12,
+    "chapter": "त्रिविमीय ज्यामिति (3D Geometry)",
+    "question": "x-अक्ष की दिक्-कोज्याएँ (Direction Cosines) क्या होती हैं?",
+    "options": {
+      "A": "(1, 0, 0)",
+      "B": "(0, 1, 0)",
+      "C": "(0, 0, 1)",
+      "D": "(1, 1, 1)"
+    },
+    "correct": "A",
+    "explanation": "x-अक्ष स्वयं के साथ 0° तथा y और z अक्षों के साथ 90° का कोण बनाता है, अतः cos 0°=1, cos 90°=0, cos 90°=0 ⇒ (1, 0, 0)।"
+  },
+  {
+    "id": 13,
+    "chapter": "प्रायिकता (Probability)",
+    "question": "यदि P(A) = 1/2, P(B) = 0 हो, तो P(A|B) का मान क्या होगा?",
+    "options": {
+      "A": "0",
+      "B": "1/2",
+      "C": "परिभाषित नहीं (Not defined)",
+      "D": "1"
+    },
+    "correct": "C",
+    "explanation": "सप्रतिबंध प्रायिकता P(A|B) = P(A ∩ B) / P(B)। चूँकि P(B) = 0 है, अतः हर शून्य होने से यह अपरिभाषित (Not defined) है।"
+  },
+  {
+    "id": 14,
+    "chapter": "अवकल समीकरण (Differential Equations)",
+    "question": "अवकल समीकरण (d²y/dx²)³ + (dy/dx)² + sin y = 0 की कोटि (Order) क्या है?",
+    "options": {
+      "A": "3",
+      "B": "2",
+      "C": "1",
+      "D": "अपरिभाषित"
+    },
+    "correct": "B",
+    "explanation": "उच्चतम अवकलज d²y/dx² है, इसलिए इसकी कोटि (Order) 2 है।"
+  },
+  {
+    "id": 15,
+    "chapter": "निश्चित समाकलन (Definite Integrals)",
+    "question": "∫₀¹ dx का मान क्या होगा?",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "-1",
+      "D": "2"
+    },
+    "correct": "B",
+    "explanation": "[x]₀¹ = 1 - 0 = 1।"
+  }
+]

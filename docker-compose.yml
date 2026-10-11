@@ -1,0 +1,10 @@
+services:
+  bihar-quiz-bot:
+    build: .
+    container_name: bihar_12th_quiz_bot
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./quiz_bot.db:/app/quiz_bot.db

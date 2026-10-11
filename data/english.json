@@ -1,0 +1,197 @@
+[
+  {
+    "id": 1,
+    "chapter": "Prose - Indian Civilization and Culture",
+    "question": "'Indian Civilization and Culture' is written by:",
+    "options": {
+      "A": "Dr. Zakir Husain",
+      "B": "Mahatma Gandhi",
+      "C": "Manohar Malgonkar",
+      "D": "Martin Luther King, Jr."
+    },
+    "correct": "B",
+    "explanation": "'Indian Civilization and Culture' is an essay written by Mahatma Gandhi emphasizing sound foundation of Indian culture."
+  },
+  {
+    "id": 2,
+    "chapter": "Prose - Bharat is My Home",
+    "question": "'Bharat is My Home' is an extract from the speech given by:",
+    "options": {
+      "A": "Dr. Zakir Husain",
+      "B": "Mahatma Gandhi",
+      "C": "Shashi Tharoor",
+      "D": "Dr. Radhakrishnan"
+    },
+    "correct": "A",
+    "explanation": "'Bharat is My Home' is an excerpt from Dr. Zakir Husain's speech after taking oath as the 3rd President of India in 1967."
+  },
+  {
+    "id": 3,
+    "chapter": "Prose - A Pinch of Snuff",
+    "question": "Who was Nanukaka in the story 'A Pinch of Snuff'?",
+    "options": {
+      "A": "Author's Uncle (Maternal)",
+      "B": "Author's Brother",
+      "C": "Author's Friend",
+      "D": "A Minister"
+    },
+    "correct": "A",
+    "explanation": "Nanukaka was the narrator's maternal uncle (mama) created by author Manohar Malgonkar."
+  },
+  {
+    "id": 4,
+    "chapter": "Prose - I Have a Dream",
+    "question": "'I Have a Dream' was a historic speech delivered by:",
+    "options": {
+      "A": "Nelson Mandela",
+      "B": "Martin Luther King, Jr.",
+      "C": "Abraham Lincoln",
+      "D": "Barack Obama"
+    },
+    "correct": "B",
+    "explanation": "Martin Luther King, Jr. delivered this famous civil rights speech on August 28, 1963 in Washington, D.C."
+  },
+  {
+    "id": 5,
+    "chapter": "Prose - The Artist",
+    "question": "Seibei was a twelve-year-old Japanese boy who was passionately interested in:",
+    "options": {
+      "A": "Books",
+      "B": "Gourds",
+      "C": "Paintings",
+      "D": "Stamps"
+    },
+    "correct": "B",
+    "explanation": "In Shiga Naoya's story 'The Artist', Seibei was passionately devoted to collecting and polishing gourds (कद्दू/लौकी)."
+  },
+  {
+    "id": 6,
+    "chapter": "Prose - The Earth",
+    "question": "Who was Benjy's father in H.E. Bates' story 'The Earth'?",
+    "options": {
+      "A": "Johnson",
+      "B": "Jackson",
+      "C": "Wilson",
+      "D": "Smith"
+    },
+    "correct": "A",
+    "explanation": "Johnson was a simple tenant farmer and preacher, and Benjy was his son."
+  },
+  {
+    "id": 7,
+    "chapter": "Poetry - Sweetest Love I Do Not Goe",
+    "question": "Who wrote the poem 'Sweetest Love I Do Not Goe'?",
+    "options": {
+      "A": "John Keats",
+      "B": "John Donne",
+      "C": "Walt Whitman",
+      "D": "Rupert Brooke"
+    },
+    "correct": "B",
+    "explanation": "John Donne, the pioneer of Metaphysical poetry, wrote 'Sweetest Love I Do Not Goe'."
+  },
+  {
+    "id": 8,
+    "chapter": "Poetry - Song of Myself",
+    "question": "'Song of Myself' is composed by:",
+    "options": {
+      "A": "Walt Whitman",
+      "B": "W.H. Auden",
+      "C": "T.S. Eliot",
+      "D": "D.H. Lawrence"
+    },
+    "correct": "A",
+    "explanation": "The American 'People's Poet' Walt Whitman wrote 'Song of Myself' in his famous collection Leaves of Grass."
+  },
+  {
+    "id": 9,
+    "chapter": "Poetry - The Soldier",
+    "question": "'The Soldier' is a patriotic war sonnet written by:",
+    "options": {
+      "A": "Rupert Brooke",
+      "B": "Wilfred Owen",
+      "C": "Siegfried Sassoon",
+      "D": "Walter de la Mare"
+    },
+    "correct": "A",
+    "explanation": "Rupert Brooke wrote 'The Soldier' during World War I, expressing ideal patriotism for England."
+  },
+  {
+    "id": 10,
+    "chapter": "Poetry - Macavity: The Mystery Cat",
+    "question": "Macavity is called the 'Hidden Paw' because:",
+    "options": {
+      "A": "He has soft paws",
+      "B": "He defies the law and never gets caught at the scene",
+      "C": "He is invisible",
+      "D": "He is an old cat"
+    },
+    "correct": "B",
+    "explanation": "T.S. Eliot portrays Macavity as a master criminal who defies Scotland Yard and leaves no footprint."
+  },
+  {
+    "id": 11,
+    "chapter": "Poetry - My Grandmother's House",
+    "question": "'My Grandmother's House' is an autobiographical poem by:",
+    "options": {
+      "A": "Sarojini Naidu",
+      "B": "Kamala Das",
+      "C": "Toru Dutt",
+      "D": "Anita Desai"
+    },
+    "correct": "B",
+    "explanation": "Kamala Das (also known as Madhavikutty) wrote 'My Grandmother's House' recalling memories of love."
+  },
+  {
+    "id": 12,
+    "chapter": "Story of English",
+    "question": "Which language is considered the 'Lingua Franca' (World Language) today?",
+    "options": {
+      "A": "French",
+      "B": "English",
+      "C": "Latin",
+      "D": "Sanskrit"
+    },
+    "correct": "B",
+    "explanation": "English has become the global Lingua Franca for international communication, science, and commerce."
+  },
+  {
+    "id": 13,
+    "chapter": "Grammar - Prepositions",
+    "question": "He died ________ cholera.",
+    "options": {
+      "A": "from",
+      "B": "of",
+      "C": "by",
+      "D": "with"
+    },
+    "correct": "B",
+    "explanation": "When dying of a disease (like cholera, malaria, cancer), the preposition 'of' is used (died of cholera)."
+  },
+  {
+    "id": 14,
+    "chapter": "Grammar - Voice",
+    "question": "Change into Passive Voice: 'He opened the door.'",
+    "options": {
+      "A": "The door is opened by him.",
+      "B": "The door was opened by him.",
+      "C": "The door had opened by him.",
+      "D": "The door was open by him."
+    },
+    "correct": "B",
+    "explanation": "Simple past active (Subject + V2 + Object) becomes: Object + was/were + V3 + by + Subject."
+  },
+  {
+    "id": 15,
+    "chapter": "Grammar - Articles",
+    "question": "He is ________ honest man.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "no article"
+    },
+    "correct": "B",
+    "explanation": "'Honest' begins with a silent 'h' and vowel sound /ɒ/, hence article 'an' is used."
+  }
+]

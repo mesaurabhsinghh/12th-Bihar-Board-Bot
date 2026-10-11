@@ -1,0 +1,15 @@
+[Unit]
+Description=12th Bihar Board Telegram Quiz Bot (24x7 Service)
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/bihar_board_bot
+ExecStart=/opt/bihar_board_bot/venv/bin/python /opt/bihar_board_bot/bot.py
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
