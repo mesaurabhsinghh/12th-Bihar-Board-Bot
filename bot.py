@@ -34,6 +34,7 @@ import database
 import keep_alive
 import questions
 import scheduler
+import vvi_engine
 
 # Setup logging
 logging.basicConfig(
@@ -408,6 +409,23 @@ async def admin_live_command(update: Update, context: ContextTypes.DEFAULT_TYPE)
     dummy_ctx = type('Context', (), {'job': dummy_job, 'bot': context.bot})()
     await scheduler.live_start_callback(dummy_ctx)
 
+async def ai_predict_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Admin command to predict and generate fresh VVI questions using Gemini AI."""
+    args = context.args
+    sub = args[0].lower() if args else "physics"
+    if sub not in config.SUBJECTS:
+        await update.message.reply_text("उपलब्ध विषय: physics, chemistry, biology, mathematics, hindi, english")
+        return
+        
+    status_msg = await update.message.reply_text(f"🧠 Google Gemini AI BSEB 12th Blueprint का विश्लेषण कर रहा है ({sub})...")
+    new_questions = await vvi_engine.fetch_ai_predicted_vvi(sub, count=10)
+    if not new_questions:
+        await status_msg.edit_text("⚠️ AI Prediction विफल रहा। कृपया सुनिश्चित करें कि .env फ़ाइल में GEMINI_API_KEY सेट है।\n(निःशुल्क Key: https://aistudio.google.com/app/apikey)")
+        return
+        
+    await status_msg.edit_text(f"✅ सफलता! Gemini AI ने {len(new_questions)} नए 100% BSEB पैटर्न VVI प्रश्न उत्पन्न और सत्यापित किए!")
+
+
 async def stop_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Stops the current quiz session."""
     user = update.effective_user
@@ -514,7 +532,7 @@ async def handle_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         slot_obj = next((s for s in config.LIVE_SLOTS if s["slot_id"] == slot_id), config.LIVE_SLOTS[0])
         subject_key = slot_obj["subject"]
         
-        q_ids = questions.generate_quiz_ids(subject_key, count=config.LIVE_QUIZ_QUESTION_COUNT, shuffle=True)
+        q_ids = vvi_engine.get_hybrid_100_vvi(subject_key)
         if not q_ids:
             await query.message.reply_text("⚠️ प्रश्न लोड करने में त्रुटि।")
             return
@@ -550,7 +568,7 @@ async def handle_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
             await query.message.reply_text("❌ अमान्य विषय!")
             return
         
-        q_ids = questions.generate_quiz_ids(subject_key, count=config.DEFAULT_QUESTIONS_PER_QUIZ, shuffle=True)
+        q_ids = vvi_engine.get_hybrid_100_vvi(subject_key)
         if not q_ids:
             await query.message.reply_text("⚠️ प्रश्न उपलब्ध नहीं हैं।")
             return
@@ -711,6 +729,7 @@ def main():
     app.add_handler(CommandHandler("stop", stop_command))
     app.add_handler(CommandHandler("help", help_command))
     app.add_handler(CommandHandler("admin_live", admin_live_command))
+    app.add_handler(CommandHandler("ai_predict", ai_predict_command))
     app.add_handler(CallbackQueryHandler(handle_callback))
     app.add_handler(MessageHandler(filters.ALL & ~filters.COMMAND, chat_tracker))
     
