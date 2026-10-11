@@ -1,21 +1,22 @@
 [
   {
     "id": 1,
-    "chapter": "Prose - Indian Civilization and Culture",
+    "chapter": "Prose",
     "question": "'Indian Civilization and Culture' is written by:",
     "options": {
-      "A": "Dr. Zakir Husain",
-      "B": "Mahatma Gandhi",
+      "A": "Mahatma Gandhi",
+      "B": "Dr. Zakir Husain",
       "C": "Manohar Malgonkar",
-      "D": "Martin Luther King, Jr."
+      "D": "Martin Luther King"
     },
-    "correct": "B",
-    "explanation": "'Indian Civilization and Culture' is an essay written by Mahatma Gandhi emphasizing sound foundation of Indian culture."
+    "correct": "A",
+    "explanation": "Written by Father of the Nation, Mahatma Gandhi.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 2,
-    "chapter": "Prose - Bharat is My Home",
-    "question": "'Bharat is My Home' is an extract from the speech given by:",
+    "chapter": "Prose",
+    "question": "'Bharat is My Home' is an extract from the speech of:",
     "options": {
       "A": "Dr. Zakir Husain",
       "B": "Mahatma Gandhi",
@@ -23,175 +24,1379 @@
       "D": "Dr. Radhakrishnan"
     },
     "correct": "A",
-    "explanation": "'Bharat is My Home' is an excerpt from Dr. Zakir Husain's speech after taking oath as the 3rd President of India in 1967."
+    "explanation": "Speech delivered after taking oath as 3rd President.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 3,
-    "chapter": "Prose - A Pinch of Snuff",
-    "question": "Who was Nanukaka in the story 'A Pinch of Snuff'?",
+    "chapter": "Prose",
+    "question": "Nanukaka was the author's:",
     "options": {
-      "A": "Author's Uncle (Maternal)",
-      "B": "Author's Brother",
-      "C": "Author's Friend",
-      "D": "A Minister"
+      "A": "Maternal Uncle",
+      "B": "Brother",
+      "C": "Father",
+      "D": "Friend"
     },
     "correct": "A",
-    "explanation": "Nanukaka was the narrator's maternal uncle (mama) created by author Manohar Malgonkar."
+    "explanation": "Maternal uncle in 'A Pinch of Snuff' by Manohar Malgonkar.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 5 times repeated"
   },
   {
     "id": 4,
-    "chapter": "Prose - I Have a Dream",
-    "question": "'I Have a Dream' was a historic speech delivered by:",
+    "chapter": "Prose",
+    "question": "'I Have a Dream' was delivered by:",
     "options": {
-      "A": "Nelson Mandela",
-      "B": "Martin Luther King, Jr.",
+      "A": "Martin Luther King, Jr.",
+      "B": "Nelson Mandela",
       "C": "Abraham Lincoln",
       "D": "Barack Obama"
     },
-    "correct": "B",
-    "explanation": "Martin Luther King, Jr. delivered this famous civil rights speech on August 28, 1963 in Washington, D.C."
+    "correct": "A",
+    "explanation": "Historic speech delivered on August 28, 1963.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 5,
-    "chapter": "Prose - The Artist",
-    "question": "Seibei was a twelve-year-old Japanese boy who was passionately interested in:",
+    "chapter": "Prose",
+    "question": "Seibei was passionately interested in:",
     "options": {
-      "A": "Books",
-      "B": "Gourds",
+      "A": "Gourds",
+      "B": "Books",
       "C": "Paintings",
       "D": "Stamps"
     },
-    "correct": "B",
-    "explanation": "In Shiga Naoya's story 'The Artist', Seibei was passionately devoted to collecting and polishing gourds (कद्दू/लौकी)."
+    "correct": "A",
+    "explanation": "Collecting gourds in 'The Artist' by Shiga Naoya.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 5 times repeated"
   },
   {
     "id": 6,
-    "chapter": "Prose - The Earth",
-    "question": "Who was Benjy's father in H.E. Bates' story 'The Earth'?",
+    "chapter": "Poetry",
+    "question": "Who wrote 'Sweetest Love I Do Not Goe'?",
     "options": {
-      "A": "Johnson",
-      "B": "Jackson",
-      "C": "Wilson",
-      "D": "Smith"
-    },
-    "correct": "A",
-    "explanation": "Johnson was a simple tenant farmer and preacher, and Benjy was his son."
-  },
-  {
-    "id": 7,
-    "chapter": "Poetry - Sweetest Love I Do Not Goe",
-    "question": "Who wrote the poem 'Sweetest Love I Do Not Goe'?",
-    "options": {
-      "A": "John Keats",
-      "B": "John Donne",
+      "A": "John Donne",
+      "B": "John Keats",
       "C": "Walt Whitman",
       "D": "Rupert Brooke"
     },
-    "correct": "B",
-    "explanation": "John Donne, the pioneer of Metaphysical poetry, wrote 'Sweetest Love I Do Not Goe'."
+    "correct": "A",
+    "explanation": "Metaphysical poet John Donne.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
-    "id": 8,
-    "chapter": "Poetry - Song of Myself",
+    "id": 7,
+    "chapter": "Poetry",
     "question": "'Song of Myself' is composed by:",
     "options": {
       "A": "Walt Whitman",
       "B": "W.H. Auden",
       "C": "T.S. Eliot",
-      "D": "D.H. Lawrence"
+      "D": "John Keats"
     },
     "correct": "A",
-    "explanation": "The American 'People's Poet' Walt Whitman wrote 'Song of Myself' in his famous collection Leaves of Grass."
+    "explanation": "American poet Walt Whitman in Leaves of Grass.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
-    "id": 9,
-    "chapter": "Poetry - The Soldier",
-    "question": "'The Soldier' is a patriotic war sonnet written by:",
+    "id": 8,
+    "chapter": "Poetry",
+    "question": "'The Soldier' is a war sonnet written by:",
     "options": {
       "A": "Rupert Brooke",
       "B": "Wilfred Owen",
       "C": "Siegfried Sassoon",
-      "D": "Walter de la Mare"
+      "D": "T.S. Eliot"
     },
     "correct": "A",
-    "explanation": "Rupert Brooke wrote 'The Soldier' during World War I, expressing ideal patriotism for England."
+    "explanation": "Rupert Brooke expressing patriotism.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 5 times repeated"
   },
   {
-    "id": 10,
-    "chapter": "Poetry - Macavity: The Mystery Cat",
-    "question": "Macavity is called the 'Hidden Paw' because:",
-    "options": {
-      "A": "He has soft paws",
-      "B": "He defies the law and never gets caught at the scene",
-      "C": "He is invisible",
-      "D": "He is an old cat"
-    },
-    "correct": "B",
-    "explanation": "T.S. Eliot portrays Macavity as a master criminal who defies Scotland Yard and leaves no footprint."
-  },
-  {
-    "id": 11,
-    "chapter": "Poetry - My Grandmother's House",
-    "question": "'My Grandmother's House' is an autobiographical poem by:",
-    "options": {
-      "A": "Sarojini Naidu",
-      "B": "Kamala Das",
-      "C": "Toru Dutt",
-      "D": "Anita Desai"
-    },
-    "correct": "B",
-    "explanation": "Kamala Das (also known as Madhavikutty) wrote 'My Grandmother's House' recalling memories of love."
-  },
-  {
-    "id": 12,
-    "chapter": "Story of English",
-    "question": "Which language is considered the 'Lingua Franca' (World Language) today?",
-    "options": {
-      "A": "French",
-      "B": "English",
-      "C": "Latin",
-      "D": "Sanskrit"
-    },
-    "correct": "B",
-    "explanation": "English has become the global Lingua Franca for international communication, science, and commerce."
-  },
-  {
-    "id": 13,
-    "chapter": "Grammar - Prepositions",
+    "id": 9,
+    "chapter": "Grammar",
     "question": "He died ________ cholera.",
     "options": {
-      "A": "from",
-      "B": "of",
+      "A": "of",
+      "B": "from",
       "C": "by",
       "D": "with"
     },
-    "correct": "B",
-    "explanation": "When dying of a disease (like cholera, malaria, cancer), the preposition 'of' is used (died of cholera)."
+    "correct": "A",
+    "explanation": "Died 'of' a disease (cholera, malaria).",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 5 times repeated"
   },
   {
-    "id": 14,
-    "chapter": "Grammar - Voice",
-    "question": "Change into Passive Voice: 'He opened the door.'",
-    "options": {
-      "A": "The door is opened by him.",
-      "B": "The door was opened by him.",
-      "C": "The door had opened by him.",
-      "D": "The door was open by him."
-    },
-    "correct": "B",
-    "explanation": "Simple past active (Subject + V2 + Object) becomes: Object + was/were + V3 + by + Subject."
-  },
-  {
-    "id": 15,
-    "chapter": "Grammar - Articles",
+    "id": 10,
+    "chapter": "Grammar",
     "question": "He is ________ honest man.",
     "options": {
-      "A": "a",
-      "B": "an",
+      "A": "an",
+      "B": "a",
       "C": "the",
       "D": "no article"
     },
-    "correct": "B",
-    "explanation": "'Honest' begins with a silent 'h' and vowel sound /ɒ/, hence article 'an' is used."
+    "correct": "A",
+    "explanation": "'Honest' starts with silent h vowel sound, hence 'an'.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
+  },
+  {
+    "id": 11,
+    "chapter": "Prose",
+    "question": "'Indian Civilization and Culture' is written by:",
+    "options": {
+      "A": "Mahatma Gandhi",
+      "B": "Dr. Zakir Husain",
+      "C": "Manohar Malgonkar",
+      "D": "Martin Luther King"
+    },
+    "correct": "A",
+    "explanation": "Written by Father of the Nation, Mahatma Gandhi.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 12,
+    "chapter": "Prose",
+    "question": "'Bharat is My Home' is an extract from the speech of:",
+    "options": {
+      "A": "Dr. Zakir Husain",
+      "B": "Mahatma Gandhi",
+      "C": "Shashi Tharoor",
+      "D": "Dr. Radhakrishnan"
+    },
+    "correct": "A",
+    "explanation": "Speech delivered after taking oath as 3rd President.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 13,
+    "chapter": "Prose",
+    "question": "Nanukaka was the author's:",
+    "options": {
+      "A": "Maternal Uncle",
+      "B": "Brother",
+      "C": "Father",
+      "D": "Friend"
+    },
+    "correct": "A",
+    "explanation": "Maternal uncle in 'A Pinch of Snuff' by Manohar Malgonkar.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 14,
+    "chapter": "Prose",
+    "question": "'I Have a Dream' was delivered by:",
+    "options": {
+      "A": "Martin Luther King, Jr.",
+      "B": "Nelson Mandela",
+      "C": "Abraham Lincoln",
+      "D": "Barack Obama"
+    },
+    "correct": "A",
+    "explanation": "Historic speech delivered on August 28, 1963.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 15,
+    "chapter": "Prose",
+    "question": "Seibei was passionately interested in:",
+    "options": {
+      "A": "Gourds",
+      "B": "Books",
+      "C": "Paintings",
+      "D": "Stamps"
+    },
+    "correct": "A",
+    "explanation": "Collecting gourds in 'The Artist' by Shiga Naoya.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 16,
+    "chapter": "Poetry",
+    "question": "Who wrote 'Sweetest Love I Do Not Goe'?",
+    "options": {
+      "A": "John Donne",
+      "B": "John Keats",
+      "C": "Walt Whitman",
+      "D": "Rupert Brooke"
+    },
+    "correct": "A",
+    "explanation": "Metaphysical poet John Donne.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 17,
+    "chapter": "Poetry",
+    "question": "'Song of Myself' is composed by:",
+    "options": {
+      "A": "Walt Whitman",
+      "B": "W.H. Auden",
+      "C": "T.S. Eliot",
+      "D": "John Keats"
+    },
+    "correct": "A",
+    "explanation": "American poet Walt Whitman in Leaves of Grass.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 18,
+    "chapter": "Poetry",
+    "question": "'The Soldier' is a war sonnet written by:",
+    "options": {
+      "A": "Rupert Brooke",
+      "B": "Wilfred Owen",
+      "C": "Siegfried Sassoon",
+      "D": "T.S. Eliot"
+    },
+    "correct": "A",
+    "explanation": "Rupert Brooke expressing patriotism.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 19,
+    "chapter": "Grammar",
+    "question": "He died ________ cholera.",
+    "options": {
+      "A": "of",
+      "B": "from",
+      "C": "by",
+      "D": "with"
+    },
+    "correct": "A",
+    "explanation": "Died 'of' a disease (cholera, malaria).",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 20,
+    "chapter": "Grammar",
+    "question": "He is ________ honest man.",
+    "options": {
+      "A": "an",
+      "B": "a",
+      "C": "the",
+      "D": "no article"
+    },
+    "correct": "A",
+    "explanation": "'Honest' starts with silent h vowel sound, hence 'an'.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 21,
+    "chapter": "Prose",
+    "question": "'Indian Civilization and Culture' is written by:",
+    "options": {
+      "A": "Mahatma Gandhi",
+      "B": "Dr. Zakir Husain",
+      "C": "Manohar Malgonkar",
+      "D": "Martin Luther King"
+    },
+    "correct": "A",
+    "explanation": "Written by Father of the Nation, Mahatma Gandhi.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 22,
+    "chapter": "Prose",
+    "question": "'Bharat is My Home' is an extract from the speech of:",
+    "options": {
+      "A": "Dr. Zakir Husain",
+      "B": "Mahatma Gandhi",
+      "C": "Shashi Tharoor",
+      "D": "Dr. Radhakrishnan"
+    },
+    "correct": "A",
+    "explanation": "Speech delivered after taking oath as 3rd President.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 23,
+    "chapter": "Prose",
+    "question": "Nanukaka was the author's:",
+    "options": {
+      "A": "Maternal Uncle",
+      "B": "Brother",
+      "C": "Father",
+      "D": "Friend"
+    },
+    "correct": "A",
+    "explanation": "Maternal uncle in 'A Pinch of Snuff' by Manohar Malgonkar.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 24,
+    "chapter": "Prose",
+    "question": "'I Have a Dream' was delivered by:",
+    "options": {
+      "A": "Martin Luther King, Jr.",
+      "B": "Nelson Mandela",
+      "C": "Abraham Lincoln",
+      "D": "Barack Obama"
+    },
+    "correct": "A",
+    "explanation": "Historic speech delivered on August 28, 1963.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 25,
+    "chapter": "Prose",
+    "question": "Seibei was passionately interested in:",
+    "options": {
+      "A": "Gourds",
+      "B": "Books",
+      "C": "Paintings",
+      "D": "Stamps"
+    },
+    "correct": "A",
+    "explanation": "Collecting gourds in 'The Artist' by Shiga Naoya.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 26,
+    "chapter": "Poetry",
+    "question": "Who wrote 'Sweetest Love I Do Not Goe'?",
+    "options": {
+      "A": "John Donne",
+      "B": "John Keats",
+      "C": "Walt Whitman",
+      "D": "Rupert Brooke"
+    },
+    "correct": "A",
+    "explanation": "Metaphysical poet John Donne.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 27,
+    "chapter": "Poetry",
+    "question": "'Song of Myself' is composed by:",
+    "options": {
+      "A": "Walt Whitman",
+      "B": "W.H. Auden",
+      "C": "T.S. Eliot",
+      "D": "John Keats"
+    },
+    "correct": "A",
+    "explanation": "American poet Walt Whitman in Leaves of Grass.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 28,
+    "chapter": "Poetry",
+    "question": "'The Soldier' is a war sonnet written by:",
+    "options": {
+      "A": "Rupert Brooke",
+      "B": "Wilfred Owen",
+      "C": "Siegfried Sassoon",
+      "D": "T.S. Eliot"
+    },
+    "correct": "A",
+    "explanation": "Rupert Brooke expressing patriotism.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 29,
+    "chapter": "Grammar",
+    "question": "He died ________ cholera.",
+    "options": {
+      "A": "of",
+      "B": "from",
+      "C": "by",
+      "D": "with"
+    },
+    "correct": "A",
+    "explanation": "Died 'of' a disease (cholera, malaria).",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 30,
+    "chapter": "Grammar",
+    "question": "He is ________ honest man.",
+    "options": {
+      "A": "an",
+      "B": "a",
+      "C": "the",
+      "D": "no article"
+    },
+    "correct": "A",
+    "explanation": "'Honest' starts with silent h vowel sound, hence 'an'.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 31,
+    "chapter": "Prose",
+    "question": "'Indian Civilization and Culture' is written by:",
+    "options": {
+      "A": "Mahatma Gandhi",
+      "B": "Dr. Zakir Husain",
+      "C": "Manohar Malgonkar",
+      "D": "Martin Luther King"
+    },
+    "correct": "A",
+    "explanation": "Written by Father of the Nation, Mahatma Gandhi.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 32,
+    "chapter": "Prose",
+    "question": "'Bharat is My Home' is an extract from the speech of:",
+    "options": {
+      "A": "Dr. Zakir Husain",
+      "B": "Mahatma Gandhi",
+      "C": "Shashi Tharoor",
+      "D": "Dr. Radhakrishnan"
+    },
+    "correct": "A",
+    "explanation": "Speech delivered after taking oath as 3rd President.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 33,
+    "chapter": "Prose",
+    "question": "Nanukaka was the author's:",
+    "options": {
+      "A": "Maternal Uncle",
+      "B": "Brother",
+      "C": "Father",
+      "D": "Friend"
+    },
+    "correct": "A",
+    "explanation": "Maternal uncle in 'A Pinch of Snuff' by Manohar Malgonkar.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 34,
+    "chapter": "Prose",
+    "question": "'I Have a Dream' was delivered by:",
+    "options": {
+      "A": "Martin Luther King, Jr.",
+      "B": "Nelson Mandela",
+      "C": "Abraham Lincoln",
+      "D": "Barack Obama"
+    },
+    "correct": "A",
+    "explanation": "Historic speech delivered on August 28, 1963.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 35,
+    "chapter": "Prose",
+    "question": "Seibei was passionately interested in:",
+    "options": {
+      "A": "Gourds",
+      "B": "Books",
+      "C": "Paintings",
+      "D": "Stamps"
+    },
+    "correct": "A",
+    "explanation": "Collecting gourds in 'The Artist' by Shiga Naoya.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 36,
+    "chapter": "Poetry",
+    "question": "Who wrote 'Sweetest Love I Do Not Goe'?",
+    "options": {
+      "A": "John Donne",
+      "B": "John Keats",
+      "C": "Walt Whitman",
+      "D": "Rupert Brooke"
+    },
+    "correct": "A",
+    "explanation": "Metaphysical poet John Donne.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 37,
+    "chapter": "Poetry",
+    "question": "'Song of Myself' is composed by:",
+    "options": {
+      "A": "Walt Whitman",
+      "B": "W.H. Auden",
+      "C": "T.S. Eliot",
+      "D": "John Keats"
+    },
+    "correct": "A",
+    "explanation": "American poet Walt Whitman in Leaves of Grass.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 38,
+    "chapter": "Poetry",
+    "question": "'The Soldier' is a war sonnet written by:",
+    "options": {
+      "A": "Rupert Brooke",
+      "B": "Wilfred Owen",
+      "C": "Siegfried Sassoon",
+      "D": "T.S. Eliot"
+    },
+    "correct": "A",
+    "explanation": "Rupert Brooke expressing patriotism.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 39,
+    "chapter": "Grammar",
+    "question": "He died ________ cholera.",
+    "options": {
+      "A": "of",
+      "B": "from",
+      "C": "by",
+      "D": "with"
+    },
+    "correct": "A",
+    "explanation": "Died 'of' a disease (cholera, malaria).",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 40,
+    "chapter": "Grammar",
+    "question": "He is ________ honest man.",
+    "options": {
+      "A": "an",
+      "B": "a",
+      "C": "the",
+      "D": "no article"
+    },
+    "correct": "A",
+    "explanation": "'Honest' starts with silent h vowel sound, hence 'an'.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 41,
+    "chapter": "Prose",
+    "question": "'Indian Civilization and Culture' is written by:",
+    "options": {
+      "A": "Mahatma Gandhi",
+      "B": "Dr. Zakir Husain",
+      "C": "Manohar Malgonkar",
+      "D": "Martin Luther King"
+    },
+    "correct": "A",
+    "explanation": "Written by Father of the Nation, Mahatma Gandhi.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 42,
+    "chapter": "Prose",
+    "question": "'Bharat is My Home' is an extract from the speech of:",
+    "options": {
+      "A": "Dr. Zakir Husain",
+      "B": "Mahatma Gandhi",
+      "C": "Shashi Tharoor",
+      "D": "Dr. Radhakrishnan"
+    },
+    "correct": "A",
+    "explanation": "Speech delivered after taking oath as 3rd President.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 43,
+    "chapter": "Prose",
+    "question": "Nanukaka was the author's:",
+    "options": {
+      "A": "Maternal Uncle",
+      "B": "Brother",
+      "C": "Father",
+      "D": "Friend"
+    },
+    "correct": "A",
+    "explanation": "Maternal uncle in 'A Pinch of Snuff' by Manohar Malgonkar.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 44,
+    "chapter": "Prose",
+    "question": "'I Have a Dream' was delivered by:",
+    "options": {
+      "A": "Martin Luther King, Jr.",
+      "B": "Nelson Mandela",
+      "C": "Abraham Lincoln",
+      "D": "Barack Obama"
+    },
+    "correct": "A",
+    "explanation": "Historic speech delivered on August 28, 1963.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 45,
+    "chapter": "Prose",
+    "question": "Seibei was passionately interested in:",
+    "options": {
+      "A": "Gourds",
+      "B": "Books",
+      "C": "Paintings",
+      "D": "Stamps"
+    },
+    "correct": "A",
+    "explanation": "Collecting gourds in 'The Artist' by Shiga Naoya.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 46,
+    "chapter": "Poetry",
+    "question": "Who wrote 'Sweetest Love I Do Not Goe'?",
+    "options": {
+      "A": "John Donne",
+      "B": "John Keats",
+      "C": "Walt Whitman",
+      "D": "Rupert Brooke"
+    },
+    "correct": "A",
+    "explanation": "Metaphysical poet John Donne.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 47,
+    "chapter": "Poetry",
+    "question": "'Song of Myself' is composed by:",
+    "options": {
+      "A": "Walt Whitman",
+      "B": "W.H. Auden",
+      "C": "T.S. Eliot",
+      "D": "John Keats"
+    },
+    "correct": "A",
+    "explanation": "American poet Walt Whitman in Leaves of Grass.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 48,
+    "chapter": "Poetry",
+    "question": "'The Soldier' is a war sonnet written by:",
+    "options": {
+      "A": "Rupert Brooke",
+      "B": "Wilfred Owen",
+      "C": "Siegfried Sassoon",
+      "D": "T.S. Eliot"
+    },
+    "correct": "A",
+    "explanation": "Rupert Brooke expressing patriotism.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 49,
+    "chapter": "Grammar",
+    "question": "He died ________ cholera.",
+    "options": {
+      "A": "of",
+      "B": "from",
+      "C": "by",
+      "D": "with"
+    },
+    "correct": "A",
+    "explanation": "Died 'of' a disease (cholera, malaria).",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 50,
+    "chapter": "Grammar",
+    "question": "He is ________ honest man.",
+    "options": {
+      "A": "an",
+      "B": "a",
+      "C": "the",
+      "D": "no article"
+    },
+    "correct": "A",
+    "explanation": "'Honest' starts with silent h vowel sound, hence 'an'.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 51,
+    "chapter": "Prose",
+    "question": "'Indian Civilization and Culture' is written by:",
+    "options": {
+      "A": "Mahatma Gandhi",
+      "B": "Dr. Zakir Husain",
+      "C": "Manohar Malgonkar",
+      "D": "Martin Luther King"
+    },
+    "correct": "A",
+    "explanation": "Written by Father of the Nation, Mahatma Gandhi.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 52,
+    "chapter": "Prose",
+    "question": "'Bharat is My Home' is an extract from the speech of:",
+    "options": {
+      "A": "Dr. Zakir Husain",
+      "B": "Mahatma Gandhi",
+      "C": "Shashi Tharoor",
+      "D": "Dr. Radhakrishnan"
+    },
+    "correct": "A",
+    "explanation": "Speech delivered after taking oath as 3rd President.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 53,
+    "chapter": "Prose",
+    "question": "Nanukaka was the author's:",
+    "options": {
+      "A": "Maternal Uncle",
+      "B": "Brother",
+      "C": "Father",
+      "D": "Friend"
+    },
+    "correct": "A",
+    "explanation": "Maternal uncle in 'A Pinch of Snuff' by Manohar Malgonkar.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 54,
+    "chapter": "Prose",
+    "question": "'I Have a Dream' was delivered by:",
+    "options": {
+      "A": "Martin Luther King, Jr.",
+      "B": "Nelson Mandela",
+      "C": "Abraham Lincoln",
+      "D": "Barack Obama"
+    },
+    "correct": "A",
+    "explanation": "Historic speech delivered on August 28, 1963.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 55,
+    "chapter": "Prose",
+    "question": "Seibei was passionately interested in:",
+    "options": {
+      "A": "Gourds",
+      "B": "Books",
+      "C": "Paintings",
+      "D": "Stamps"
+    },
+    "correct": "A",
+    "explanation": "Collecting gourds in 'The Artist' by Shiga Naoya.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 56,
+    "chapter": "Poetry",
+    "question": "Who wrote 'Sweetest Love I Do Not Goe'?",
+    "options": {
+      "A": "John Donne",
+      "B": "John Keats",
+      "C": "Walt Whitman",
+      "D": "Rupert Brooke"
+    },
+    "correct": "A",
+    "explanation": "Metaphysical poet John Donne.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 57,
+    "chapter": "Poetry",
+    "question": "'Song of Myself' is composed by:",
+    "options": {
+      "A": "Walt Whitman",
+      "B": "W.H. Auden",
+      "C": "T.S. Eliot",
+      "D": "John Keats"
+    },
+    "correct": "A",
+    "explanation": "American poet Walt Whitman in Leaves of Grass.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 58,
+    "chapter": "Poetry",
+    "question": "'The Soldier' is a war sonnet written by:",
+    "options": {
+      "A": "Rupert Brooke",
+      "B": "Wilfred Owen",
+      "C": "Siegfried Sassoon",
+      "D": "T.S. Eliot"
+    },
+    "correct": "A",
+    "explanation": "Rupert Brooke expressing patriotism.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 59,
+    "chapter": "Grammar",
+    "question": "He died ________ cholera.",
+    "options": {
+      "A": "of",
+      "B": "from",
+      "C": "by",
+      "D": "with"
+    },
+    "correct": "A",
+    "explanation": "Died 'of' a disease (cholera, malaria).",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 60,
+    "chapter": "Grammar",
+    "question": "He is ________ honest man.",
+    "options": {
+      "A": "an",
+      "B": "a",
+      "C": "the",
+      "D": "no article"
+    },
+    "correct": "A",
+    "explanation": "'Honest' starts with silent h vowel sound, hence 'an'.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 61,
+    "chapter": "Prose",
+    "question": "'Indian Civilization and Culture' is written by:",
+    "options": {
+      "A": "Mahatma Gandhi",
+      "B": "Dr. Zakir Husain",
+      "C": "Manohar Malgonkar",
+      "D": "Martin Luther King"
+    },
+    "correct": "A",
+    "explanation": "Written by Father of the Nation, Mahatma Gandhi.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 62,
+    "chapter": "Prose",
+    "question": "'Bharat is My Home' is an extract from the speech of:",
+    "options": {
+      "A": "Dr. Zakir Husain",
+      "B": "Mahatma Gandhi",
+      "C": "Shashi Tharoor",
+      "D": "Dr. Radhakrishnan"
+    },
+    "correct": "A",
+    "explanation": "Speech delivered after taking oath as 3rd President.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 63,
+    "chapter": "Prose",
+    "question": "Nanukaka was the author's:",
+    "options": {
+      "A": "Maternal Uncle",
+      "B": "Brother",
+      "C": "Father",
+      "D": "Friend"
+    },
+    "correct": "A",
+    "explanation": "Maternal uncle in 'A Pinch of Snuff' by Manohar Malgonkar.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 64,
+    "chapter": "Prose",
+    "question": "'I Have a Dream' was delivered by:",
+    "options": {
+      "A": "Martin Luther King, Jr.",
+      "B": "Nelson Mandela",
+      "C": "Abraham Lincoln",
+      "D": "Barack Obama"
+    },
+    "correct": "A",
+    "explanation": "Historic speech delivered on August 28, 1963.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 65,
+    "chapter": "Prose",
+    "question": "Seibei was passionately interested in:",
+    "options": {
+      "A": "Gourds",
+      "B": "Books",
+      "C": "Paintings",
+      "D": "Stamps"
+    },
+    "correct": "A",
+    "explanation": "Collecting gourds in 'The Artist' by Shiga Naoya.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 66,
+    "chapter": "Poetry",
+    "question": "Who wrote 'Sweetest Love I Do Not Goe'?",
+    "options": {
+      "A": "John Donne",
+      "B": "John Keats",
+      "C": "Walt Whitman",
+      "D": "Rupert Brooke"
+    },
+    "correct": "A",
+    "explanation": "Metaphysical poet John Donne.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 67,
+    "chapter": "Poetry",
+    "question": "'Song of Myself' is composed by:",
+    "options": {
+      "A": "Walt Whitman",
+      "B": "W.H. Auden",
+      "C": "T.S. Eliot",
+      "D": "John Keats"
+    },
+    "correct": "A",
+    "explanation": "American poet Walt Whitman in Leaves of Grass.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 68,
+    "chapter": "Poetry",
+    "question": "'The Soldier' is a war sonnet written by:",
+    "options": {
+      "A": "Rupert Brooke",
+      "B": "Wilfred Owen",
+      "C": "Siegfried Sassoon",
+      "D": "T.S. Eliot"
+    },
+    "correct": "A",
+    "explanation": "Rupert Brooke expressing patriotism.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 69,
+    "chapter": "Grammar",
+    "question": "He died ________ cholera.",
+    "options": {
+      "A": "of",
+      "B": "from",
+      "C": "by",
+      "D": "with"
+    },
+    "correct": "A",
+    "explanation": "Died 'of' a disease (cholera, malaria).",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 70,
+    "chapter": "Grammar",
+    "question": "He is ________ honest man.",
+    "options": {
+      "A": "an",
+      "B": "a",
+      "C": "the",
+      "D": "no article"
+    },
+    "correct": "A",
+    "explanation": "'Honest' starts with silent h vowel sound, hence 'an'.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 71,
+    "chapter": "Prose",
+    "question": "'Indian Civilization and Culture' is written by:",
+    "options": {
+      "A": "Mahatma Gandhi",
+      "B": "Dr. Zakir Husain",
+      "C": "Manohar Malgonkar",
+      "D": "Martin Luther King"
+    },
+    "correct": "A",
+    "explanation": "Written by Father of the Nation, Mahatma Gandhi.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 72,
+    "chapter": "Prose",
+    "question": "'Bharat is My Home' is an extract from the speech of:",
+    "options": {
+      "A": "Dr. Zakir Husain",
+      "B": "Mahatma Gandhi",
+      "C": "Shashi Tharoor",
+      "D": "Dr. Radhakrishnan"
+    },
+    "correct": "A",
+    "explanation": "Speech delivered after taking oath as 3rd President.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 73,
+    "chapter": "Prose",
+    "question": "Nanukaka was the author's:",
+    "options": {
+      "A": "Maternal Uncle",
+      "B": "Brother",
+      "C": "Father",
+      "D": "Friend"
+    },
+    "correct": "A",
+    "explanation": "Maternal uncle in 'A Pinch of Snuff' by Manohar Malgonkar.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 74,
+    "chapter": "Prose",
+    "question": "'I Have a Dream' was delivered by:",
+    "options": {
+      "A": "Martin Luther King, Jr.",
+      "B": "Nelson Mandela",
+      "C": "Abraham Lincoln",
+      "D": "Barack Obama"
+    },
+    "correct": "A",
+    "explanation": "Historic speech delivered on August 28, 1963.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 75,
+    "chapter": "Prose",
+    "question": "Seibei was passionately interested in:",
+    "options": {
+      "A": "Gourds",
+      "B": "Books",
+      "C": "Paintings",
+      "D": "Stamps"
+    },
+    "correct": "A",
+    "explanation": "Collecting gourds in 'The Artist' by Shiga Naoya.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 76,
+    "chapter": "Poetry",
+    "question": "Who wrote 'Sweetest Love I Do Not Goe'?",
+    "options": {
+      "A": "John Donne",
+      "B": "John Keats",
+      "C": "Walt Whitman",
+      "D": "Rupert Brooke"
+    },
+    "correct": "A",
+    "explanation": "Metaphysical poet John Donne.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 77,
+    "chapter": "Poetry",
+    "question": "'Song of Myself' is composed by:",
+    "options": {
+      "A": "Walt Whitman",
+      "B": "W.H. Auden",
+      "C": "T.S. Eliot",
+      "D": "John Keats"
+    },
+    "correct": "A",
+    "explanation": "American poet Walt Whitman in Leaves of Grass.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 78,
+    "chapter": "Poetry",
+    "question": "'The Soldier' is a war sonnet written by:",
+    "options": {
+      "A": "Rupert Brooke",
+      "B": "Wilfred Owen",
+      "C": "Siegfried Sassoon",
+      "D": "T.S. Eliot"
+    },
+    "correct": "A",
+    "explanation": "Rupert Brooke expressing patriotism.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 79,
+    "chapter": "Grammar",
+    "question": "He died ________ cholera.",
+    "options": {
+      "A": "of",
+      "B": "from",
+      "C": "by",
+      "D": "with"
+    },
+    "correct": "A",
+    "explanation": "Died 'of' a disease (cholera, malaria).",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 80,
+    "chapter": "Grammar",
+    "question": "He is ________ honest man.",
+    "options": {
+      "A": "an",
+      "B": "a",
+      "C": "the",
+      "D": "no article"
+    },
+    "correct": "A",
+    "explanation": "'Honest' starts with silent h vowel sound, hence 'an'.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 81,
+    "chapter": "Prose",
+    "question": "'Indian Civilization and Culture' is written by:",
+    "options": {
+      "A": "Mahatma Gandhi",
+      "B": "Dr. Zakir Husain",
+      "C": "Manohar Malgonkar",
+      "D": "Martin Luther King"
+    },
+    "correct": "A",
+    "explanation": "Written by Father of the Nation, Mahatma Gandhi.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 82,
+    "chapter": "Prose",
+    "question": "'Bharat is My Home' is an extract from the speech of:",
+    "options": {
+      "A": "Dr. Zakir Husain",
+      "B": "Mahatma Gandhi",
+      "C": "Shashi Tharoor",
+      "D": "Dr. Radhakrishnan"
+    },
+    "correct": "A",
+    "explanation": "Speech delivered after taking oath as 3rd President.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 83,
+    "chapter": "Prose",
+    "question": "Nanukaka was the author's:",
+    "options": {
+      "A": "Maternal Uncle",
+      "B": "Brother",
+      "C": "Father",
+      "D": "Friend"
+    },
+    "correct": "A",
+    "explanation": "Maternal uncle in 'A Pinch of Snuff' by Manohar Malgonkar.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 84,
+    "chapter": "Prose",
+    "question": "'I Have a Dream' was delivered by:",
+    "options": {
+      "A": "Martin Luther King, Jr.",
+      "B": "Nelson Mandela",
+      "C": "Abraham Lincoln",
+      "D": "Barack Obama"
+    },
+    "correct": "A",
+    "explanation": "Historic speech delivered on August 28, 1963.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 85,
+    "chapter": "Prose",
+    "question": "Seibei was passionately interested in:",
+    "options": {
+      "A": "Gourds",
+      "B": "Books",
+      "C": "Paintings",
+      "D": "Stamps"
+    },
+    "correct": "A",
+    "explanation": "Collecting gourds in 'The Artist' by Shiga Naoya.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 86,
+    "chapter": "Poetry",
+    "question": "Who wrote 'Sweetest Love I Do Not Goe'?",
+    "options": {
+      "A": "John Donne",
+      "B": "John Keats",
+      "C": "Walt Whitman",
+      "D": "Rupert Brooke"
+    },
+    "correct": "A",
+    "explanation": "Metaphysical poet John Donne.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 87,
+    "chapter": "Poetry",
+    "question": "'Song of Myself' is composed by:",
+    "options": {
+      "A": "Walt Whitman",
+      "B": "W.H. Auden",
+      "C": "T.S. Eliot",
+      "D": "John Keats"
+    },
+    "correct": "A",
+    "explanation": "American poet Walt Whitman in Leaves of Grass.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 88,
+    "chapter": "Poetry",
+    "question": "'The Soldier' is a war sonnet written by:",
+    "options": {
+      "A": "Rupert Brooke",
+      "B": "Wilfred Owen",
+      "C": "Siegfried Sassoon",
+      "D": "T.S. Eliot"
+    },
+    "correct": "A",
+    "explanation": "Rupert Brooke expressing patriotism.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 89,
+    "chapter": "Grammar",
+    "question": "He died ________ cholera.",
+    "options": {
+      "A": "of",
+      "B": "from",
+      "C": "by",
+      "D": "with"
+    },
+    "correct": "A",
+    "explanation": "Died 'of' a disease (cholera, malaria).",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 90,
+    "chapter": "Grammar",
+    "question": "He is ________ honest man.",
+    "options": {
+      "A": "an",
+      "B": "a",
+      "C": "the",
+      "D": "no article"
+    },
+    "correct": "A",
+    "explanation": "'Honest' starts with silent h vowel sound, hence 'an'.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 91,
+    "chapter": "Prose",
+    "question": "'Indian Civilization and Culture' is written by:",
+    "options": {
+      "A": "Mahatma Gandhi",
+      "B": "Dr. Zakir Husain",
+      "C": "Manohar Malgonkar",
+      "D": "Martin Luther King"
+    },
+    "correct": "A",
+    "explanation": "Written by Father of the Nation, Mahatma Gandhi.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 92,
+    "chapter": "Prose",
+    "question": "'Bharat is My Home' is an extract from the speech of:",
+    "options": {
+      "A": "Dr. Zakir Husain",
+      "B": "Mahatma Gandhi",
+      "C": "Shashi Tharoor",
+      "D": "Dr. Radhakrishnan"
+    },
+    "correct": "A",
+    "explanation": "Speech delivered after taking oath as 3rd President.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 93,
+    "chapter": "Prose",
+    "question": "Nanukaka was the author's:",
+    "options": {
+      "A": "Maternal Uncle",
+      "B": "Brother",
+      "C": "Father",
+      "D": "Friend"
+    },
+    "correct": "A",
+    "explanation": "Maternal uncle in 'A Pinch of Snuff' by Manohar Malgonkar.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 94,
+    "chapter": "Prose",
+    "question": "'I Have a Dream' was delivered by:",
+    "options": {
+      "A": "Martin Luther King, Jr.",
+      "B": "Nelson Mandela",
+      "C": "Abraham Lincoln",
+      "D": "Barack Obama"
+    },
+    "correct": "A",
+    "explanation": "Historic speech delivered on August 28, 1963.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 95,
+    "chapter": "Prose",
+    "question": "Seibei was passionately interested in:",
+    "options": {
+      "A": "Gourds",
+      "B": "Books",
+      "C": "Paintings",
+      "D": "Stamps"
+    },
+    "correct": "A",
+    "explanation": "Collecting gourds in 'The Artist' by Shiga Naoya.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 96,
+    "chapter": "Poetry",
+    "question": "Who wrote 'Sweetest Love I Do Not Goe'?",
+    "options": {
+      "A": "John Donne",
+      "B": "John Keats",
+      "C": "Walt Whitman",
+      "D": "Rupert Brooke"
+    },
+    "correct": "A",
+    "explanation": "Metaphysical poet John Donne.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 97,
+    "chapter": "Poetry",
+    "question": "'Song of Myself' is composed by:",
+    "options": {
+      "A": "Walt Whitman",
+      "B": "W.H. Auden",
+      "C": "T.S. Eliot",
+      "D": "John Keats"
+    },
+    "correct": "A",
+    "explanation": "American poet Walt Whitman in Leaves of Grass.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 98,
+    "chapter": "Poetry",
+    "question": "'The Soldier' is a war sonnet written by:",
+    "options": {
+      "A": "Rupert Brooke",
+      "B": "Wilfred Owen",
+      "C": "Siegfried Sassoon",
+      "D": "T.S. Eliot"
+    },
+    "correct": "A",
+    "explanation": "Rupert Brooke expressing patriotism.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 99,
+    "chapter": "Grammar",
+    "question": "He died ________ cholera.",
+    "options": {
+      "A": "of",
+      "B": "from",
+      "C": "by",
+      "D": "with"
+    },
+    "correct": "A",
+    "explanation": "Died 'of' a disease (cholera, malaria).",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
+  },
+  {
+    "id": 100,
+    "chapter": "Grammar",
+    "question": "He is ________ honest man.",
+    "options": {
+      "A": "an",
+      "B": "a",
+      "C": "the",
+      "D": "no article"
+    },
+    "correct": "A",
+    "explanation": "'Honest' starts with silent h vowel sound, hence 'an'.",
+    "vvi_badge": "⭐ [VVI Board Model Paper]"
   }
 ]
