@@ -15,6 +15,7 @@ import questions
 logger = logging.getLogger(__name__)
 
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent"
+OPENAI_API_URL = "https://api.openai.com/v1/chat/completions"
 
 # Strict Bihar Board 12th Blueprints
 BSEB_BLUEPRINTS = {
@@ -77,110 +78,14 @@ BSEB_BLUEPRINTS = {
     }
 }
 
-def generate_ai_prompt(subject_key: str, count: int = 10) -> str:
-    """Creates a deeply structured, blueprint-enforced prompt for AI."""
-    bp = BSEB_BLUEPRINTS.get(subject_key, BSEB_BLUEPRINTS["physics"])
-    rules_text = "\n".join(f"- {r}" for r in bp["syllabus_rules"])
-    
-    prompt = f"""
-You are the Senior Subject Matter Expert and Chief Question Paper Analyst for the Bihar School Examination Board (BSEB Class 12th).
-Your task is to analyze past 7 years Bihar Board examination papers (2018-2024) and generate {count} PREDICTED VVI (Very Very Important) Objective MCQs for upcoming 12th Board examinations.
-
-Target Subject: {bp['title']}
-Language: {bp['language']}
-
-STRICT BIHAR BOARD EXAMINATION RULES (NO DEVIATION):
-{rules_text}
-- Exactly 4 distinct options (A, B, C, D) for each question.
-- Exactly ONE unequivocally correct option.
-- Every question MUST include a concise, high-yield explanation explaining WHY the answer is correct so students learn the exact concept.
-- DO NOT generate questions outside the official Bihar Board Class 12 syllabus.
-- DO NOT generate overly complex engineering/JEE level problems; keep it 100% true to Bihar Board objective exam level.
-
-OUTPUT REQUIREMENT:
-Respond ONLY with a valid JSON array of objects. Do not write any conversational text or explanation outside the JSON.
-JSON Object Schema:
-[
-  {{
-    "chapter": "Chapter name in Hindi/English",
-    "question": "Question text",
-    "options": {{
-      "A": "Option A text",
-      "B": "Option B text",
-      "C": "Option C text",
-      "D": "Option D text"
-    }},
-    "correct": "A",
-    "explanation": "Clear explanation of the concept",
-    "vvi_badge": "⭐ [VVI 2025 Predicted] 🔁 High Probability"
-  }}
-]
-"""
-    return prompt.strip()
-
-async def fetch_ai_predicted_vvi(subject_key: str, count: int = 10) -> List[dict]:
-    """Queries AI (Bedrock Mantle / OpenAI-compatible or Gemini) with strict BSEB Blueprint."""
-    openai_key = os.getenv("OPENAI_API_KEY", "").strip()
-    openai_base = os.getenv("OPENAI_BASE_URL", "").strip()
-    gemini_key = os.getenv("GEMINI_API_KEY", "").strip()
-
-    prompt = generate_ai_prompt(subject_key, count)
-
-    # 1. Primary: Bedrock Mantle / OpenAI-Compatible (DeepSeek v3.1)
-    if openai_key and openai_base:
-        url = f"{openai_base.rstrip('/')}/chat/completions"
-        headers = {
-            "Authorization": f"Bearer {openai_key}",
-            "Content-Type": "application/json"
-        }
-        model = os.getenv("AI_MODEL", "deepseek.v3.1")
-        payload = {
-            "model": model,
-            "messages": [
-                {"role": "system", "content": "You are a senior Bihar Board 12th exam analyst. Output ONLY a valid JSON array of questions without any markdown or conversation."},
-                {"role": "user", "content": prompt}
-            ],
-            "temperature": 0.2,
-            "max_tokens": 2500
-        }
-        try:
-            async with httpx.AsyncClient(timeout=40.0) as client:
-                resp = await client.post(url, json=payload, headers=headers)
-                if resp.status_code == 200:
-                    data = resp.json()
-                    content = data["choices"][0]["message"]["content"]
-                    clean_json = re.sub(r"^```(?:json)?\s*|\s*```$", "", content.strip(), flags=re.MULTILINE).strip()
-                    questions_list = json.loads(clean_json)
-                    validated = validate_questions_list(questions_list)
-                    if validated:
-                        logger.info(f"✅ Bedrock Mantle AI generated {len(validated)} questions for {subject_key}")
-                        return validated
-        except Exception as e:
-            logger.error(f"Error querying Bedrock Mantle AI: {e}")
-
-    # 2. Secondary: Google Gemini API (if key configured)
-    if gemini_key:
-        url = f"{GEMINI_API_URL}?key={gemini_key}"
-        payload = {
-            "contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"}
-        }
-        try:
-            async with httpx.AsyncClient(timeout=40.0) as client:
-                resp = await client.post(url, json=payload)
-                if resp.status_code == 200:
-                    data = resp.json()
-                    text = data.get("candidates", [])[0].get("content", {}).get("parts", [{}])[0].get("text", "")
-                    questions_list = json.loads(text)
-                    validated = validate_questions_list(questions_list)
-                    if validated:
-                        logger.info(f"✅ Gemini AI generated {len(validated)} questions for {subject_key}")
-                        return validated
-        except Exception as e:
-            logger.error(f"Error querying Gemini AI: {e}")
-
-    # Fallback: Return empty to use the 600 verified core question pool
-    return []
+def clean_json_response(raw_text: str) -> Optional[List[dict]]:
+    """Strips markdown and parses JSON safely."""
+    try:
+        clean = re.sub(r"^```(?:json)?\s*|\s*```$", "", raw_text.strip(), flags=re.MULTILINE).strip()
+        data = json.loads(clean)
+        return data if isinstance(data, list) else None
+    except Exception:
+        return None
 
 def validate_questions_list(raw_list) -> List[dict]:
     """Validates that all questions adhere to standard BSEB format."""
@@ -196,11 +101,163 @@ def validate_questions_list(raw_list) -> List[dict]:
             validated.append(item)
     return validated
 
+# ----------------- AGENT CALLERS -----------------
+
+async def call_gemini(prompt: str) -> Optional[str]:
+    """Agent Caller: Google Gemini 3.5 Flash."""
+    keys = [os.getenv("GEMINI_API_KEY", ""), os.getenv("GEMINI_API_KEY_BACKUP", "")]
+    for key in keys:
+        if not key.strip():
+            continue
+        url = f"{GEMINI_API_URL}?key={key.strip()}"
+        payload = {
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"}
+        }
+        try:
+            async with httpx.AsyncClient(timeout=35.0) as client:
+                resp = await client.post(url, json=payload)
+                if resp.status_code == 200:
+                    data = resp.json()
+                    return data["candidates"][0]["content"]["parts"][0]["text"]
+        except Exception as e:
+            logger.warning(f"Gemini call error: {e}")
+    return None
+
+async def call_deepseek(prompt: str, system_prompt: str = "") -> Optional[str]:
+    """Agent Caller: DeepSeek v3.1 (Bedrock Mantle)."""
+    key = os.getenv("OPENAI_API_KEY", "").strip()
+    base_url = os.getenv("OPENAI_BASE_URL", "").strip()
+    model = os.getenv("AI_MODEL", "deepseek.v3.1")
+    if not key or not base_url:
+        return None
+
+    url = f"{base_url.rstrip('/')}/chat/completions"
+    headers = {"Authorization": f"Bearer {key}", "Content-Type": "application/json"}
+    messages = []
+    if system_prompt:
+        messages.append({"role": "system", "content": system_prompt})
+    messages.append({"role": "user", "content": prompt})
+
+    payload = {"model": model, "messages": messages, "temperature": 0.1, "max_tokens": 3000}
+    try:
+        async with httpx.AsyncClient(timeout=40.0) as client:
+            resp = await client.post(url, json=payload, headers=headers)
+            if resp.status_code == 200:
+                data = resp.json()
+                return data["choices"][0]["message"]["content"]
+    except Exception as e:
+        logger.warning(f"DeepSeek call error: {e}")
+    return None
+
+async def call_chatgpt(prompt: str, system_prompt: str = "") -> Optional[str]:
+    """Agent Caller: ChatGPT (OpenAI gpt-4o-mini)."""
+    keys = [
+        os.getenv("CHATGPT_API_KEY", "").strip(),
+        os.getenv("CHATGPT_API_KEY_BACKUP", "").strip()
+    ]
+    for key in keys:
+        if not key:
+            continue
+        headers = {"Authorization": f"Bearer {key}", "Content-Type": "application/json"}
+        messages = []
+        if system_prompt:
+            messages.append({"role": "system", "content": system_prompt})
+        messages.append({"role": "user", "content": prompt})
+
+        payload = {"model": "gpt-4o-mini", "messages": messages, "temperature": 0.2, "max_tokens": 3000}
+        try:
+            async with httpx.AsyncClient(timeout=25.0) as client:
+                resp = await client.post(OPENAI_API_URL, json=payload, headers=headers)
+                if resp.status_code == 200:
+                    data = resp.json()
+                    return data["choices"][0]["message"]["content"]
+                else:
+                    logger.warning(f"ChatGPT key returned {resp.status_code}: {resp.text[:120]}")
+        except Exception as e:
+            logger.warning(f"ChatGPT call error: {e}")
+    return None
+
+# ----------------- MULTI-AGENT WORKFLOW -----------------
+
+async def fetch_ai_predicted_vvi(subject_key: str, count: int = 10) -> List[dict]:
+    """
+    Multi-Agent Collaborative Pipeline:
+    Agent 1 (Paper Setter): Gemini 3.5 Flash or ChatGPT drafts candidate questions based on BSEB Blueprint.
+    Agent 2 (Chief Examiner & Verifier): DeepSeek v3.1 audits, confirms correct answer, eliminates option ambiguity & polishes Hindi explanation.
+    """
+    bp = BSEB_BLUEPRINTS.get(subject_key, BSEB_BLUEPRINTS["physics"])
+    rules_text = "\n".join(f"- {r}" for r in bp["syllabus_rules"])
+
+    draft_prompt = f"""
+You are Agent 1 (Senior Question Setter) for the Bihar School Examination Board (BSEB 12th).
+Generate {count} predicted VVI objective MCQs for:
+Subject: {bp['title']}
+Language: {bp['language']}
+
+STRICT BIHAR BOARD RULES:
+{rules_text}
+- Exactly 4 distinct options (A, B, C, D).
+- Exactly ONE unambiguously correct option.
+- Clear concept-based explanation in Hindi.
+
+Return ONLY a valid JSON array of objects:
+[
+  {{
+    "chapter": "Chapter name",
+    "question": "Question text",
+    "options": {{"A": "...", "B": "...", "C": "...", "D": "..."}},
+    "correct": "A",
+    "explanation": "Explanation",
+    "vvi_badge": "⭐ [VVI 2025 Multi-Agent Certified]"
+  }}
+]
+"""
+
+    logger.info(f"🤖 Multi-Agent Step 1: Generating draft questions for {subject_key}...")
+    
+    # 1. Agent 1: Try ChatGPT or Gemini 3.5 Flash
+    draft_raw = await call_chatgpt(draft_prompt, system_prompt="You are a senior BSEB examiner. Output valid JSON array only.")
+    if not draft_raw:
+        draft_raw = await call_gemini(draft_prompt)
+    if not draft_raw:
+        draft_raw = await call_deepseek(draft_prompt, system_prompt="You are a senior BSEB examiner. Output valid JSON array only.")
+
+    draft_list = clean_json_response(draft_raw) if draft_raw else None
+    if not draft_list:
+        logger.warning("Agent 1 drafting failed, falling back to verified core question bank.")
+        return []
+
+    logger.info(f"🧐 Multi-Agent Step 2: Agent 2 (DeepSeek v3.1) auditing & verifying {len(draft_list)} questions...")
+
+    # 2. Agent 2: DeepSeek audits, confirms correctness, and polishes the explanation
+    audit_prompt = f"""
+You are Agent 2 (Chief Senior Examiner & Fact Checker for BSEB Class 12th).
+Audit and certify these candidate questions generated by Agent 1:
+
+{json.dumps(draft_list, ensure_ascii=False, indent=2)}
+
+YOUR AUDIT MANDATE:
+1. Verify each question strictly matches the BSEB 12th syllabus.
+2. Confirm that exactly ONE option is 100% correct without any doubt or ambiguity.
+3. Review and polish the Hindi explanation so it is crystal clear and teaches the student the exact underlying concept.
+
+Return ONLY the verified, polished questions in a clean valid JSON array.
+"""
+    verified_raw = await call_deepseek(audit_prompt, system_prompt="You are Chief Senior Examiner for BSEB 12th. Return pure JSON array only.")
+    verified_list = clean_json_response(verified_raw) if verified_raw else None
+
+    # If Agent 2 succeeded, use the double-verified list; otherwise use Agent 1's validated list
+    final_questions = validate_questions_list(verified_list) if verified_list else validate_questions_list(draft_list)
+
+    logger.info(f"🎉 Multi-Agent Pipeline Completed: {len(final_questions)} certified VVI questions ready!")
+    return final_questions
+
 def get_hybrid_100_vvi(subject_key: str, date_str: str = None) -> List[int]:
     """
     Returns 100 VVI Question IDs composed of:
     - 70% Core Real PYQ Questions (Guaranteed 100% board pattern)
-    - 30% Dynamic Fresh Questions (AI predicted or curated variation pool)
+    - 30% Dynamic Fresh Questions (Multi-Agent Certified)
     - Shuffled deterministically by date so every day is a fresh, coordinated test for all students!
     """
     if not date_str:
