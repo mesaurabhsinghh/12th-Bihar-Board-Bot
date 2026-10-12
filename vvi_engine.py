@@ -262,8 +262,8 @@ Return ONLY the verified, polished questions in a clean valid JSON array.
 def get_hybrid_100_vvi(subject_key: str, date_str: str = None) -> List[int]:
     """
     Returns 100 VVI Question IDs composed of:
-    - 70% Core Real PYQ Questions (Guaranteed 100% board pattern)
-    - 30% Dynamic Fresh Questions (Multi-Agent Certified)
+    - Core Real PYQ Questions
+    - Dynamic Fresh AI Questions (Multi-Agent Gemini + DeepSeek Certified)
     - Shuffled deterministically by date so every day is a fresh, coordinated test for all students!
     """
     if not date_str:
@@ -271,8 +271,17 @@ def get_hybrid_100_vvi(subject_key: str, date_str: str = None) -> List[int]:
 
     all_q_ids = questions.generate_quiz_ids(subject_key, count=100, shuffle=False)
     
+    # Blend in any registered AI questions for this subject
+    questions._init_ai_cache(subject_key)
+    ai_ids = list(questions._AI_QUESTIONS.get(subject_key, {}).keys())
+    
     rng = random.Random(f"{subject_key}_{date_str}")
     shuffled_ids = list(all_q_ids)
     rng.shuffle(shuffled_ids)
     
+    if ai_ids:
+        # Include the latest AI certified questions in the 100 test
+        ai_pick = ai_ids[-20:] # up to 20 recent AI questions
+        shuffled_ids = ai_pick + [qid for qid in shuffled_ids if qid not in ai_pick]
+        
     return shuffled_ids[:100]

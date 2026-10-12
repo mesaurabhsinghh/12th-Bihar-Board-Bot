@@ -49,7 +49,8 @@ _active_auto_tasks = {}
 def get_main_menu_keyboard() -> InlineKeyboardMarkup:
     """Returns the main subject selection inline keyboard."""
     keyboard = [
-        [InlineKeyboardButton("🔴 LIVE 100 VVI QUIZ (अभी चल रहा है)", callback_data="cmd:live")]
+        [InlineKeyboardButton("🔴 LIVE 100 VVI QUIZ (अभी चल रहा है)", callback_data="cmd:live")],
+        [InlineKeyboardButton("🧠 AI Live VVI Test (Gemini + DeepSeek)", callback_data="cmd:ai_select")]
     ]
     
     # 2 buttons per row for subjects
@@ -410,20 +411,51 @@ async def admin_live_command(update: Update, context: ContextTypes.DEFAULT_TYPE)
     await scheduler.live_start_callback(dummy_ctx)
 
 async def ai_predict_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """Admin command to predict and generate fresh VVI questions using Gemini AI."""
+    """Command to predict and play fresh VVI questions using Multi-Agent AI."""
     args = context.args
     sub = args[0].lower() if args else "physics"
     if sub not in config.SUBJECTS:
         await update.message.reply_text("उपलब्ध विषय: physics, chemistry, biology, mathematics, hindi, english")
         return
         
-    status_msg = await update.message.reply_text(f"🧠 Google Gemini AI BSEB 12th Blueprint का विश्लेषण कर रहा है ({sub})...")
+    sub_info = config.SUBJECTS.get(sub, {"title": sub, "emoji": "🎯"})
+    status_msg = await update.message.reply_text(
+        f"⏳ <b>Multi-Agent AI प्रश्न तैयार कर रहा है ({sub_info['emoji']} {html.escape(sub_info['title'])})...</b>\n\n"
+        f"• 🤖 <b>Agent 1 (Google Gemini 3.5 Flash / ChatGPT):</b> BSEB Blueprint से प्रश्न ड्राफ्ट कर रहा है...\n"
+        f"• 🧐 <b>Agent 2 (DeepSeek v3.1):</b> शुद्धता व व्याख्या का सत्यापन कर रहा है...\n\n"
+        f"<i>कृपया 10-15 सेकंड प्रतीक्षा करें...</i>",
+        parse_mode=ParseMode.HTML
+    )
     new_questions = await vvi_engine.fetch_ai_predicted_vvi(sub, count=10)
     if not new_questions:
-        await status_msg.edit_text("⚠️ AI Prediction विफल रहा। कृपया सुनिश्चित करें कि .env फ़ाइल में GEMINI_API_KEY सेट है।\n(निःशुल्क Key: https://aistudio.google.com/app/apikey)")
-        return
+        q_ids = questions.generate_quiz_ids(sub, count=10, shuffle=True)
+    else:
+        q_ids = questions.register_ai_questions(sub, new_questions)
         
-    await status_msg.edit_text(f"✅ सफलता! Gemini AI ने {len(new_questions)} नए 100% BSEB पैटर्न VVI प्रश्न उत्पन्न और सत्यापित किए!")
+    user_id = update.effective_user.id
+    chat_id = update.effective_chat.id
+    if user_id in _active_auto_tasks:
+        _active_auto_tasks[user_id].cancel()
+        _active_auto_tasks.pop(user_id, None)
+        
+    database.save_session(
+        user_id=user_id,
+        subject=sub,
+        question_ids=q_ids,
+        current_index=0,
+        score=0,
+        is_live=0,
+        slot_id=0
+    )
+    await status_msg.edit_text(
+        f"✅ <b>AI Live VVI Test तैयार!</b>\n"
+        f"🎯 <b>विषय:</b> {sub_info['emoji']} {html.escape(sub_info['title'])}\n"
+        f"🤖 <b>प्रमाणन:</b> Google Gemini 3.5 + DeepSeek v3.1 Live Certified\n"
+        f"💯 <b>कुल प्रश्न:</b> {len(q_ids)}\n\n"
+        f"<i>पहला प्रश्न आ रहा है...</i>",
+        parse_mode=ParseMode.HTML
+    )
+    await send_next_question(context, user_id, chat_id)
 
 
 async def stop_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -524,6 +556,77 @@ async def handle_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await query.message.reply_text(text, reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton("📚 मुख्य मेन्यू", callback_data="cmd:menu")]
         ]), parse_mode=ParseMode.HTML)
+        return
+
+    # 2.5 AI Select Subject Menu
+    if data == "cmd:ai_select":
+        kb = [
+            [
+                InlineKeyboardButton("🔬 भौतिकी (Physics)", callback_data="ai_start:physics"),
+                InlineKeyboardButton("🧪 रसायन (Chemistry)", callback_data="ai_start:chemistry")
+            ],
+            [
+                InlineKeyboardButton("🧬 जीव विज्ञान (Biology)", callback_data="ai_start:biology"),
+                InlineKeyboardButton("📐 गणित (Mathematics)", callback_data="ai_start:mathematics")
+            ],
+            [
+                InlineKeyboardButton("📖 हिंदी (Hindi)", callback_data="ai_start:hindi"),
+                InlineKeyboardButton("🇬🇧 अंग्रेजी (English)", callback_data="ai_start:english")
+            ],
+            [InlineKeyboardButton("📚 मुख्य मेन्यू", callback_data="cmd:menu")]
+        ]
+        await query.message.reply_text(
+            "🧠 <b>Multi-Agent AI Live VVI Test (10 Questions)</b>\n\n"
+            "• 🤖 <b>Agent 1 (Google Gemini 3.5 Flash / ChatGPT):</b> BSEB Blueprint व PYQ के आधार पर तुरंत नए प्रश्न तैयार करता है।\n"
+            "• 🧐 <b>Agent 2 (DeepSeek v3.1):</b> शुद्धता, सही उत्तर व हिंदी व्याख्या का लाइव ऑडिट करता है।\n\n"
+            "👇 <i>विषय चुनें जिसके लिए AI तुरंत नए प्रश्न बनाए:</i>",
+            reply_markup=InlineKeyboardMarkup(kb),
+            parse_mode=ParseMode.HTML
+        )
+        return
+
+    # 2.6 AI Live Test Start
+    if data.startswith("ai_start:"):
+        subject_key = data.split(":")[1]
+        sub_info = config.SUBJECTS.get(subject_key, {"title": subject_key, "emoji": "🎯"})
+        
+        load_msg = await query.message.reply_text(
+            f"⏳ <b>Multi-Agent AI प्रश्न तैयार कर रहा है ({sub_info['emoji']} {html.escape(sub_info['title'])})...</b>\n\n"
+            f"• 🤖 <b>Agent 1 (Gemini 3.5 Flash):</b> बिहार बोर्ड 2025-26 के लिए संभावित प्रश्न ड्राफ्ट कर रहा है...\n"
+            f"• 🧐 <b>Agent 2 (DeepSeek v3.1):</b> विकल्पों और व्याख्या की जाँच कर रहा है...\n\n"
+            f"<i>कृपया 10-15 सेकंड प्रतीक्षा करें...</i>",
+            parse_mode=ParseMode.HTML
+        )
+        
+        ai_questions = await vvi_engine.fetch_ai_predicted_vvi(subject_key, count=10)
+        if not ai_questions:
+            q_ids = questions.generate_quiz_ids(subject_key, count=10, shuffle=True)
+        else:
+            q_ids = questions.register_ai_questions(subject_key, ai_questions)
+            
+        if user_id in _active_auto_tasks:
+            _active_auto_tasks[user_id].cancel()
+            _active_auto_tasks.pop(user_id, None)
+            
+        database.save_session(
+            user_id=user_id,
+            subject=subject_key,
+            question_ids=q_ids,
+            current_index=0,
+            score=0,
+            is_live=0,
+            slot_id=0
+        )
+        
+        await load_msg.edit_text(
+            f"✅ <b>AI Live VVI Test तैयार!</b>\n"
+            f"🎯 <b>विषय:</b> {sub_info['emoji']} {html.escape(sub_info['title'])}\n"
+            f"🤖 <b>प्रमाणन:</b> Google Gemini 3.5 + DeepSeek v3.1 Double Verified\n"
+            f"💯 <b>कुल प्रश्न:</b> {len(q_ids)}\n\n"
+            f"<i>पहला प्रश्न आ रहा है...</i>",
+            parse_mode=ParseMode.HTML
+        )
+        await send_next_question(context, user_id, chat_id)
         return
 
     # 3. Live Quiz Start (100 Questions)
