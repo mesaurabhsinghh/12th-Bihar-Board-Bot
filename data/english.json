@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "chapter": "Prose",
+    "chapter": "Prose - Indian Civilization",
     "question": "'Indian Civilization and Culture' is written by:",
     "options": {
       "A": "Mahatma Gandhi",
@@ -10,671 +10,671 @@
       "D": "Martin Luther King"
     },
     "correct": "A",
-    "explanation": "Written by Father of the Nation, Mahatma Gandhi.",
+    "explanation": "Written by Father of the Nation, Mahatma Gandhi in 'Young India'.",
     "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 2,
-    "chapter": "Prose",
-    "question": "'Bharat is My Home' is an extract from the speech of:",
+    "chapter": "Prose - Indian Civilization",
+    "question": "Civilization points out to man:",
     "options": {
-      "A": "Dr. Zakir Husain",
-      "B": "Mahatma Gandhi",
-      "C": "Shashi Tharoor",
-      "D": "Dr. Radhakrishnan"
+      "A": "The path of sorrow",
+      "B": "The path of duty",
+      "C": "The path of wealth",
+      "D": "The path of hatred"
     },
-    "correct": "A",
-    "explanation": "Speech delivered after taking oath as 3rd President.",
+    "correct": "B",
+    "explanation": "According to Gandhi, civilization means good conduct and the path of duty.",
     "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 3,
-    "chapter": "Prose",
-    "question": "Nanukaka was the author's:",
+    "chapter": "Prose - Indian Civilization",
+    "question": "'Mind is a restless bird, the more it gets the more it wants' is from:",
     "options": {
-      "A": "Maternal Uncle",
-      "B": "Brother",
-      "C": "Father",
-      "D": "Friend"
+      "A": "Bharat is My Home",
+      "B": "A Pinch of Snuff",
+      "C": "Indian Civilization and Culture",
+      "D": "The Artist"
     },
-    "correct": "A",
-    "explanation": "Maternal uncle in 'A Pinch of Snuff' by Manohar Malgonkar.",
-    "vvi_badge": "⭐ [VVI 2024] 🔁 5 times repeated"
+    "correct": "C",
+    "explanation": "Famous line highlighting Indian philosophy on controlling desires.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 4,
-    "chapter": "Prose",
-    "question": "'I Have a Dream' was delivered by:",
+    "chapter": "Prose - Bharat is My Home",
+    "question": "Dr. Zakir Husain took the oath of loyalty to the Constitution of India as:",
     "options": {
-      "A": "Martin Luther King, Jr.",
-      "B": "Nelson Mandela",
-      "C": "Abraham Lincoln",
-      "D": "Barack Obama"
+      "A": "Governor",
+      "B": "Prime Minister",
+      "C": "Chief Justice",
+      "D": "President"
     },
-    "correct": "A",
-    "explanation": "Historic speech delivered on August 28, 1963.",
+    "correct": "D",
+    "explanation": "He took the oath as the 3rd President of India in 1967.",
     "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 5,
-    "chapter": "Prose",
-    "question": "Seibei was passionately interested in:",
+    "chapter": "Prose - Bharat is My Home",
+    "question": "'Bharat is My Home and its people are my family' was said by:",
     "options": {
-      "A": "Gourds",
-      "B": "Books",
-      "C": "Paintings",
-      "D": "Stamps"
+      "A": "Dr. Zakir Husain",
+      "B": "Dr. S. Radhakrishnan",
+      "C": "Mahatma Gandhi",
+      "D": "Jawaharlal Nehru"
     },
     "correct": "A",
-    "explanation": "Collecting gourds in 'The Artist' by Shiga Naoya.",
-    "vvi_badge": "⭐ [VVI 2024] 🔁 5 times repeated"
+    "explanation": "Spoken during his presidential acceptance address.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 6,
-    "chapter": "Poetry",
-    "question": "Who wrote 'Sweetest Love I Do Not Goe'?",
+    "chapter": "Prose - Bharat is My Home",
+    "question": "Earlier Dr. Zakir Husain served as the Governor of:",
     "options": {
-      "A": "John Donne",
-      "B": "John Keats",
-      "C": "Walt Whitman",
-      "D": "Rupert Brooke"
+      "A": "Uttar Pradesh",
+      "B": "Bihar",
+      "C": "West Bengal",
+      "D": "Punjab"
     },
-    "correct": "A",
-    "explanation": "Metaphysical poet John Donne.",
+    "correct": "B",
+    "explanation": "Dr. Zakir Husain was the Governor of Bihar before becoming President.",
     "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 7,
-    "chapter": "Poetry",
-    "question": "'Song of Myself' is composed by:",
+    "chapter": "Prose - A Pinch of Snuff",
+    "question": "Nanukaka was installed in:",
     "options": {
-      "A": "Walt Whitman",
-      "B": "W.H. Auden",
-      "C": "T.S. Eliot",
-      "D": "John Keats"
+      "A": "The guest room",
+      "B": "The verandah",
+      "C": "The author's bedroom",
+      "D": "The drawing room"
     },
-    "correct": "A",
-    "explanation": "American poet Walt Whitman in Leaves of Grass.",
-    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
+    "correct": "C",
+    "explanation": "The author's mother gave him Manohar Malgonkar's bedroom.",
+    "vvi_badge": "⭐ [VVI 2023] 🔁 5 times repeated"
   },
   {
     "id": 8,
-    "chapter": "Poetry",
-    "question": "'The Soldier' is a war sonnet written by:",
+    "chapter": "Prose - A Pinch of Snuff",
+    "question": "Nanukaka was the author's:",
     "options": {
-      "A": "Rupert Brooke",
-      "B": "Wilfred Owen",
-      "C": "Siegfried Sassoon",
-      "D": "T.S. Eliot"
+      "A": "Paternal uncle",
+      "B": "Father",
+      "C": "Cousin",
+      "D": "Maternal uncle"
     },
-    "correct": "A",
-    "explanation": "Rupert Brooke expressing patriotism.",
-    "vvi_badge": "⭐ [VVI 2024] 🔁 5 times repeated"
+    "correct": "D",
+    "explanation": "Nanukaka was the maternal uncle (Mama) of the narrator.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 9,
-    "chapter": "Grammar",
-    "question": "He died ________ cholera.",
+    "chapter": "Prose - A Pinch of Snuff",
+    "question": "Nanukaka travelled in Second Class on a ticket of:",
     "options": {
-      "A": "of",
-      "B": "from",
-      "C": "by",
-      "D": "with"
+      "A": "Third Class",
+      "B": "First Class",
+      "C": "Air-Conditioned",
+      "D": "General"
     },
     "correct": "A",
-    "explanation": "Died 'of' a disease (cholera, malaria).",
+    "explanation": "Because there was no room in Third Class.",
     "vvi_badge": "⭐ [VVI 2024] 🔁 5 times repeated"
   },
   {
     "id": 10,
-    "chapter": "Grammar",
-    "question": "He is ________ honest man.",
+    "chapter": "Prose - I Have a Dream",
+    "question": "'I Have a Dream' is a speech delivered by:",
     "options": {
-      "A": "an",
-      "B": "a",
-      "C": "the",
-      "D": "no article"
+      "A": "Nelson Mandela",
+      "B": "Martin Luther King, Jr.",
+      "C": "Barack Obama",
+      "D": "Abraham Lincoln"
     },
-    "correct": "A",
-    "explanation": "'Honest' starts with silent h vowel sound, hence 'an'.",
-    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
+    "correct": "B",
+    "explanation": "Delivered on August 28, 1963, on the steps of Lincoln Memorial.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 11,
-    "chapter": "Prose",
-    "question": "'Indian Civilization and Culture' is written by:",
+    "chapter": "Prose - I Have a Dream",
+    "question": "Martin Luther King, Jr. fought for the rights of:",
     "options": {
-      "A": "Mahatma Gandhi",
-      "B": "Dr. Zakir Husain",
-      "C": "Manohar Malgonkar",
-      "D": "Martin Luther King"
+      "A": "Indians",
+      "B": "Asians",
+      "C": "Negroes",
+      "D": "Whites"
     },
-    "correct": "A",
-    "explanation": "Written by Father of the Nation, Mahatma Gandhi.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "Civil rights activist for American Negroes.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 12,
-    "chapter": "Prose",
-    "question": "'Bharat is My Home' is an extract from the speech of:",
+    "chapter": "Prose - I Have a Dream",
+    "question": "Martin Luther King, Jr. received the Nobel Peace Prize in:",
     "options": {
-      "A": "Dr. Zakir Husain",
-      "B": "Mahatma Gandhi",
-      "C": "Shashi Tharoor",
-      "D": "Dr. Radhakrishnan"
+      "A": "1965",
+      "B": "1963",
+      "C": "1968",
+      "D": "1964"
     },
-    "correct": "A",
-    "explanation": "Speech delivered after taking oath as 3rd President.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "Awarded the Nobel Peace Prize in 1964 for nonviolent resistance.",
+    "vvi_badge": "⭐ [VVI 2023] 🔁 5 times repeated"
   },
   {
     "id": 13,
-    "chapter": "Prose",
-    "question": "Nanukaka was the author's:",
+    "chapter": "Prose - Ideas That Have Helped",
+    "question": "Bertrand Russell was a philosopher and a:",
     "options": {
-      "A": "Maternal Uncle",
-      "B": "Brother",
-      "C": "Father",
-      "D": "Friend"
+      "A": "Mathematician",
+      "B": "Geologist",
+      "C": "Chemist",
+      "D": "Doctor"
     },
     "correct": "A",
-    "explanation": "Maternal uncle in 'A Pinch of Snuff' by Manohar Malgonkar.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "British philosopher, historian, and mathematician.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 5 times repeated"
   },
   {
     "id": 14,
-    "chapter": "Prose",
-    "question": "'I Have a Dream' was delivered by:",
+    "chapter": "Prose - The Artist",
+    "question": "'The Artist' is written by the Japanese short-story writer:",
     "options": {
-      "A": "Martin Luther King, Jr.",
-      "B": "Nelson Mandela",
-      "C": "Abraham Lincoln",
-      "D": "Barack Obama"
+      "A": "Pearl S. Buck",
+      "B": "Shiga Naoya",
+      "C": "H.E. Bates",
+      "D": "Dorothy L. Sayers"
     },
-    "correct": "A",
-    "explanation": "Historic speech delivered on August 28, 1963.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "Shiga Naoya, celebrated 20th-century Japanese writer.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 15,
-    "chapter": "Prose",
-    "question": "Seibei was passionately interested in:",
+    "chapter": "Prose - The Artist",
+    "question": "Seibei was a twelve-year-old:",
     "options": {
-      "A": "Gourds",
-      "B": "Books",
-      "C": "Paintings",
-      "D": "Stamps"
+      "A": "Chinese boy",
+      "B": "Korean boy",
+      "C": "Japanese boy",
+      "D": "Indian boy"
     },
-    "correct": "A",
-    "explanation": "Collecting gourds in 'The Artist' by Shiga Naoya.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "He was 12 years old and attended primary school.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 16,
-    "chapter": "Poetry",
-    "question": "Who wrote 'Sweetest Love I Do Not Goe'?",
+    "chapter": "Prose - The Artist",
+    "question": "Seibei's hobby was collecting:",
     "options": {
-      "A": "John Donne",
-      "B": "John Keats",
-      "C": "Walt Whitman",
-      "D": "Rupert Brooke"
+      "A": "Stamps",
+      "B": "Coins",
+      "C": "Flowers",
+      "D": "Gourds"
     },
-    "correct": "A",
-    "explanation": "Metaphysical poet John Donne.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "He passionately polished and collected symmetrical gourds.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 17,
-    "chapter": "Poetry",
-    "question": "'Song of Myself' is composed by:",
+    "chapter": "Prose - A Child is Born",
+    "question": "Germaine Greer is a famous Australian:",
     "options": {
-      "A": "Walt Whitman",
-      "B": "W.H. Auden",
-      "C": "T.S. Eliot",
-      "D": "John Keats"
+      "A": "Feminist writer",
+      "B": "Poet",
+      "C": "Novelist",
+      "D": "Scientist"
     },
     "correct": "A",
-    "explanation": "American poet Walt Whitman in Leaves of Grass.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "Famous for exploring feminist and maternal themes.",
+    "vvi_badge": "⭐ [VVI 2023] 🔁 4 times repeated"
   },
   {
     "id": 18,
-    "chapter": "Poetry",
-    "question": "'The Soldier' is a war sonnet written by:",
+    "chapter": "Prose - How Free is the Press",
+    "question": "Dorothy L. Sayers is known for her essay:",
     "options": {
-      "A": "Rupert Brooke",
-      "B": "Wilfred Owen",
-      "C": "Siegfried Sassoon",
-      "D": "T.S. Eliot"
+      "A": "The Earth",
+      "B": "How Free is the Press",
+      "C": "The Artist",
+      "D": "A Marriage Proposal"
     },
-    "correct": "A",
-    "explanation": "Rupert Brooke expressing patriotism.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "Essayist and detective novelist.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 5 times repeated"
   },
   {
     "id": 19,
-    "chapter": "Grammar",
-    "question": "He died ________ cholera.",
+    "chapter": "Prose - How Free is the Press",
+    "question": "The press is restricted in times of:",
     "options": {
-      "A": "of",
-      "B": "from",
-      "C": "by",
-      "D": "with"
+      "A": "Peace",
+      "B": "Elections",
+      "C": "War",
+      "D": "Floods"
     },
-    "correct": "A",
-    "explanation": "Died 'of' a disease (cholera, malaria).",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "Censorship is officially imposed during war emergencies.",
+    "vvi_badge": "⭐ [VVI 2023] 🔁 4 times repeated"
   },
   {
     "id": 20,
-    "chapter": "Grammar",
-    "question": "He is ________ honest man.",
+    "chapter": "Prose - The Earth",
+    "question": "Benjy was the son of:",
     "options": {
-      "A": "an",
-      "B": "a",
-      "C": "the",
-      "D": "no article"
+      "A": "Jackson",
+      "B": "Sanders",
+      "C": "Robinson",
+      "D": "Johnson"
     },
-    "correct": "A",
-    "explanation": "'Honest' starts with silent h vowel sound, hence 'an'.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "Benjy's parents were poor tenant farmers, the Johnsons.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 21,
-    "chapter": "Prose",
-    "question": "'Indian Civilization and Culture' is written by:",
+    "chapter": "Prose - The Earth",
+    "question": "Benjy kept:",
     "options": {
-      "A": "Mahatma Gandhi",
-      "B": "Dr. Zakir Husain",
-      "C": "Manohar Malgonkar",
-      "D": "Martin Luther King"
+      "A": "Hens",
+      "B": "Cows",
+      "C": "Goats",
+      "D": "Horses"
     },
     "correct": "A",
-    "explanation": "Written by Father of the Nation, Mahatma Gandhi.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "The doctor advised keeping hens to help his mental development.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 22,
-    "chapter": "Prose",
-    "question": "'Bharat is My Home' is an extract from the speech of:",
+    "chapter": "Prose - Traveller's Eyes",
+    "question": "'India Through a Traveller's Eyes' is written by:",
     "options": {
-      "A": "Dr. Zakir Husain",
-      "B": "Mahatma Gandhi",
-      "C": "Shashi Tharoor",
-      "D": "Dr. Radhakrishnan"
+      "A": "Germaine Greer",
+      "B": "Pearl S. Buck",
+      "C": "Dorothy L. Sayers",
+      "D": "Virginia Woolf"
     },
-    "correct": "A",
-    "explanation": "Speech delivered after taking oath as 3rd President.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "American author Pearl S. Buck who won Nobel Prize in Literature.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 5 times repeated"
   },
   {
     "id": 23,
-    "chapter": "Prose",
-    "question": "Nanukaka was the author's:",
+    "chapter": "Prose - A Marriage Proposal",
+    "question": "Anton Chekhov was by profession a:",
     "options": {
-      "A": "Maternal Uncle",
-      "B": "Brother",
-      "C": "Father",
-      "D": "Friend"
+      "A": "Lawyer",
+      "B": "Teacher",
+      "C": "Doctor",
+      "D": "Soldier"
     },
-    "correct": "A",
-    "explanation": "Maternal uncle in 'A Pinch of Snuff' by Manohar Malgonkar.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "Russian playwright and physician.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 24,
-    "chapter": "Prose",
-    "question": "'I Have a Dream' was delivered by:",
+    "chapter": "Prose - A Marriage Proposal",
+    "question": "Lomov wanted to marry:",
     "options": {
-      "A": "Martin Luther King, Jr.",
-      "B": "Nelson Mandela",
-      "C": "Abraham Lincoln",
-      "D": "Barack Obama"
+      "A": "Maria",
+      "B": "Anna",
+      "C": "Elena",
+      "D": "Natalya"
     },
-    "correct": "A",
-    "explanation": "Historic speech delivered on August 28, 1963.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "Lomov came to propose to Chubukov's 25-year-old daughter Natalya.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 25,
-    "chapter": "Prose",
-    "question": "Seibei was passionately interested in:",
+    "chapter": "Prose - A Marriage Proposal",
+    "question": "Ox Meadows were disputed between Lomov and:",
     "options": {
-      "A": "Gourds",
-      "B": "Books",
-      "C": "Paintings",
-      "D": "Stamps"
+      "A": "Chubukovs",
+      "B": "Ivanovs",
+      "C": "Smirnovs",
+      "D": "Petrovs"
     },
     "correct": "A",
-    "explanation": "Collecting gourds in 'The Artist' by Shiga Naoya.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "The comic quarrel arose over the ownership of Ox Meadows.",
+    "vvi_badge": "⭐ [VVI 2023] 🔁 5 times repeated"
   },
   {
     "id": 26,
-    "chapter": "Poetry",
-    "question": "Who wrote 'Sweetest Love I Do Not Goe'?",
+    "chapter": "Poetry - Sweetest Love",
+    "question": "'Sweetest Love I Do Not Goe' is written by:",
     "options": {
-      "A": "John Donne",
-      "B": "John Keats",
+      "A": "John Keats",
+      "B": "John Donne",
       "C": "Walt Whitman",
       "D": "Rupert Brooke"
     },
-    "correct": "A",
-    "explanation": "Metaphysical poet John Donne.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "Pioneer of metaphysical poetry, John Donne.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 27,
-    "chapter": "Poetry",
-    "question": "'Song of Myself' is composed by:",
+    "chapter": "Poetry - Sweetest Love",
+    "question": "John Donne is well known as a:",
     "options": {
-      "A": "Walt Whitman",
-      "B": "W.H. Auden",
-      "C": "T.S. Eliot",
-      "D": "John Keats"
+      "A": "Romantic poet",
+      "B": "War poet",
+      "C": "Metaphysical poet",
+      "D": "Cavalier poet"
     },
-    "correct": "A",
-    "explanation": "American poet Walt Whitman in Leaves of Grass.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "He is the foremost representative of metaphysical poets.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 28,
-    "chapter": "Poetry",
-    "question": "'The Soldier' is a war sonnet written by:",
+    "chapter": "Poetry - Song of Myself",
+    "question": "'Song of Myself' is composed by:",
     "options": {
-      "A": "Rupert Brooke",
-      "B": "Wilfred Owen",
-      "C": "Siegfried Sassoon",
-      "D": "T.S. Eliot"
+      "A": "W.H. Auden",
+      "B": "T.S. Eliot",
+      "C": "John Keats",
+      "D": "Walt Whitman"
     },
-    "correct": "A",
-    "explanation": "Rupert Brooke expressing patriotism.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "American People's Poet Walt Whitman.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 29,
-    "chapter": "Grammar",
-    "question": "He died ________ cholera.",
+    "chapter": "Poetry - Song of Myself",
+    "question": "'I celebrate myself, and sing myself' is a line from:",
     "options": {
-      "A": "of",
-      "B": "from",
-      "C": "by",
-      "D": "with"
+      "A": "Song of Myself",
+      "B": "An Epitaph",
+      "C": "The Soldier",
+      "D": "Snake"
     },
     "correct": "A",
-    "explanation": "Died 'of' a disease (cholera, malaria).",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "Opening line of Whitman's masterpiece poem.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 30,
-    "chapter": "Grammar",
-    "question": "He is ________ honest man.",
+    "chapter": "Poetry - Falling Fast",
+    "question": "W.H. Auden won the Pulitzer Prize in 1948 for his book:",
     "options": {
-      "A": "an",
-      "B": "a",
-      "C": "the",
-      "D": "no article"
+      "A": "Leaves of Grass",
+      "B": "The Age of Anxiety",
+      "C": "Lyrical Ballads",
+      "D": "The Waste Land"
     },
-    "correct": "A",
-    "explanation": "'Honest' starts with silent h vowel sound, hence 'an'.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "Auden won the prize for 'The Age of Anxiety'.",
+    "vvi_badge": "⭐ [VVI 2023] 🔁 5 times repeated"
   },
   {
     "id": 31,
-    "chapter": "Prose",
-    "question": "'Indian Civilization and Culture' is written by:",
+    "chapter": "Poetry - Ode to Autumn",
+    "question": "'Ode to Autumn' is composed by:",
     "options": {
-      "A": "Mahatma Gandhi",
-      "B": "Dr. Zakir Husain",
-      "C": "Manohar Malgonkar",
-      "D": "Martin Luther King"
+      "A": "P.B. Shelley",
+      "B": "William Wordsworth",
+      "C": "John Keats",
+      "D": "Lord Byron"
     },
-    "correct": "A",
-    "explanation": "Written by Father of the Nation, Mahatma Gandhi.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "Great Romantic poet John Keats.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 32,
-    "chapter": "Prose",
-    "question": "'Bharat is My Home' is an extract from the speech of:",
+    "chapter": "Poetry - Ode to Autumn",
+    "question": "John Keats died of tuberculosis at the young age of:",
     "options": {
-      "A": "Dr. Zakir Husain",
-      "B": "Mahatma Gandhi",
-      "C": "Shashi Tharoor",
-      "D": "Dr. Radhakrishnan"
+      "A": "30",
+      "B": "35",
+      "C": "21",
+      "D": "26"
     },
-    "correct": "A",
-    "explanation": "Speech delivered after taking oath as 3rd President.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "He passed away in Rome at the age of only 26.",
+    "vvi_badge": "⭐ [VVI 2023] 🔁 5 times repeated"
   },
   {
     "id": 33,
-    "chapter": "Prose",
-    "question": "Nanukaka was the author's:",
+    "chapter": "Poetry - An Epitaph",
+    "question": "Walter de la Mare makes us aware of the:",
     "options": {
-      "A": "Maternal Uncle",
-      "B": "Brother",
-      "C": "Father",
-      "D": "Friend"
+      "A": "Inhuman conditions of modern life",
+      "B": "Beauty of nature",
+      "C": "Horrors of war",
+      "D": "Joys of childhood"
     },
     "correct": "A",
-    "explanation": "Maternal uncle in 'A Pinch of Snuff' by Manohar Malgonkar.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "Known for capturing transience of earthly beauty in 'An Epitaph'.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 34,
-    "chapter": "Prose",
-    "question": "'I Have a Dream' was delivered by:",
+    "chapter": "Poetry - An Epitaph",
+    "question": "'Here lies a most beautiful lady' is written by:",
     "options": {
-      "A": "Martin Luther King, Jr.",
-      "B": "Nelson Mandela",
-      "C": "Abraham Lincoln",
-      "D": "Barack Obama"
+      "A": "John Donne",
+      "B": "Walter de la Mare",
+      "C": "John Keats",
+      "D": "Rupert Brooke"
     },
-    "correct": "A",
-    "explanation": "Historic speech delivered on August 28, 1963.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "Opening line inscribed on the tombstone in 'An Epitaph'.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 35,
-    "chapter": "Prose",
-    "question": "Seibei was passionately interested in:",
+    "chapter": "Poetry - The Soldier",
+    "question": "Rupert Brooke is remembered as a:",
     "options": {
-      "A": "Gourds",
-      "B": "Books",
-      "C": "Paintings",
-      "D": "Stamps"
+      "A": "Metaphysical poet",
+      "B": "Romantic poet",
+      "C": "War poet",
+      "D": "Satirical poet"
     },
-    "correct": "A",
-    "explanation": "Collecting gourds in 'The Artist' by Shiga Naoya.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "English patriotic war poet who wrote 1914 Sonnets.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 36,
-    "chapter": "Poetry",
-    "question": "Who wrote 'Sweetest Love I Do Not Goe'?",
+    "chapter": "Poetry - The Soldier",
+    "question": "'The Soldier' is a sonnet containing how many lines?",
     "options": {
-      "A": "John Donne",
-      "B": "John Keats",
-      "C": "Walt Whitman",
-      "D": "Rupert Brooke"
+      "A": "12 lines",
+      "B": "16 lines",
+      "C": "10 lines",
+      "D": "14 lines"
     },
-    "correct": "A",
-    "explanation": "Metaphysical poet John Donne.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "A sonnet is strictly a 14-line poem (octave + sestet).",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 37,
-    "chapter": "Poetry",
-    "question": "'Song of Myself' is composed by:",
+    "chapter": "Poetry - Macavity",
+    "question": "'Macavity: The Mystery Cat' is written by:",
     "options": {
-      "A": "Walt Whitman",
-      "B": "W.H. Auden",
-      "C": "T.S. Eliot",
-      "D": "John Keats"
+      "A": "T.S. Eliot",
+      "B": "W.B. Yeats",
+      "C": "Ezra Pound",
+      "D": "W.H. Auden"
     },
     "correct": "A",
-    "explanation": "American poet Walt Whitman in Leaves of Grass.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "Nobel laureate T.S. Eliot in 'Old Possum's Book of Practical Cats'.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 38,
-    "chapter": "Poetry",
-    "question": "'The Soldier' is a war sonnet written by:",
+    "chapter": "Poetry - Macavity",
+    "question": "Macavity is called the:",
     "options": {
-      "A": "Rupert Brooke",
-      "B": "Wilfred Owen",
-      "C": "Siegfried Sassoon",
-      "D": "T.S. Eliot"
+      "A": "Mystery Paw",
+      "B": "Hidden Paw",
+      "C": "Magic Paw",
+      "D": "Silent Paw"
     },
-    "correct": "A",
-    "explanation": "Rupert Brooke expressing patriotism.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "He is the master criminal nicknamed 'Hidden Paw'.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 39,
-    "chapter": "Grammar",
-    "question": "He died ________ cholera.",
+    "chapter": "Poetry - Fire-Hymn",
+    "question": "Keki N. Daruwalla was by religion a:",
     "options": {
-      "A": "of",
-      "B": "from",
-      "C": "by",
-      "D": "with"
+      "A": "Hindu",
+      "B": "Muslim",
+      "C": "Zoroastrian (Parsi)",
+      "D": "Christian"
     },
-    "correct": "A",
-    "explanation": "Died 'of' a disease (cholera, malaria).",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "Indian poet writing about the Tower of Silence disposal.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 40,
-    "chapter": "Grammar",
-    "question": "He is ________ honest man.",
+    "chapter": "Poetry - Snake",
+    "question": "The poet in 'Snake' picked up a:",
     "options": {
-      "A": "an",
-      "B": "a",
-      "C": "the",
-      "D": "no article"
+      "A": "Stick",
+      "B": "Rod",
+      "C": "Stone",
+      "D": "Clumsy log"
     },
-    "correct": "A",
-    "explanation": "'Honest' starts with silent h vowel sound, hence 'an'.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "D.H. Lawrence threw a clumsy log at the drinking snake.",
+    "vvi_badge": "⭐ [VVI 2023] 🔁 5 times repeated"
   },
   {
     "id": 41,
-    "chapter": "Prose",
-    "question": "'Indian Civilization and Culture' is written by:",
+    "chapter": "Poetry - Grandmother's House",
+    "question": "'My Grandmother's House' is written by:",
     "options": {
-      "A": "Mahatma Gandhi",
-      "B": "Dr. Zakir Husain",
-      "C": "Manohar Malgonkar",
-      "D": "Martin Luther King"
+      "A": "Kamala Das",
+      "B": "Sarojini Naidu",
+      "C": "Toru Dutt",
+      "D": "Anita Desai"
     },
     "correct": "A",
-    "explanation": "Written by Father of the Nation, Mahatma Gandhi.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "Leading Indian confessional poet Kamala Das.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 42,
-    "chapter": "Prose",
-    "question": "'Bharat is My Home' is an extract from the speech of:",
+    "chapter": "Story of English",
+    "question": "The Old English Period is generally considered from:",
     "options": {
-      "A": "Dr. Zakir Husain",
-      "B": "Mahatma Gandhi",
-      "C": "Shashi Tharoor",
-      "D": "Dr. Radhakrishnan"
+      "A": "AD 1066 to 1500",
+      "B": "AD 449 to 1066",
+      "C": "AD 1500 onwards",
+      "D": "AD 400 to 800"
     },
-    "correct": "A",
-    "explanation": "Speech delivered after taking oath as 3rd President.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "Old English began with Anglo-Saxon invasion (449) till Norman Conquest (1066).",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 43,
-    "chapter": "Prose",
-    "question": "Nanukaka was the author's:",
+    "chapter": "Story of English",
+    "question": "The printing press was introduced in England by William Caxton in:",
     "options": {
-      "A": "Maternal Uncle",
-      "B": "Brother",
-      "C": "Father",
-      "D": "Friend"
+      "A": "1576",
+      "B": "1376",
+      "C": "1476",
+      "D": "1676"
     },
-    "correct": "A",
-    "explanation": "Maternal uncle in 'A Pinch of Snuff' by Manohar Malgonkar.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "Established at Westminster in 1476, revolutionizing English.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 44,
-    "chapter": "Prose",
-    "question": "'I Have a Dream' was delivered by:",
+    "chapter": "Story of English",
+    "question": "The Great Vowel Shift took place during:",
     "options": {
-      "A": "Martin Luther King, Jr.",
-      "B": "Nelson Mandela",
-      "C": "Abraham Lincoln",
-      "D": "Barack Obama"
+      "A": "Old English",
+      "B": "Modern English",
+      "C": "Post-modern English",
+      "D": "Middle English"
     },
-    "correct": "A",
-    "explanation": "Historic speech delivered on August 28, 1963.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "Key phonetic development marking the transition to Early Modern English.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 45,
-    "chapter": "Prose",
-    "question": "Seibei was passionately interested in:",
+    "chapter": "Story of English",
+    "question": "Who wrote the masterpiece 'The Canterbury Tales'?",
     "options": {
-      "A": "Gourds",
-      "B": "Books",
-      "C": "Paintings",
-      "D": "Stamps"
+      "A": "Geoffrey Chaucer",
+      "B": "William Shakespeare",
+      "C": "John Milton",
+      "D": "Edmund Spenser"
     },
     "correct": "A",
-    "explanation": "Collecting gourds in 'The Artist' by Shiga Naoya.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "Chaucer is called the Father of English Literature.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 46,
-    "chapter": "Poetry",
-    "question": "Who wrote 'Sweetest Love I Do Not Goe'?",
+    "chapter": "Story of English",
+    "question": "English used since AD 1500 till today is called:",
     "options": {
-      "A": "John Donne",
-      "B": "John Keats",
-      "C": "Walt Whitman",
-      "D": "Rupert Brooke"
+      "A": "Old English",
+      "B": "Modern English",
+      "C": "Middle English",
+      "D": "Ancient English"
     },
-    "correct": "A",
-    "explanation": "Metaphysical poet John Donne.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "From 1500 onwards is Modern English.",
+    "vvi_badge": "⭐ [VVI 2023] 🔁 5 times repeated"
   },
   {
     "id": 47,
-    "chapter": "Poetry",
-    "question": "'Song of Myself' is composed by:",
+    "chapter": "Story of English",
+    "question": "Which language has the largest number of native speakers in the world?",
     "options": {
-      "A": "Walt Whitman",
-      "B": "W.H. Auden",
-      "C": "T.S. Eliot",
-      "D": "John Keats"
+      "A": "English",
+      "B": "Hindi",
+      "C": "Chinese (Mandarin)",
+      "D": "Spanish"
     },
-    "correct": "A",
-    "explanation": "American poet Walt Whitman in Leaves of Grass.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "Mandarin Chinese has highest native speakers, while English is top lingua franca.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 5 times repeated"
   },
   {
     "id": 48,
-    "chapter": "Poetry",
-    "question": "'The Soldier' is a war sonnet written by:",
+    "chapter": "Story of English",
+    "question": "Who wrote the famous Indian English novel 'Untouchable'?",
     "options": {
-      "A": "Rupert Brooke",
-      "B": "Wilfred Owen",
-      "C": "Siegfried Sassoon",
-      "D": "T.S. Eliot"
+      "A": "R.K. Narayan",
+      "B": "Raja Rao",
+      "C": "Arundhati Roy",
+      "D": "Mulk Raj Anand"
     },
-    "correct": "A",
-    "explanation": "Rupert Brooke expressing patriotism.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "Mulk Raj Anand published 'Untouchable' in 1935.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 49,
-    "chapter": "Grammar",
-    "question": "He died ________ cholera.",
+    "chapter": "Grammar - Prepositions",
+    "question": "He died ________ cancer.",
     "options": {
       "A": "of",
       "B": "from",
@@ -682,721 +682,721 @@
       "D": "with"
     },
     "correct": "A",
-    "explanation": "Died 'of' a disease (cholera, malaria).",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "Die 'of' a specific disease (cancer, cholera, malaria).",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 8 times repeated"
   },
   {
     "id": 50,
-    "chapter": "Grammar",
-    "question": "He is ________ honest man.",
+    "chapter": "Grammar - Prepositions",
+    "question": "She is afraid ________ spiders.",
     "options": {
-      "A": "an",
-      "B": "a",
-      "C": "the",
-      "D": "no article"
+      "A": "to",
+      "B": "of",
+      "C": "from",
+      "D": "with"
     },
-    "correct": "A",
-    "explanation": "'Honest' starts with silent h vowel sound, hence 'an'.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "Afraid takes preposition 'of'.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 51,
-    "chapter": "Prose",
-    "question": "'Indian Civilization and Culture' is written by:",
+    "chapter": "Grammar - Prepositions",
+    "question": "Look ________ the blackboard.",
     "options": {
-      "A": "Mahatma Gandhi",
-      "B": "Dr. Zakir Husain",
-      "C": "Manohar Malgonkar",
-      "D": "Martin Luther King"
+      "A": "on",
+      "B": "in",
+      "C": "at",
+      "D": "upon"
     },
-    "correct": "A",
-    "explanation": "Written by Father of the Nation, Mahatma Gandhi.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "Look 'at' something specific.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 52,
-    "chapter": "Prose",
-    "question": "'Bharat is My Home' is an extract from the speech of:",
+    "chapter": "Grammar - Prepositions",
+    "question": "He congratulated me ________ my success.",
     "options": {
-      "A": "Dr. Zakir Husain",
-      "B": "Mahatma Gandhi",
-      "C": "Shashi Tharoor",
-      "D": "Dr. Radhakrishnan"
+      "A": "for",
+      "B": "at",
+      "C": "about",
+      "D": "on"
     },
-    "correct": "A",
-    "explanation": "Speech delivered after taking oath as 3rd President.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "Congratulate takes preposition 'on'.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 53,
-    "chapter": "Prose",
-    "question": "Nanukaka was the author's:",
+    "chapter": "Grammar - Prepositions",
+    "question": "The cat jumped ________ the table.",
     "options": {
-      "A": "Maternal Uncle",
-      "B": "Brother",
-      "C": "Father",
-      "D": "Friend"
+      "A": "upon (onto)",
+      "B": "in",
+      "C": "at",
+      "D": "into"
     },
     "correct": "A",
-    "explanation": "Maternal uncle in 'A Pinch of Snuff' by Manohar Malgonkar.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "Motion onto a surface uses 'upon' or 'onto'.",
+    "vvi_badge": "⭐ [VVI 2023] 🔁 5 times repeated"
   },
   {
     "id": 54,
-    "chapter": "Prose",
-    "question": "'I Have a Dream' was delivered by:",
+    "chapter": "Grammar - Prepositions",
+    "question": "He has been living here ________ 2015.",
     "options": {
-      "A": "Martin Luther King, Jr.",
-      "B": "Nelson Mandela",
-      "C": "Abraham Lincoln",
-      "D": "Barack Obama"
+      "A": "for",
+      "B": "since",
+      "C": "from",
+      "D": "by"
     },
-    "correct": "A",
-    "explanation": "Historic speech delivered on August 28, 1963.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "Point of time takes 'since'.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 55,
-    "chapter": "Prose",
-    "question": "Seibei was passionately interested in:",
+    "chapter": "Grammar - Prepositions",
+    "question": "She has been waiting for ________ two hours.",
     "options": {
-      "A": "Gourds",
-      "B": "Books",
-      "C": "Paintings",
-      "D": "Stamps"
+      "A": "since",
+      "B": "from",
+      "C": "for",
+      "D": "in"
     },
-    "correct": "A",
-    "explanation": "Collecting gourds in 'The Artist' by Shiga Naoya.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "Period/duration of time takes 'for'.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 56,
-    "chapter": "Poetry",
-    "question": "Who wrote 'Sweetest Love I Do Not Goe'?",
+    "chapter": "Grammar - Articles",
+    "question": "He is ________ honest man.",
     "options": {
-      "A": "John Donne",
-      "B": "John Keats",
-      "C": "Walt Whitman",
-      "D": "Rupert Brooke"
+      "A": "a",
+      "B": "the",
+      "C": "no article",
+      "D": "an"
     },
-    "correct": "A",
-    "explanation": "Metaphysical poet John Donne.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "'Honest' starts with a silent 'h' and vowel sound /ɒ/, hence 'an'.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 8 times repeated"
   },
   {
     "id": 57,
-    "chapter": "Poetry",
-    "question": "'Song of Myself' is composed by:",
+    "chapter": "Grammar - Articles",
+    "question": "He bought ________ umbrella yesterday.",
     "options": {
-      "A": "Walt Whitman",
-      "B": "W.H. Auden",
-      "C": "T.S. Eliot",
-      "D": "John Keats"
+      "A": "an",
+      "B": "a",
+      "C": "the",
+      "D": "no article"
     },
     "correct": "A",
-    "explanation": "American poet Walt Whitman in Leaves of Grass.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "Umbrella starts with vowel sound /ʌ/, hence 'an'.",
+    "vvi_badge": "⭐ [VVI 2023] 🔁 6 times repeated"
   },
   {
     "id": 58,
-    "chapter": "Poetry",
-    "question": "'The Soldier' is a war sonnet written by:",
+    "chapter": "Grammar - Articles",
+    "question": "Copper is ________ useful metal.",
     "options": {
-      "A": "Rupert Brooke",
-      "B": "Wilfred Owen",
-      "C": "Siegfried Sassoon",
-      "D": "T.S. Eliot"
+      "A": "an",
+      "B": "a",
+      "C": "the",
+      "D": "no article"
     },
-    "correct": "A",
-    "explanation": "Rupert Brooke expressing patriotism.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "'Useful' starts with consonant glide sound /juː/, hence 'a'.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 59,
-    "chapter": "Grammar",
-    "question": "He died ________ cholera.",
+    "chapter": "Grammar - Articles",
+    "question": "________ sun rises in the east.",
     "options": {
-      "A": "of",
-      "B": "from",
-      "C": "by",
-      "D": "with"
+      "A": "A",
+      "B": "An",
+      "C": "The",
+      "D": "No article"
     },
-    "correct": "A",
-    "explanation": "Died 'of' a disease (cholera, malaria).",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "Unique celestial bodies take the definite article 'The'.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 60,
-    "chapter": "Grammar",
-    "question": "He is ________ honest man.",
+    "chapter": "Grammar - Articles",
+    "question": "He is ________ European.",
     "options": {
       "A": "an",
-      "B": "a",
-      "C": "the",
-      "D": "no article"
+      "B": "the",
+      "C": "no article",
+      "D": "a"
     },
-    "correct": "A",
-    "explanation": "'Honest' starts with silent h vowel sound, hence 'an'.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "European starts with consonant sound /j/, so it takes 'a'.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 61,
-    "chapter": "Prose",
-    "question": "'Indian Civilization and Culture' is written by:",
+    "chapter": "Grammar - Voice",
+    "question": "Choose the correct passive voice: 'He writes a letter.'",
     "options": {
-      "A": "Mahatma Gandhi",
-      "B": "Dr. Zakir Husain",
-      "C": "Manohar Malgonkar",
-      "D": "Martin Luther King"
+      "A": "A letter is written by him.",
+      "B": "A letter was written by him.",
+      "C": "A letter is being written by him.",
+      "D": "A letter has been written by him."
     },
     "correct": "A",
-    "explanation": "Written by Father of the Nation, Mahatma Gandhi.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "Simple present active converts to: Object + is/are + V3 + by + Subject.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 62,
-    "chapter": "Prose",
-    "question": "'Bharat is My Home' is an extract from the speech of:",
+    "chapter": "Grammar - Voice",
+    "question": "Choose the correct passive voice: 'Who taught you English?'",
     "options": {
-      "A": "Dr. Zakir Husain",
-      "B": "Mahatma Gandhi",
-      "C": "Shashi Tharoor",
-      "D": "Dr. Radhakrishnan"
+      "A": "By who was you taught English?",
+      "B": "By whom were you taught English?",
+      "C": "Who was English taught by you?",
+      "D": "Whom was taught English by you?"
     },
-    "correct": "A",
-    "explanation": "Speech delivered after taking oath as 3rd President.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "Who converts to 'By whom + auxiliary + subject + V3'.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 63,
-    "chapter": "Prose",
-    "question": "Nanukaka was the author's:",
+    "chapter": "Grammar - Voice",
+    "question": "Choose the correct passive voice: 'Close the door.'",
     "options": {
-      "A": "Maternal Uncle",
-      "B": "Brother",
-      "C": "Father",
-      "D": "Friend"
+      "A": "The door should be close.",
+      "B": "You close the door.",
+      "C": "Let the door be closed.",
+      "D": "Let the door close."
     },
-    "correct": "A",
-    "explanation": "Maternal uncle in 'A Pinch of Snuff' by Manohar Malgonkar.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "Imperative order converts to 'Let + object + be + V3'.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 64,
-    "chapter": "Prose",
-    "question": "'I Have a Dream' was delivered by:",
+    "chapter": "Grammar - Narration",
+    "question": "Choose the correct indirect narration: He said, 'I am unwell.'",
     "options": {
-      "A": "Martin Luther King, Jr.",
-      "B": "Nelson Mandela",
-      "C": "Abraham Lincoln",
-      "D": "Barack Obama"
+      "A": "He said that I am unwell.",
+      "B": "He says that he is unwell.",
+      "C": "He said that he is unwell.",
+      "D": "He said that he was unwell."
     },
-    "correct": "A",
-    "explanation": "Historic speech delivered on August 28, 1963.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "Past reporting verb turns present 'am' into 'was'.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 65,
-    "chapter": "Prose",
-    "question": "Seibei was passionately interested in:",
+    "chapter": "Grammar - Narration",
+    "question": "The teacher said, 'The earth moves round the sun.'",
     "options": {
-      "A": "Gourds",
-      "B": "Books",
-      "C": "Paintings",
-      "D": "Stamps"
+      "A": "The teacher said that the earth moves round the sun.",
+      "B": "The teacher said that the earth moved round the sun.",
+      "C": "The teacher told that the earth was moving round the sun.",
+      "D": "The teacher says that the earth moved round the sun."
     },
     "correct": "A",
-    "explanation": "Collecting gourds in 'The Artist' by Shiga Naoya.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "Universal truths do not change tense in reported speech.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 66,
-    "chapter": "Poetry",
-    "question": "Who wrote 'Sweetest Love I Do Not Goe'?",
+    "chapter": "Grammar - Tenses",
+    "question": "Water ________ at 100°C.",
     "options": {
-      "A": "John Donne",
-      "B": "John Keats",
-      "C": "Walt Whitman",
-      "D": "Rupert Brooke"
+      "A": "boiled",
+      "B": "boils",
+      "C": "is boiling",
+      "D": "boil"
     },
-    "correct": "A",
-    "explanation": "Metaphysical poet John Donne.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "Scientific facts use Simple Present (3rd person singular 'boils').",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 67,
-    "chapter": "Poetry",
-    "question": "'Song of Myself' is composed by:",
+    "chapter": "Grammar - Conditionals",
+    "question": "If it rains, we ________ at home.",
     "options": {
-      "A": "Walt Whitman",
-      "B": "W.H. Auden",
-      "C": "T.S. Eliot",
-      "D": "John Keats"
+      "A": "would stay",
+      "B": "stayed",
+      "C": "shall stay",
+      "D": "had stayed"
     },
-    "correct": "A",
-    "explanation": "American poet Walt Whitman in Leaves of Grass.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "First conditional: If + simple present, main clause + will/shall + V1.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 68,
-    "chapter": "Poetry",
-    "question": "'The Soldier' is a war sonnet written by:",
+    "chapter": "Grammar - Subject-Verb Agreement",
+    "question": "Neither of the boys ________ present.",
     "options": {
-      "A": "Rupert Brooke",
-      "B": "Wilfred Owen",
-      "C": "Siegfried Sassoon",
-      "D": "T.S. Eliot"
+      "A": "were",
+      "B": "are",
+      "C": "have been",
+      "D": "was"
     },
-    "correct": "A",
-    "explanation": "Rupert Brooke expressing patriotism.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "'Neither of' takes a singular verb ('was').",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 69,
-    "chapter": "Grammar",
-    "question": "He died ________ cholera.",
+    "chapter": "Grammar - Subject-Verb Agreement",
+    "question": "Slow and steady ________ the race.",
     "options": {
-      "A": "of",
-      "B": "from",
-      "C": "by",
-      "D": "with"
+      "A": "wins",
+      "B": "win",
+      "C": "winning",
+      "D": "won"
     },
     "correct": "A",
-    "explanation": "Died 'of' a disease (cholera, malaria).",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "Two singular nouns expressing one single idea take a singular verb.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 70,
-    "chapter": "Grammar",
-    "question": "He is ________ honest man.",
+    "chapter": "Grammar - Spelling",
+    "question": "Choose the correct spelling of 'Grammar':",
     "options": {
-      "A": "an",
-      "B": "a",
-      "C": "the",
-      "D": "no article"
+      "A": "Grammer",
+      "B": "Grammar",
+      "C": "Grammr",
+      "D": "Gramer"
     },
-    "correct": "A",
-    "explanation": "'Honest' starts with silent h vowel sound, hence 'an'.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "Correct spelling is G-R-A-M-M-A-R.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 71,
-    "chapter": "Prose",
-    "question": "'Indian Civilization and Culture' is written by:",
+    "chapter": "Grammar - Spelling",
+    "question": "Choose the correct spelling of 'Committee':",
     "options": {
-      "A": "Mahatma Gandhi",
-      "B": "Dr. Zakir Husain",
-      "C": "Manohar Malgonkar",
-      "D": "Martin Luther King"
+      "A": "Comitee",
+      "B": "Commitee",
+      "C": "Committee",
+      "D": "Committe"
     },
-    "correct": "A",
-    "explanation": "Written by Father of the Nation, Mahatma Gandhi.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "Double m, double t, double e: C-O-M-M-I-T-T-E-E.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 8 times repeated"
   },
   {
     "id": 72,
-    "chapter": "Prose",
-    "question": "'Bharat is My Home' is an extract from the speech of:",
+    "chapter": "Grammar - Spelling",
+    "question": "Choose the correct spelling of 'Lieutenant':",
     "options": {
-      "A": "Dr. Zakir Husain",
-      "B": "Mahatma Gandhi",
-      "C": "Shashi Tharoor",
-      "D": "Dr. Radhakrishnan"
+      "A": "Leutenant",
+      "B": "Lieutennant",
+      "C": "Luitenant",
+      "D": "Lieutenant"
     },
-    "correct": "A",
-    "explanation": "Speech delivered after taking oath as 3rd President.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "Correct spelling: L-I-E-U-T-E-N-A-N-T.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 73,
-    "chapter": "Prose",
-    "question": "Nanukaka was the author's:",
+    "chapter": "Grammar - Spelling",
+    "question": "Choose the correct spelling of 'Receive':",
     "options": {
-      "A": "Maternal Uncle",
-      "B": "Brother",
-      "C": "Father",
-      "D": "Friend"
+      "A": "Receive",
+      "B": "recieve",
+      "C": "receeve",
+      "D": "receve"
     },
     "correct": "A",
-    "explanation": "Maternal uncle in 'A Pinch of Snuff' by Manohar Malgonkar.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "Rule: i before e except after c (R-E-C-E-I-V-E).",
+    "vvi_badge": "⭐ [VVI 2023] 🔁 6 times repeated"
   },
   {
     "id": 74,
-    "chapter": "Prose",
-    "question": "'I Have a Dream' was delivered by:",
+    "chapter": "Grammar - Spelling",
+    "question": "Choose the correct spelling of 'Separate':",
     "options": {
-      "A": "Martin Luther King, Jr.",
-      "B": "Nelson Mandela",
-      "C": "Abraham Lincoln",
-      "D": "Barack Obama"
+      "A": "Seperate",
+      "B": "Separate",
+      "C": "Seprate",
+      "D": "Separat"
     },
-    "correct": "A",
-    "explanation": "Historic speech delivered on August 28, 1963.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "S-E-P-A-R-A-T-E (there is an 'a' in the middle).",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 75,
-    "chapter": "Prose",
-    "question": "Seibei was passionately interested in:",
+    "chapter": "Grammar - One Word Substitution",
+    "question": "A person who does not believe in the existence of God:",
     "options": {
-      "A": "Gourds",
-      "B": "Books",
-      "C": "Paintings",
-      "D": "Stamps"
+      "A": "Theist",
+      "B": "Agnostic",
+      "C": "Atheist",
+      "D": "Devotee"
     },
-    "correct": "A",
-    "explanation": "Collecting gourds in 'The Artist' by Shiga Naoya.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "Atheist = one who lacks belief in God.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 76,
-    "chapter": "Poetry",
-    "question": "Who wrote 'Sweetest Love I Do Not Goe'?",
+    "chapter": "Grammar - One Word Substitution",
+    "question": "A handwriting that cannot be easily read:",
     "options": {
-      "A": "John Donne",
-      "B": "John Keats",
-      "C": "Walt Whitman",
-      "D": "Rupert Brooke"
+      "A": "Eligible",
+      "B": "Legible",
+      "C": "Illiterate",
+      "D": "Illegible"
     },
-    "correct": "A",
-    "explanation": "Metaphysical poet John Donne.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "Illegible = impossible or hard to read.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 77,
-    "chapter": "Poetry",
-    "question": "'Song of Myself' is composed by:",
+    "chapter": "Grammar - Vocabulary",
+    "question": "What is the synonym of 'Abandon'?",
     "options": {
-      "A": "Walt Whitman",
-      "B": "W.H. Auden",
-      "C": "T.S. Eliot",
-      "D": "John Keats"
+      "A": "Forsake (Leave)",
+      "B": "Keep",
+      "C": "Hold",
+      "D": "Protect"
     },
     "correct": "A",
-    "explanation": "American poet Walt Whitman in Leaves of Grass.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "Abandon means to give up or forsake completely.",
+    "vvi_badge": "⭐ [VVI 2023] 🔁 5 times repeated"
   },
   {
     "id": 78,
-    "chapter": "Poetry",
-    "question": "'The Soldier' is a war sonnet written by:",
+    "chapter": "Grammar - Vocabulary",
+    "question": "What is the antonym of 'Virtue'?",
     "options": {
-      "A": "Rupert Brooke",
-      "B": "Wilfred Owen",
-      "C": "Siegfried Sassoon",
-      "D": "T.S. Eliot"
+      "A": "Goodness",
+      "B": "Vice",
+      "C": "Honesty",
+      "D": "Purity"
     },
-    "correct": "A",
-    "explanation": "Rupert Brooke expressing patriotism.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "Virtue (morality) has the opposite Vice (wickedness).",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 79,
-    "chapter": "Grammar",
-    "question": "He died ________ cholera.",
+    "chapter": "Grammar - Idioms",
+    "question": "The idiom 'A red letter day' means:",
     "options": {
-      "A": "of",
-      "B": "from",
-      "C": "by",
-      "D": "with"
+      "A": "A bloody day",
+      "B": "A danger day",
+      "C": "A memorable / important day",
+      "D": "A holiday"
     },
-    "correct": "A",
-    "explanation": "Died 'of' a disease (cholera, malaria).",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "A day that is pleasantly noteworthy or momentous.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 80,
-    "chapter": "Grammar",
-    "question": "He is ________ honest man.",
+    "chapter": "Grammar - Idioms",
+    "question": "The idiom 'Apple of one's eye' means:",
     "options": {
-      "A": "an",
-      "B": "a",
-      "C": "the",
-      "D": "no article"
+      "A": "Blind",
+      "B": "An apple seller",
+      "C": "An enemy",
+      "D": "Very dear"
     },
-    "correct": "A",
-    "explanation": "'Honest' starts with silent h vowel sound, hence 'an'.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "Someone very cherished and loved.",
+    "vvi_badge": "⭐ [VVI 2023] 🔁 5 times repeated"
   },
   {
     "id": 81,
-    "chapter": "Prose",
-    "question": "'Indian Civilization and Culture' is written by:",
+    "chapter": "Grammar - Modals",
+    "question": "Choose the correct modal auxiliary: 'We ________ obey the laws of the country.'",
     "options": {
-      "A": "Mahatma Gandhi",
-      "B": "Dr. Zakir Husain",
-      "C": "Manohar Malgonkar",
-      "D": "Martin Luther King"
+      "A": "must",
+      "B": "may",
+      "C": "might",
+      "D": "could"
     },
     "correct": "A",
-    "explanation": "Written by Father of the Nation, Mahatma Gandhi.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "'Must' indicates strong moral or legal obligation.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 82,
-    "chapter": "Prose",
-    "question": "'Bharat is My Home' is an extract from the speech of:",
+    "chapter": "Grammar - Modals",
+    "question": "He ________ swim across the river when he was young.",
     "options": {
-      "A": "Dr. Zakir Husain",
-      "B": "Mahatma Gandhi",
-      "C": "Shashi Tharoor",
-      "D": "Dr. Radhakrishnan"
+      "A": "can",
+      "B": "could",
+      "C": "may",
+      "D": "might"
     },
-    "correct": "A",
-    "explanation": "Speech delivered after taking oath as 3rd President.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "Past ability is expressed using 'could'.",
+    "vvi_badge": "⭐ [VVI 2023] 🔁 5 times repeated"
   },
   {
     "id": 83,
-    "chapter": "Prose",
-    "question": "Nanukaka was the author's:",
+    "chapter": "Grammar - Prepositions",
+    "question": "She died ________ fatigue (overwork).",
     "options": {
-      "A": "Maternal Uncle",
-      "B": "Brother",
-      "C": "Father",
-      "D": "Friend"
+      "A": "of",
+      "B": "with",
+      "C": "from",
+      "D": "in"
     },
-    "correct": "A",
-    "explanation": "Maternal uncle in 'A Pinch of Snuff' by Manohar Malgonkar.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "Die 'from' a cause other than disease (thirst, hunger, overwork).",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 84,
-    "chapter": "Prose",
-    "question": "'I Have a Dream' was delivered by:",
+    "chapter": "Grammar - Prepositions",
+    "question": "The dog barked ________ the stranger.",
     "options": {
-      "A": "Martin Luther King, Jr.",
-      "B": "Nelson Mandela",
-      "C": "Abraham Lincoln",
-      "D": "Barack Obama"
+      "A": "on",
+      "B": "to",
+      "C": "with",
+      "D": "at"
     },
-    "correct": "A",
-    "explanation": "Historic speech delivered on August 28, 1963.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "Bark 'at' someone.",
+    "vvi_badge": "⭐ [VVI 2023] 🔁 5 times repeated"
   },
   {
     "id": 85,
-    "chapter": "Prose",
-    "question": "Seibei was passionately interested in:",
+    "chapter": "Grammar - Prepositions",
+    "question": "He divided the property ________ his two sons.",
     "options": {
-      "A": "Gourds",
-      "B": "Books",
-      "C": "Paintings",
-      "D": "Stamps"
+      "A": "between",
+      "B": "among",
+      "C": "in",
+      "D": "into"
     },
     "correct": "A",
-    "explanation": "Collecting gourds in 'The Artist' by Shiga Naoya.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "'Between' is used strictly for two persons or items.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 86,
-    "chapter": "Poetry",
-    "question": "Who wrote 'Sweetest Love I Do Not Goe'?",
+    "chapter": "Grammar - Prepositions",
+    "question": "Distribute the sweets ________ the students.",
     "options": {
-      "A": "John Donne",
-      "B": "John Keats",
-      "C": "Walt Whitman",
-      "D": "Rupert Brooke"
+      "A": "between",
+      "B": "among",
+      "C": "in",
+      "D": "with"
     },
-    "correct": "A",
-    "explanation": "Metaphysical poet John Donne.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "'Among' is used for more than two persons.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 87,
-    "chapter": "Poetry",
-    "question": "'Song of Myself' is composed by:",
+    "chapter": "Grammar - Prepositions",
+    "question": "He is junior ________ me.",
     "options": {
-      "A": "Walt Whitman",
-      "B": "W.H. Auden",
-      "C": "T.S. Eliot",
-      "D": "John Keats"
+      "A": "than",
+      "B": "from",
+      "C": "to",
+      "D": "with"
     },
-    "correct": "A",
-    "explanation": "American poet Walt Whitman in Leaves of Grass.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "Latin adjectives ending in -ior (junior, senior, superior) take 'to', not 'than'.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 88,
-    "chapter": "Poetry",
-    "question": "'The Soldier' is a war sonnet written by:",
+    "chapter": "Grammar - Prepositions",
+    "question": "He prefers tea ________ coffee.",
     "options": {
-      "A": "Rupert Brooke",
-      "B": "Wilfred Owen",
-      "C": "Siegfried Sassoon",
-      "D": "T.S. Eliot"
+      "A": "than",
+      "B": "from",
+      "C": "over",
+      "D": "to"
     },
-    "correct": "A",
-    "explanation": "Rupert Brooke expressing patriotism.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "'Prefer' takes the preposition 'to'.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 89,
-    "chapter": "Grammar",
-    "question": "He died ________ cholera.",
+    "chapter": "Grammar - Prepositions",
+    "question": "The train arrived ________ the station on time.",
     "options": {
-      "A": "of",
-      "B": "from",
-      "C": "by",
-      "D": "with"
+      "A": "at",
+      "B": "in",
+      "C": "on",
+      "D": "to"
     },
     "correct": "A",
-    "explanation": "Died 'of' a disease (cholera, malaria).",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "Arrive 'at' a small place or station.",
+    "vvi_badge": "⭐ [VVI 2023] 🔁 5 times repeated"
   },
   {
     "id": 90,
-    "chapter": "Grammar",
-    "question": "He is ________ honest man.",
+    "chapter": "Grammar - Prepositions",
+    "question": "He was prevented ________ going there.",
     "options": {
-      "A": "an",
-      "B": "a",
-      "C": "the",
-      "D": "no article"
+      "A": "to",
+      "B": "from",
+      "C": "by",
+      "D": "of"
     },
-    "correct": "A",
-    "explanation": "'Honest' starts with silent h vowel sound, hence 'an'.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "Prevent takes preposition 'from + V-ing'.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 91,
-    "chapter": "Prose",
-    "question": "'Indian Civilization and Culture' is written by:",
+    "chapter": "Grammar - Prepositions",
+    "question": "He succeeded ________ passing the examination.",
     "options": {
-      "A": "Mahatma Gandhi",
-      "B": "Dr. Zakir Husain",
-      "C": "Manohar Malgonkar",
-      "D": "Martin Luther King"
+      "A": "at",
+      "B": "on",
+      "C": "in",
+      "D": "with"
     },
-    "correct": "A",
-    "explanation": "Written by Father of the Nation, Mahatma Gandhi.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "Succeed takes preposition 'in + V-ing'.",
+    "vvi_badge": "⭐ [VVI 2023] 🔁 5 times repeated"
   },
   {
     "id": 92,
-    "chapter": "Prose",
-    "question": "'Bharat is My Home' is an extract from the speech of:",
+    "chapter": "Grammar - Spelling",
+    "question": "Choose the correct spelling of 'Occasion':",
     "options": {
-      "A": "Dr. Zakir Husain",
-      "B": "Mahatma Gandhi",
-      "C": "Shashi Tharoor",
-      "D": "Dr. Radhakrishnan"
+      "A": "Occassion",
+      "B": "Ocasion",
+      "C": "Occation",
+      "D": "Occasion"
     },
-    "correct": "A",
-    "explanation": "Speech delivered after taking oath as 3rd President.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "O-C-C-A-S-I-O-N (double c, single s).",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 93,
-    "chapter": "Prose",
-    "question": "Nanukaka was the author's:",
+    "chapter": "Grammar - Spelling",
+    "question": "Choose the correct spelling of 'Privilege':",
     "options": {
-      "A": "Maternal Uncle",
-      "B": "Brother",
-      "C": "Father",
-      "D": "Friend"
+      "A": "Privilege",
+      "B": "Privelege",
+      "C": "Privilage",
+      "D": "Priviledge"
     },
     "correct": "A",
-    "explanation": "Maternal uncle in 'A Pinch of Snuff' by Manohar Malgonkar.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "P-R-I-V-I-L-E-G-E.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 94,
-    "chapter": "Prose",
-    "question": "'I Have a Dream' was delivered by:",
+    "chapter": "Grammar - Spelling",
+    "question": "Choose the correct spelling of 'Environment':",
     "options": {
-      "A": "Martin Luther King, Jr.",
-      "B": "Nelson Mandela",
-      "C": "Abraham Lincoln",
-      "D": "Barack Obama"
+      "A": "Enviroment",
+      "B": "Environment",
+      "C": "Environmant",
+      "D": "Enviornment"
     },
-    "correct": "A",
-    "explanation": "Historic speech delivered on August 28, 1963.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "E-N-V-I-R-O-N-M-E-N-T.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 95,
-    "chapter": "Prose",
-    "question": "Seibei was passionately interested in:",
+    "chapter": "Grammar - Articles",
+    "question": "I have ________ headache.",
     "options": {
-      "A": "Gourds",
-      "B": "Books",
-      "C": "Paintings",
-      "D": "Stamps"
+      "A": "an",
+      "B": "the",
+      "C": "a",
+      "D": "no article"
     },
-    "correct": "A",
-    "explanation": "Collecting gourds in 'The Artist' by Shiga Naoya.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "Idiomatic phrase: 'have a headache'.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 96,
-    "chapter": "Poetry",
-    "question": "Who wrote 'Sweetest Love I Do Not Goe'?",
+    "chapter": "Grammar - Articles",
+    "question": "He plays ________ flute very well.",
     "options": {
-      "A": "John Donne",
-      "B": "John Keats",
-      "C": "Walt Whitman",
-      "D": "Rupert Brooke"
+      "A": "a",
+      "B": "an",
+      "C": "no article",
+      "D": "the"
     },
-    "correct": "A",
-    "explanation": "Metaphysical poet John Donne.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "Musical instruments take the definite article 'the'.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   },
   {
     "id": 97,
-    "chapter": "Poetry",
-    "question": "'Song of Myself' is composed by:",
+    "chapter": "Grammar - Nouns",
+    "question": "The plural of 'Foot' is:",
     "options": {
-      "A": "Walt Whitman",
-      "B": "W.H. Auden",
-      "C": "T.S. Eliot",
-      "D": "John Keats"
+      "A": "Feet",
+      "B": "Foots",
+      "C": "Feets",
+      "D": "Footes"
     },
     "correct": "A",
-    "explanation": "American poet Walt Whitman in Leaves of Grass.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "Irregular plural: foot becomes feet.",
+    "vvi_badge": "⭐ [VVI 2023] 🔁 5 times repeated"
   },
   {
     "id": 98,
-    "chapter": "Poetry",
-    "question": "'The Soldier' is a war sonnet written by:",
+    "chapter": "Grammar - Nouns",
+    "question": "The plural of 'Ox' is:",
     "options": {
-      "A": "Rupert Brooke",
-      "B": "Wilfred Owen",
-      "C": "Siegfried Sassoon",
-      "D": "T.S. Eliot"
+      "A": "Oxes",
+      "B": "Oxen",
+      "C": "Oxs",
+      "D": "Oxens"
     },
-    "correct": "A",
-    "explanation": "Rupert Brooke expressing patriotism.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "Irregular plural: ox becomes oxen.",
+    "vvi_badge": "⭐ [VVI 2023] 🔁 5 times repeated"
   },
   {
     "id": 99,
-    "chapter": "Grammar",
-    "question": "He died ________ cholera.",
+    "chapter": "Grammar - Subject-Verb Agreement",
+    "question": "Bread and butter ________ his favourite breakfast.",
     "options": {
-      "A": "of",
-      "B": "from",
-      "C": "by",
-      "D": "with"
+      "A": "are",
+      "B": "were",
+      "C": "is",
+      "D": "have been"
     },
-    "correct": "A",
-    "explanation": "Died 'of' a disease (cholera, malaria).",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "Viewed as a single combined dish, takes singular verb 'is'.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 times repeated"
   },
   {
     "id": 100,
-    "chapter": "Grammar",
-    "question": "He is ________ honest man.",
+    "chapter": "Grammar - Subject-Verb Agreement",
+    "question": "Ten miles ________ a long distance to walk.",
     "options": {
-      "A": "an",
-      "B": "a",
-      "C": "the",
-      "D": "no article"
+      "A": "are",
+      "B": "were",
+      "C": "have",
+      "D": "is"
     },
-    "correct": "A",
-    "explanation": "'Honest' starts with silent h vowel sound, hence 'an'.",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "A specific quantity or unit of distance takes a singular verb.",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 times repeated"
   }
 ]

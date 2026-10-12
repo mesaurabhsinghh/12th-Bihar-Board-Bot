@@ -1,568 +1,568 @@
 [
   {
     "id": 1,
-    "chapter": "आव्यूह",
-    "question": "यदि A = [aᵢⱼ]ₘ×ₙ एक वर्ग आव्यूह (Square matrix) है, यदि:",
+    "chapter": "संबंध एवं फलन",
+    "question": "यदि f: R → R, f(x) = 3 - 4x द्वारा परिभाषित है, तो f है:",
     "options": {
-      "A": "m = n",
-      "B": "m < n",
-      "C": "m > n",
-      "D": "m ≠ n"
+      "A": "एकैकी आच्छादक (Bijective)",
+      "B": "केवल एकैकी",
+      "C": "केवल आच्छादक",
+      "D": "अनेकैक"
     },
     "correct": "A",
-    "explanation": "वर्ग आव्यूह में पंक्तियों और स्तंभों की संख्या समान होती है।",
-    "vvi_badge": "⭐ [VVI 2024] 🔁 7 बार पूछा गया"
+    "explanation": "रैखिक फलन f(x) = ax + b (जहाँ a ≠ 0) हमेशा एकैकी और आच्छादक होता है।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 बार पूछा गया"
   },
   {
     "id": 2,
-    "chapter": "अवकलन",
-    "question": "d/dx (sin x) का मान क्या होगा?",
+    "chapter": "प्रतिलोम त्रिकोणमितीय फलन",
+    "question": "sin⁻¹(1/√2) का मुख्य मान क्या है?",
     "options": {
-      "A": "cos x",
-      "B": "-cos x",
-      "C": "sec x",
-      "D": "-sin x"
+      "A": "π/3",
+      "B": "π/4",
+      "C": "π/6",
+      "D": "3π/4"
     },
-    "correct": "A",
-    "explanation": "d/dx(sin x) = cos x।",
-    "vvi_badge": "⭐ [VVI 2024] 🔁 6 बार पूछा गया"
-  },
-  {
-    "id": 3,
-    "chapter": "अवकलन",
-    "question": "d/dx (tan x) का मान क्या होगा?",
-    "options": {
-      "A": "sec²x",
-      "B": "-sec²x",
-      "C": "cosec²x",
-      "D": "cot x"
-    },
-    "correct": "A",
-    "explanation": "d/dx(tan x) = sec²x।",
-    "vvi_badge": "⭐ [VVI 2024] 🔁 5 बार पूछा गया"
-  },
-  {
-    "id": 4,
-    "chapter": "समाकलन",
-    "question": "∫ x dx का मान होगा:",
-    "options": {
-      "A": "x²/2 + k",
-      "B": "x² + k",
-      "C": "2x + k",
-      "D": "x³/3 + k"
-    },
-    "correct": "A",
-    "explanation": "∫ x dx = x²/2 + k।",
-    "vvi_badge": "⭐ [VVI 2024] 🔁 6 बार पूछा गया"
-  },
-  {
-    "id": 5,
-    "chapter": "समाकलन",
-    "question": "∫ eˣ dx का मान होगा:",
-    "options": {
-      "A": "eˣ + k",
-      "B": "-eˣ + k",
-      "C": "x eˣ + k",
-      "D": "e⁻ˣ + k"
-    },
-    "correct": "A",
-    "explanation": "∫ eˣ dx = eˣ + k।",
-    "vvi_badge": "⭐ [VVI 2024] 🔁 5 बार पूछा गया"
-  },
-  {
-    "id": 6,
-    "chapter": "समाकलन",
-    "question": "∫ (1/x) dx का मान होगा:",
-    "options": {
-      "A": "log|x| + k",
-      "B": "-1/x² + k",
-      "C": "1/x + k",
-      "D": "x + k"
-    },
-    "correct": "A",
-    "explanation": "∫ (1/x) dx = log|x| + k।",
-    "vvi_badge": "⭐ [VVI 2024] 🔁 6 बार पूछा गया"
-  },
-  {
-    "id": 7,
-    "chapter": "ITF",
-    "question": "sin⁻¹(x) + cos⁻¹(x) का मान क्या होगा?",
-    "options": {
-      "A": "π/2",
-      "B": "π",
-      "C": "π/4",
-      "D": "0"
-    },
-    "correct": "A",
-    "explanation": "सर्वसमिका: sin⁻¹x + cos⁻¹x = π/2।",
+    "correct": "B",
+    "explanation": "sin(π/4) = 1/√2, अतः मुख्य मान π/4 है।",
     "vvi_badge": "⭐ [VVI 2024] 🔁 7 बार पूछा गया"
   },
   {
-    "id": 8,
-    "chapter": "ITF",
-    "question": "tan⁻¹(1) का मुख्य मान क्या है?",
+    "id": 3,
+    "chapter": "प्रतिलोम त्रिकोणमितीय फलन",
+    "question": "tan⁻¹(1) + tan⁻¹(1/3) का मान किसके बराबर है?",
     "options": {
-      "A": "π/4",
+      "A": "tan⁻¹(1/2)",
       "B": "π/2",
-      "C": "π/3",
-      "D": "π/6"
+      "C": "tan⁻¹(2)",
+      "D": "π/4"
+    },
+    "correct": "C",
+    "explanation": "tan⁻¹((1 + 1/3) / (1 - 1/3)) = tan⁻¹((4/3)/(2/3)) = tan⁻¹(2)।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 बार पूछा गया"
+  },
+  {
+    "id": 4,
+    "chapter": "प्रतिलोम त्रिकोणमितीय फलन",
+    "question": "sin⁻¹(x) + cos⁻¹(x) का मान क्या होता है? (जहाँ |x| ≤ 1)",
+    "options": {
+      "A": "π",
+      "B": "0",
+      "C": "2π",
+      "D": "π/2"
+    },
+    "correct": "D",
+    "explanation": "मानक सर्वसमिका sin⁻¹x + cos⁻¹x = π/2।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 8 बार पूछा गया"
+  },
+  {
+    "id": 5,
+    "chapter": "प्रतिलोम त्रिकोणमितीय फलन",
+    "question": "tan⁻¹(x) + cot⁻¹(x) बराबर होता है:",
+    "options": {
+      "A": "π/2",
+      "B": "π",
+      "C": "0",
+      "D": "π/4"
     },
     "correct": "A",
-    "explanation": "tan(π/4) = 1, अतः π/4।",
+    "explanation": "tan⁻¹x + cot⁻¹x = π/2 सभी वास्तविक x के लिए सत्य है।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 बार पूछा गया"
+  },
+  {
+    "id": 6,
+    "chapter": "प्रतिलोम त्रिकोणमितीय फलन",
+    "question": "sec⁻¹(x) + cosec⁻¹(x) का मान है:",
+    "options": {
+      "A": "π",
+      "B": "π/2",
+      "C": "1",
+      "D": "0"
+    },
+    "correct": "B",
+    "explanation": "मानक सूत्र sec⁻¹x + cosec⁻¹x = π/2।",
+    "vvi_badge": "⭐ [VVI 2023] 🔁 5 बार पूछा गया"
+  },
+  {
+    "id": 7,
+    "chapter": "प्रतिलोम त्रिकोणमितीय फलन",
+    "question": "2 tan⁻¹(x) बराबर होता है:",
+    "options": {
+      "A": "sin⁻¹(2x / (1 - x²))",
+      "B": "cos⁻¹(2x / (1 + x²))",
+      "C": "sin⁻¹(2x / (1 + x²))",
+      "D": "tan⁻¹(2x / (1 + x²))"
+    },
+    "correct": "C",
+    "explanation": "2 tan⁻¹x = sin⁻¹(2x/(1+x²)) = cos⁻¹((1-x²)/(1+x²))।",
     "vvi_badge": "⭐ [VVI 2024] 🔁 6 बार पूछा गया"
+  },
+  {
+    "id": 8,
+    "chapter": "आव्यूह (Matrices)",
+    "question": "एक वर्ग आव्यूह A = [aᵢⱼ]ₘₓₙ एक वर्ग आव्यूह है यदि:",
+    "options": {
+      "A": "m < n",
+      "B": "m > n",
+      "C": "m + n = 0",
+      "D": "m = n"
+    },
+    "correct": "D",
+    "explanation": "पंक्तियों की संख्या और स्तंभों की संख्या बराबर (m = n) होने पर वर्ग आव्यूह होता है।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 8 बार पूछा गया"
   },
   {
     "id": 9,
-    "chapter": "सदिश बीजगणित",
-    "question": "î · î का मान क्या होगा?",
+    "chapter": "आव्यूह (Matrices)",
+    "question": "यदि आव्यूह A का क्रम 2 × 3 तथा B का क्रम 3 × 2 है, तो AB का क्रम क्या होगा?",
     "options": {
-      "A": "1",
-      "B": "0",
-      "C": "k̂",
-      "D": "-1"
+      "A": "2 × 2",
+      "B": "3 × 3",
+      "C": "2 × 3",
+      "D": "3 × 2"
     },
     "correct": "A",
-    "explanation": "समान एकांक सदिशों का डॉट प्रोडक्ट 1 होता है।",
-    "vvi_badge": "⭐ [VVI 2024] 🔁 6 बार पूछा गया"
+    "explanation": "(2 × 3) × (3 × 2) = 2 × 2।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 बार पूछा गया"
   },
   {
     "id": 10,
-    "chapter": "सदिश बीजगणित",
-    "question": "î × ĵ का मान क्या होगा?",
+    "chapter": "सारणिक (Determinants)",
+    "question": "यदि A एक 3 × 3 वर्ग आव्यूह है, तो |kA| बराबर होगा:",
     "options": {
-      "A": "k̂",
-      "B": "-k̂",
-      "C": "0",
-      "D": "1"
+      "A": "k |A|",
+      "B": "k³ |A|",
+      "C": "k² |A|",
+      "D": "3k |A|"
     },
-    "correct": "A",
-    "explanation": "दाहिने हाथ के नियम से î × ĵ = k̂।",
-    "vvi_badge": "⭐ [VVI 2024] 🔁 6 बार पूछा गया"
+    "correct": "B",
+    "explanation": "n क्रम के वर्ग आव्यूह के लिए |kA| = kⁿ |A|, यहाँ n = 3 अतः k³|A|।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 8 बार पूछा गया"
   },
   {
     "id": 11,
-    "chapter": "3D ज्यामिति",
-    "question": "x-अक्ष की दिक्-कोज्याएँ (Direction cosines) क्या हैं?",
+    "chapter": "सारणिक (Determinants)",
+    "question": "सारणिक |[1, 2], [3, 4]| का मान क्या होगा?",
     "options": {
-      "A": "(1, 0, 0)",
-      "B": "(0, 1, 0)",
-      "C": "(0, 0, 1)",
-      "D": "(1, 1, 1)"
+      "A": "2",
+      "B": "10",
+      "C": "-2",
+      "D": "-10"
     },
-    "correct": "A",
-    "explanation": "x-अक्ष के लिए cos 0°=1, cos 90°=0, cos 90°=0 ⇒ (1, 0, 0)।",
-    "vvi_badge": "⭐ [VVI 2024] 🔁 5 बार पूछा गया"
+    "correct": "C",
+    "explanation": "1×4 - 2×3 = 4 - 6 = -2।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 बार पूछा गया"
   },
   {
     "id": 12,
-    "chapter": "प्रायिकता",
-    "question": "यदि P(A) = 1/2, P(B) = 0 हो, तो P(A|B) का मान क्या होगा?",
+    "chapter": "सारणिक (Determinants)",
+    "question": "यदि सारणिक की कोई दो पंक्तियाँ या स्तंभ सर्वसम (समान) हों, तो सारणिक का मान होता है:",
     "options": {
-      "A": "अपरिभाषित (Not defined)",
-      "B": "0",
-      "C": "1/2",
-      "D": "1"
+      "A": "1",
+      "B": "-1",
+      "C": "2",
+      "D": "0 (शून्य)"
     },
-    "correct": "A",
-    "explanation": "P(A|B) = P(A∩B)/P(B)। हर शून्य होने से अपरिभाषित।",
-    "vvi_badge": "⭐ [VVI 2024] 🔁 5 बार पूछा गया"
+    "correct": "D",
+    "explanation": "सारणिक का गुणधर्म: दो समान पंक्तियाँ होने पर मान शून्य हो जाता है।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 बार पूछा गया"
   },
   {
     "id": 13,
-    "chapter": "अवकलन",
-    "question": "d/dx (log x) का मान क्या होगा?",
+    "chapter": "सांतत्य तथा अवकलनीयता",
+    "question": "d/dx (xⁿ) का मान क्या है?",
     "options": {
-      "A": "1/x",
-      "B": "-1/x",
-      "C": "1/x²",
-      "D": "eˣ"
+      "A": "n xⁿ⁻¹",
+      "B": "n xⁿ",
+      "C": "xⁿ⁺¹ / (n + 1)",
+      "D": "n xⁿ⁺¹"
     },
     "correct": "A",
-    "explanation": "d/dx(log x) = 1/x।",
-    "vvi_badge": "⭐ [VVI 2024] 🔁 5 बार पूछा गया"
+    "explanation": "मानक अवकलन सूत्र d/dx(xⁿ) = n xⁿ⁻¹।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 8 बार पूछा गया"
   },
   {
     "id": 14,
-    "chapter": "समाकलन",
-    "question": "∫ sec²x dx का मान क्या होगा?",
+    "chapter": "सांतत्य तथा अवकलनीयता",
+    "question": "d/dx (sin x) बराबर होता है:",
     "options": {
-      "A": "tan x + k",
-      "B": "-cot x + k",
-      "C": "sec x + k",
-      "D": "tan²x + k"
+      "A": "-cos x",
+      "B": "cos x",
+      "C": "sec x",
+      "D": "-sin x"
     },
-    "correct": "A",
-    "explanation": "∫ sec²x dx = tan x + k।",
-    "vvi_badge": "⭐ [VVI 2024] 🔁 5 बार पूछा गया"
+    "correct": "B",
+    "explanation": "d/dx(sin x) = cos x।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 बार पूछा गया"
   },
   {
     "id": 15,
-    "chapter": "अवकल समीकरण",
-    "question": "अवकल समीकरण (dy/dx) + y = eˣ की कोटि (Order) क्या है?",
+    "chapter": "सांतत्य तथा अवकलनीयता",
+    "question": "d/dx (cos x) का मान क्या है?",
     "options": {
-      "A": "1",
-      "B": "2",
-      "C": "0",
-      "D": "अपरिभाषित"
+      "A": "sin x",
+      "B": "-sec x",
+      "C": "-sin x",
+      "D": "tan x"
     },
-    "correct": "A",
-    "explanation": "उच्चतम अवकलज dy/dx है, अतः कोटि 1 है।",
-    "vvi_badge": "⭐ [VVI 2024] 🔁 4 बार पूछा गया"
+    "correct": "C",
+    "explanation": "d/dx(cos x) = -sin x।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 बार पूछा गया"
   },
   {
     "id": 16,
-    "chapter": "आव्यूह",
-    "question": "यदि A = [aᵢⱼ]ₘ×ₙ एक वर्ग आव्यूह (Square matrix) है, यदि:",
+    "chapter": "सांतत्य तथा अवकलनीयता",
+    "question": "d/dx (tan x) का मान है:",
     "options": {
-      "A": "m = n",
-      "B": "m < n",
-      "C": "m > n",
-      "D": "m ≠ n"
+      "A": "-cosec² x",
+      "B": "sec x tan x",
+      "C": "cot x",
+      "D": "sec² x"
     },
-    "correct": "A",
-    "explanation": "वर्ग आव्यूह में पंक्तियों और स्तंभों की संख्या समान होती है।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "d/dx(tan x) = sec² x।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 बार पूछा गया"
   },
   {
     "id": 17,
-    "chapter": "अवकलन",
-    "question": "d/dx (sin x) का मान क्या होगा?",
+    "chapter": "सांतत्य तथा अवकलनीयता",
+    "question": "d/dx (log x) बराबर होता है:",
     "options": {
-      "A": "cos x",
-      "B": "-cos x",
-      "C": "sec x",
-      "D": "-sin x"
+      "A": "1/x",
+      "B": "x",
+      "C": "-1/x²",
+      "D": "eˣ"
     },
     "correct": "A",
-    "explanation": "d/dx(sin x) = cos x।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "d/dx(ln x) = 1/x।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 8 बार पूछा गया"
   },
   {
     "id": 18,
-    "chapter": "अवकलन",
-    "question": "d/dx (tan x) का मान क्या होगा?",
+    "chapter": "सांतत्य तथा अवकलनीयता",
+    "question": "d/dx (eˣ) का मान है:",
     "options": {
-      "A": "sec²x",
-      "B": "-sec²x",
-      "C": "cosec²x",
-      "D": "cot x"
+      "A": "x eˣ⁻¹",
+      "B": "eˣ",
+      "C": "1/eˣ",
+      "D": "e⁻ˣ"
     },
-    "correct": "A",
-    "explanation": "d/dx(tan x) = sec²x।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "चरघातांकी फलन का अवकलज वही रहता है: d/dx(eˣ) = eˣ।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 बार पूछा गया"
   },
   {
     "id": 19,
-    "chapter": "समाकलन",
-    "question": "∫ x dx का मान होगा:",
+    "chapter": "सांतत्य तथा अवकलनीयता",
+    "question": "d/dx (sec x) का अवकलज क्या है?",
     "options": {
-      "A": "x²/2 + k",
-      "B": "x² + k",
-      "C": "2x + k",
-      "D": "x³/3 + k"
+      "A": "sec² x",
+      "B": "-cosec x cot x",
+      "C": "sec x · tan x",
+      "D": "tan² x"
     },
-    "correct": "A",
-    "explanation": "∫ x dx = x²/2 + k।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "d/dx(sec x) = sec x tan x।",
+    "vvi_badge": "⭐ [VVI 2023] 🔁 6 बार पूछा गया"
   },
   {
     "id": 20,
-    "chapter": "समाकलन",
-    "question": "∫ eˣ dx का मान होगा:",
+    "chapter": "सांतत्य तथा अवकलनीयता",
+    "question": "d/dx (sin⁻¹ x) का मान है:",
     "options": {
-      "A": "eˣ + k",
-      "B": "-eˣ + k",
-      "C": "x eˣ + k",
-      "D": "e⁻ˣ + k"
+      "A": "-1 / √(1 - x²)",
+      "B": "1 / (1 + x²)",
+      "C": "1 / √(x² - 1)",
+      "D": "1 / √(1 - x²)"
     },
-    "correct": "A",
-    "explanation": "∫ eˣ dx = eˣ + k।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "मानक प्रतिलोम अवकलज d/dx(sin⁻¹x) = 1/√(1-x²)।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 बार पूछा गया"
   },
   {
     "id": 21,
-    "chapter": "समाकलन",
-    "question": "∫ (1/x) dx का मान होगा:",
+    "chapter": "सांतत्य तथा अवकलनीयता",
+    "question": "d/dx (tan⁻¹ x) बराबर होता है:",
     "options": {
-      "A": "log|x| + k",
-      "B": "-1/x² + k",
-      "C": "1/x + k",
-      "D": "x + k"
+      "A": "1 / (1 + x²)",
+      "B": "1 / √(1 - x²)",
+      "C": "-1 / (1 + x²)",
+      "D": "1 / (x² - 1)"
     },
     "correct": "A",
-    "explanation": "∫ (1/x) dx = log|x| + k।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "d/dx(tan⁻¹x) = 1/(1+x²)।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 8 बार पूछा गया"
   },
   {
     "id": 22,
-    "chapter": "ITF",
-    "question": "sin⁻¹(x) + cos⁻¹(x) का मान क्या होगा?",
+    "chapter": "समाकलन (Integrals)",
+    "question": "∫ xⁿ dx (जहाँ n ≠ -1) का मान क्या है?",
     "options": {
-      "A": "π/2",
-      "B": "π",
-      "C": "π/4",
-      "D": "0"
+      "A": "n xⁿ⁻¹ + C",
+      "B": "(xⁿ⁺¹ / (n + 1)) + C",
+      "C": "(xⁿ / n) + C",
+      "D": "(xⁿ⁻¹ / (n - 1)) + C"
     },
-    "correct": "A",
-    "explanation": "सर्वसमिका: sin⁻¹x + cos⁻¹x = π/2।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "मानक समाकलन सूत्र ∫ xⁿ dx = xⁿ⁺¹/(n+1) + C।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 8 बार पूछा गया"
   },
   {
     "id": 23,
-    "chapter": "ITF",
-    "question": "tan⁻¹(1) का मुख्य मान क्या है?",
+    "chapter": "समाकलन (Integrals)",
+    "question": "∫ (1/x) dx का मान क्या होता है?",
     "options": {
-      "A": "π/4",
-      "B": "π/2",
-      "C": "π/3",
-      "D": "π/6"
+      "A": "-1/x² + C",
+      "B": "x + C",
+      "C": "log|x| + C",
+      "D": "1 + C"
     },
-    "correct": "A",
-    "explanation": "tan(π/4) = 1, अतः π/4।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "∫ (1/x) dx = log|x| + C।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 8 बार पूछा गया"
   },
   {
     "id": 24,
-    "chapter": "सदिश बीजगणित",
-    "question": "î · î का मान क्या होगा?",
+    "chapter": "समाकलन (Integrals)",
+    "question": "∫ eˣ dx का मान है:",
     "options": {
-      "A": "1",
-      "B": "0",
-      "C": "k̂",
-      "D": "-1"
+      "A": "eˣ⁺¹ + C",
+      "B": "x eˣ + C",
+      "C": "e⁻ˣ + C",
+      "D": "eˣ + C"
     },
-    "correct": "A",
-    "explanation": "समान एकांक सदिशों का डॉट प्रोडक्ट 1 होता है।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "∫ eˣ dx = eˣ + C।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 बार पूछा गया"
   },
   {
     "id": 25,
-    "chapter": "सदिश बीजगणित",
-    "question": "î × ĵ का मान क्या होगा?",
+    "chapter": "समाकलन (Integrals)",
+    "question": "∫ sin x dx बराबर होता है:",
     "options": {
-      "A": "k̂",
-      "B": "-k̂",
-      "C": "0",
-      "D": "1"
+      "A": "-cos x + C",
+      "B": "cos x + C",
+      "C": "sec x + C",
+      "D": "-sin x + C"
     },
     "correct": "A",
-    "explanation": "दाहिने हाथ के नियम से î × ĵ = k̂।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "∫ sin x dx = -cos x + C।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 बार पूछा गया"
   },
   {
     "id": 26,
-    "chapter": "3D ज्यामिति",
-    "question": "x-अक्ष की दिक्-कोज्याएँ (Direction cosines) क्या हैं?",
+    "chapter": "समाकलन (Integrals)",
+    "question": "∫ cos x dx का मान है:",
     "options": {
-      "A": "(1, 0, 0)",
-      "B": "(0, 1, 0)",
-      "C": "(0, 0, 1)",
-      "D": "(1, 1, 1)"
+      "A": "-sin x + C",
+      "B": "sin x + C",
+      "C": "tan x + C",
+      "D": "-cos x + C"
     },
-    "correct": "A",
-    "explanation": "x-अक्ष के लिए cos 0°=1, cos 90°=0, cos 90°=0 ⇒ (1, 0, 0)।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "∫ cos x dx = sin x + C।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 बार पूछा गया"
   },
   {
     "id": 27,
-    "chapter": "प्रायिकता",
-    "question": "यदि P(A) = 1/2, P(B) = 0 हो, तो P(A|B) का मान क्या होगा?",
+    "chapter": "समाकलन (Integrals)",
+    "question": "∫ sec² x dx का मान क्या है?",
     "options": {
-      "A": "अपरिभाषित (Not defined)",
-      "B": "0",
-      "C": "1/2",
-      "D": "1"
+      "A": "sec x + C",
+      "B": "-cot x + C",
+      "C": "tan x + C",
+      "D": "sec x tan x + C"
     },
-    "correct": "A",
-    "explanation": "P(A|B) = P(A∩B)/P(B)। हर शून्य होने से अपरिभाषित।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "∫ sec²x dx = tan x + C।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 बार पूछा गया"
   },
   {
     "id": 28,
-    "chapter": "अवकलन",
-    "question": "d/dx (log x) का मान क्या होगा?",
+    "chapter": "समाकलन (Integrals)",
+    "question": "∫ 1/(1 + x²) dx बराबर होता है:",
     "options": {
-      "A": "1/x",
-      "B": "-1/x",
-      "C": "1/x²",
-      "D": "eˣ"
+      "A": "sin⁻¹ x + C",
+      "B": "cos⁻¹ x + C",
+      "C": "cot⁻¹ x + C",
+      "D": "tan⁻¹ x + C"
     },
-    "correct": "A",
-    "explanation": "d/dx(log x) = 1/x।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "∫ 1/(1+x²) dx = tan⁻¹x + C।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 8 बार पूछा गया"
   },
   {
     "id": 29,
-    "chapter": "समाकलन",
-    "question": "∫ sec²x dx का मान क्या होगा?",
+    "chapter": "समाकलन (Integrals)",
+    "question": "निश्चित समाकलन ∫₀¹ x dx का मान क्या होगा?",
     "options": {
-      "A": "tan x + k",
-      "B": "-cot x + k",
-      "C": "sec x + k",
-      "D": "tan²x + k"
+      "A": "1/2",
+      "B": "1",
+      "C": "2",
+      "D": "0"
     },
     "correct": "A",
-    "explanation": "∫ sec²x dx = tan x + k।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "[x²/2]₀¹ = 1/2 - 0 = 1/2।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 बार पूछा गया"
   },
   {
     "id": 30,
-    "chapter": "अवकल समीकरण",
-    "question": "अवकल समीकरण (dy/dx) + y = eˣ की कोटि (Order) क्या है?",
+    "chapter": "समाकलन (Integrals)",
+    "question": "∫₋ₐᵃ f(x) dx का मान शून्य होता है यदि f(x) एक:",
     "options": {
-      "A": "1",
-      "B": "2",
-      "C": "0",
-      "D": "अपरिभाषित"
+      "A": "सम फलन (Even function)",
+      "B": "विषम फलन (Odd function)",
+      "C": "अचर फलन",
+      "D": "त्रिकोणमितीय फलन"
     },
-    "correct": "A",
-    "explanation": "उच्चतम अवकलज dy/dx है, अतः कोटि 1 है।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "विषम फलन (f(-x) = -f(x)) के लिए सममित सीमा में समाकलन शून्य होता है।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 बार पूछा गया"
   },
   {
     "id": 31,
-    "chapter": "आव्यूह",
-    "question": "यदि A = [aᵢⱼ]ₘ×ₙ एक वर्ग आव्यूह (Square matrix) है, यदि:",
+    "chapter": "अवकल समीकरण",
+    "question": "अवकल समीकरण (d²y/dx²)³ + (dy/dx)² + sin(y) = 0 की कोटि (Order) क्या है?",
     "options": {
-      "A": "m = n",
-      "B": "m < n",
-      "C": "m > n",
-      "D": "m ≠ n"
+      "A": "3",
+      "B": "1",
+      "C": "2",
+      "D": "परिभाषित नहीं"
     },
-    "correct": "A",
-    "explanation": "वर्ग आव्यूह में पंक्तियों और स्तंभों की संख्या समान होती है।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "उच्चतम अवकलज d²y/dx² है, अतः कोटि = 2।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 8 बार पूछा गया"
   },
   {
     "id": 32,
-    "chapter": "अवकलन",
-    "question": "d/dx (sin x) का मान क्या होगा?",
+    "chapter": "अवकल समीकरण",
+    "question": "अवकल समीकरण dy/dx + Py = Q का समाकलन गुणक (Integrating Factor - I.F.) होता है:",
     "options": {
-      "A": "cos x",
-      "B": "-cos x",
-      "C": "sec x",
-      "D": "-sin x"
+      "A": "e^(∫ Q dx)",
+      "B": "∫ P dx",
+      "C": "e^(P·x)",
+      "D": "e^(∫ P dx)"
     },
-    "correct": "A",
-    "explanation": "d/dx(sin x) = cos x।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "रैखिक अवकल समीकरण का I.F. = e^(∫ P dx)।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 8 बार पूछा गया"
   },
   {
     "id": 33,
-    "chapter": "अवकलन",
-    "question": "d/dx (tan x) का मान क्या होगा?",
+    "chapter": "सदिश बीजगणित (Vectors)",
+    "question": "सदिश î · î का मान क्या होता है?",
     "options": {
-      "A": "sec²x",
-      "B": "-sec²x",
-      "C": "cosec²x",
-      "D": "cot x"
+      "A": "1",
+      "B": "0",
+      "C": "-1",
+      "D": "k̂"
     },
     "correct": "A",
-    "explanation": "d/dx(tan x) = sec²x।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "समान एकांक सदिशों का अदिश गुणनफल î · î = |î|² = 1 होता है।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 8 बार पूछा गया"
   },
   {
     "id": 34,
-    "chapter": "समाकलन",
-    "question": "∫ x dx का मान होगा:",
+    "chapter": "सदिश बीजगणित (Vectors)",
+    "question": "î · ĵ का मान क्या होगा?",
     "options": {
-      "A": "x²/2 + k",
-      "B": "x² + k",
-      "C": "2x + k",
-      "D": "x³/3 + k"
+      "A": "1",
+      "B": "0",
+      "C": "k̂",
+      "D": "-1"
     },
-    "correct": "A",
-    "explanation": "∫ x dx = x²/2 + k।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "परस्पर लंबवत एकांक सदिशों का अदिश गुणन शून्य होता है।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 8 बार पूछा गया"
   },
   {
     "id": 35,
-    "chapter": "समाकलन",
-    "question": "∫ eˣ dx का मान होगा:",
+    "chapter": "सदिश बीजगणित (Vectors)",
+    "question": "î × ĵ का मान किसके बराबर है?",
     "options": {
-      "A": "eˣ + k",
-      "B": "-eˣ + k",
-      "C": "x eˣ + k",
-      "D": "e⁻ˣ + k"
+      "A": "-k̂",
+      "B": "0",
+      "C": "k̂",
+      "D": "1"
     },
-    "correct": "A",
-    "explanation": "∫ eˣ dx = eˣ + k।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "दक्षिणहस्त नियमानुसार î × ĵ = k̂।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 8 बार पूछा गया"
   },
   {
     "id": 36,
-    "chapter": "समाकलन",
-    "question": "∫ (1/x) dx का मान होगा:",
+    "chapter": "सदिश बीजगणित (Vectors)",
+    "question": "ĵ × î का मान क्या है?",
     "options": {
-      "A": "log|x| + k",
-      "B": "-1/x² + k",
-      "C": "1/x + k",
-      "D": "x + k"
+      "A": "k̂",
+      "B": "0",
+      "C": "1",
+      "D": "-k̂"
     },
-    "correct": "A",
-    "explanation": "∫ (1/x) dx = log|x| + k।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "सदिश गुणन क्रमविनिमेय नहीं होता: ĵ × î = -(î × ĵ) = -k̂।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 बार पूछा गया"
   },
   {
     "id": 37,
-    "chapter": "ITF",
-    "question": "sin⁻¹(x) + cos⁻¹(x) का मान क्या होगा?",
+    "chapter": "सदिश बीजगणित (Vectors)",
+    "question": "î × î का मान क्या होता है?",
     "options": {
-      "A": "π/2",
-      "B": "π",
-      "C": "π/4",
-      "D": "0"
+      "A": "0⃗ (शून्य सदिश)",
+      "B": "1",
+      "C": "k̂",
+      "D": "-1"
     },
     "correct": "A",
-    "explanation": "सर्वसमिका: sin⁻¹x + cos⁻¹x = π/2।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "समान सदिशों का सदिश गुणनफल शून्य सदिश होता है।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 बार पूछा गया"
   },
   {
     "id": 38,
-    "chapter": "ITF",
-    "question": "tan⁻¹(1) का मुख्य मान क्या है?",
+    "chapter": "सदिश बीजगणित (Vectors)",
+    "question": "सदिश r⃗ = 2î + 3ĵ + 6k̂ का मापांक (Magnitude) क्या है?",
     "options": {
-      "A": "π/4",
-      "B": "π/2",
-      "C": "π/3",
-      "D": "π/6"
+      "A": "11",
+      "B": "7",
+      "C": "49",
+      "D": "5"
     },
-    "correct": "A",
-    "explanation": "tan(π/4) = 1, अतः π/4।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "|r⃗| = √(2² + 3² + 6²) = √(4 + 9 + 36) = √49 = 7।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 बार पूछा गया"
   },
   {
     "id": 39,
-    "chapter": "सदिश बीजगणित",
-    "question": "î · î का मान क्या होगा?",
+    "chapter": "सदिश बीजगणित (Vectors)",
+    "question": "यदि दो सदिश a⃗ और b⃗ परस्पर लंबवत हों, तो:",
     "options": {
-      "A": "1",
-      "B": "0",
-      "C": "k̂",
-      "D": "-1"
+      "A": "a⃗ × b⃗ = 0",
+      "B": "a⃗ · b⃗ = 1",
+      "C": "a⃗ · b⃗ = 0",
+      "D": "a⃗ + b⃗ = 0"
     },
-    "correct": "A",
-    "explanation": "समान एकांक सदिशों का डॉट प्रोडक्ट 1 होता है।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "लंबवत होने पर cos(90°) = 0 अतः a⃗ · b⃗ = 0।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 8 बार पूछा गया"
   },
   {
     "id": 40,
-    "chapter": "सदिश बीजगणित",
-    "question": "î × ĵ का मान क्या होगा?",
+    "chapter": "सदिश बीजगणित (Vectors)",
+    "question": "यदि दो सदिश a⃗ और b⃗ समांतर हों, तो:",
     "options": {
-      "A": "k̂",
-      "B": "-k̂",
-      "C": "0",
-      "D": "1"
+      "A": "a⃗ · b⃗ = 0",
+      "B": "a⃗ · b⃗ = 1",
+      "C": "a⃗ = b⃗",
+      "D": "a⃗ × b⃗ = 0⃗"
     },
-    "correct": "A",
-    "explanation": "दाहिने हाथ के नियम से î × ĵ = k̂।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "समांतर होने पर sin(0°) = 0 अतः a⃗ × b⃗ = 0⃗।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 बार पूछा गया"
   },
   {
     "id": 41,
-    "chapter": "3D ज्यामिति",
-    "question": "x-अक्ष की दिक्-कोज्याएँ (Direction cosines) क्या हैं?",
+    "chapter": "त्रि-विमीय ज्यामिति (3D)",
+    "question": "x-अक्ष की दिक्-कोज्याएँ (Direction Cosines) क्या हैं?",
     "options": {
       "A": "(1, 0, 0)",
       "B": "(0, 1, 0)",
@@ -570,833 +570,833 @@
       "D": "(1, 1, 1)"
     },
     "correct": "A",
-    "explanation": "x-अक्ष के लिए cos 0°=1, cos 90°=0, cos 90°=0 ⇒ (1, 0, 0)।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "x-अक्ष स्वयं से 0° तथा अन्य अक्षों से 90° बनाती है, अतः (cos0, cos90, cos90) = (1, 0, 0)।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 8 बार पूछा गया"
   },
   {
     "id": 42,
-    "chapter": "प्रायिकता",
-    "question": "यदि P(A) = 1/2, P(B) = 0 हो, तो P(A|B) का मान क्या होगा?",
-    "options": {
-      "A": "अपरिभाषित (Not defined)",
-      "B": "0",
-      "C": "1/2",
-      "D": "1"
-    },
-    "correct": "A",
-    "explanation": "P(A|B) = P(A∩B)/P(B)। हर शून्य होने से अपरिभाषित।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
-  },
-  {
-    "id": 43,
-    "chapter": "अवकलन",
-    "question": "d/dx (log x) का मान क्या होगा?",
-    "options": {
-      "A": "1/x",
-      "B": "-1/x",
-      "C": "1/x²",
-      "D": "eˣ"
-    },
-    "correct": "A",
-    "explanation": "d/dx(log x) = 1/x।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
-  },
-  {
-    "id": 44,
-    "chapter": "समाकलन",
-    "question": "∫ sec²x dx का मान क्या होगा?",
-    "options": {
-      "A": "tan x + k",
-      "B": "-cot x + k",
-      "C": "sec x + k",
-      "D": "tan²x + k"
-    },
-    "correct": "A",
-    "explanation": "∫ sec²x dx = tan x + k।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
-  },
-  {
-    "id": 45,
-    "chapter": "अवकल समीकरण",
-    "question": "अवकल समीकरण (dy/dx) + y = eˣ की कोटि (Order) क्या है?",
-    "options": {
-      "A": "1",
-      "B": "2",
-      "C": "0",
-      "D": "अपरिभाषित"
-    },
-    "correct": "A",
-    "explanation": "उच्चतम अवकलज dy/dx है, अतः कोटि 1 है।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
-  },
-  {
-    "id": 46,
-    "chapter": "आव्यूह",
-    "question": "यदि A = [aᵢⱼ]ₘ×ₙ एक वर्ग आव्यूह (Square matrix) है, यदि:",
-    "options": {
-      "A": "m = n",
-      "B": "m < n",
-      "C": "m > n",
-      "D": "m ≠ n"
-    },
-    "correct": "A",
-    "explanation": "वर्ग आव्यूह में पंक्तियों और स्तंभों की संख्या समान होती है।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
-  },
-  {
-    "id": 47,
-    "chapter": "अवकलन",
-    "question": "d/dx (sin x) का मान क्या होगा?",
-    "options": {
-      "A": "cos x",
-      "B": "-cos x",
-      "C": "sec x",
-      "D": "-sin x"
-    },
-    "correct": "A",
-    "explanation": "d/dx(sin x) = cos x।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
-  },
-  {
-    "id": 48,
-    "chapter": "अवकलन",
-    "question": "d/dx (tan x) का मान क्या होगा?",
-    "options": {
-      "A": "sec²x",
-      "B": "-sec²x",
-      "C": "cosec²x",
-      "D": "cot x"
-    },
-    "correct": "A",
-    "explanation": "d/dx(tan x) = sec²x।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
-  },
-  {
-    "id": 49,
-    "chapter": "समाकलन",
-    "question": "∫ x dx का मान होगा:",
-    "options": {
-      "A": "x²/2 + k",
-      "B": "x² + k",
-      "C": "2x + k",
-      "D": "x³/3 + k"
-    },
-    "correct": "A",
-    "explanation": "∫ x dx = x²/2 + k।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
-  },
-  {
-    "id": 50,
-    "chapter": "समाकलन",
-    "question": "∫ eˣ dx का मान होगा:",
-    "options": {
-      "A": "eˣ + k",
-      "B": "-eˣ + k",
-      "C": "x eˣ + k",
-      "D": "e⁻ˣ + k"
-    },
-    "correct": "A",
-    "explanation": "∫ eˣ dx = eˣ + k।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
-  },
-  {
-    "id": 51,
-    "chapter": "समाकलन",
-    "question": "∫ (1/x) dx का मान होगा:",
-    "options": {
-      "A": "log|x| + k",
-      "B": "-1/x² + k",
-      "C": "1/x + k",
-      "D": "x + k"
-    },
-    "correct": "A",
-    "explanation": "∫ (1/x) dx = log|x| + k।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
-  },
-  {
-    "id": 52,
-    "chapter": "ITF",
-    "question": "sin⁻¹(x) + cos⁻¹(x) का मान क्या होगा?",
-    "options": {
-      "A": "π/2",
-      "B": "π",
-      "C": "π/4",
-      "D": "0"
-    },
-    "correct": "A",
-    "explanation": "सर्वसमिका: sin⁻¹x + cos⁻¹x = π/2।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
-  },
-  {
-    "id": 53,
-    "chapter": "ITF",
-    "question": "tan⁻¹(1) का मुख्य मान क्या है?",
-    "options": {
-      "A": "π/4",
-      "B": "π/2",
-      "C": "π/3",
-      "D": "π/6"
-    },
-    "correct": "A",
-    "explanation": "tan(π/4) = 1, अतः π/4।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
-  },
-  {
-    "id": 54,
-    "chapter": "सदिश बीजगणित",
-    "question": "î · î का मान क्या होगा?",
-    "options": {
-      "A": "1",
-      "B": "0",
-      "C": "k̂",
-      "D": "-1"
-    },
-    "correct": "A",
-    "explanation": "समान एकांक सदिशों का डॉट प्रोडक्ट 1 होता है।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
-  },
-  {
-    "id": 55,
-    "chapter": "सदिश बीजगणित",
-    "question": "î × ĵ का मान क्या होगा?",
-    "options": {
-      "A": "k̂",
-      "B": "-k̂",
-      "C": "0",
-      "D": "1"
-    },
-    "correct": "A",
-    "explanation": "दाहिने हाथ के नियम से î × ĵ = k̂।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
-  },
-  {
-    "id": 56,
-    "chapter": "3D ज्यामिति",
-    "question": "x-अक्ष की दिक्-कोज्याएँ (Direction cosines) क्या हैं?",
+    "chapter": "त्रि-विमीय ज्यामिति (3D)",
+    "question": "y-अक्ष की दिक्-कोज्याएँ क्या हैं?",
     "options": {
       "A": "(1, 0, 0)",
       "B": "(0, 1, 0)",
       "C": "(0, 0, 1)",
-      "D": "(1, 1, 1)"
+      "D": "(1, 1, 0)"
+    },
+    "correct": "B",
+    "explanation": "y-अक्ष के लिए दिक्-कोज्याएँ (0, 1, 0) होती हैं।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 बार पूछा गया"
+  },
+  {
+    "id": 43,
+    "chapter": "त्रि-विमीय ज्यामिति (3D)",
+    "question": "z-अक्ष की दिक्-कोज्याएँ होती हैं:",
+    "options": {
+      "A": "(1, 0, 0)",
+      "B": "(0, 1, 0)",
+      "C": "(0, 0, 1)",
+      "D": "(0, 1, 1)"
+    },
+    "correct": "C",
+    "explanation": "z-अक्ष के लिए दिक्-कोज्याएँ (0, 0, 1) हैं।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 बार पूछा गया"
+  },
+  {
+    "id": 44,
+    "chapter": "त्रि-विमीय ज्यामिति (3D)",
+    "question": "दिक्-कोज्याओं l, m, n के बीच संबंध होता है:",
+    "options": {
+      "A": "l + m + n = 1",
+      "B": "l² + m² + n² = 0",
+      "C": "l² + m² - n² = 1",
+      "D": "l² + m² + n² = 1"
+    },
+    "correct": "D",
+    "explanation": "मानक सूत्र cos²α + cos²β + cos²γ = l² + m² + n² = 1।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 8 बार पूछा गया"
+  },
+  {
+    "id": 45,
+    "chapter": "त्रि-विमीय ज्यामिति (3D)",
+    "question": "तल 2x - 3y + 4z = 6 के अभिलंब के दिक्-अनुपात हैं:",
+    "options": {
+      "A": "(2, -3, 4)",
+      "B": "(2, 3, 4)",
+      "C": "(-2, 3, -4)",
+      "D": "(2, -3, -6)"
     },
     "correct": "A",
-    "explanation": "x-अक्ष के लिए cos 0°=1, cos 90°=0, cos 90°=0 ⇒ (1, 0, 0)।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "समीकरण ax + by + cz = d के अभिलंब के दिक्-अनुपात (a, b, c) होते हैं।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 बार पूछा गया"
+  },
+  {
+    "id": 46,
+    "chapter": "प्रायिकता (Probability)",
+    "question": "यदि P(A) = 3/8, P(B) = 1/2 और P(A ∩ B) = 1/4 हो, तो P(A ∪ B) का मान क्या होगा?",
+    "options": {
+      "A": "3/4",
+      "B": "5/8",
+      "C": "1/8",
+      "D": "7/8"
+    },
+    "correct": "B",
+    "explanation": "P(A ∪ B) = P(A) + P(B) - P(A ∩ B) = 3/8 + 4/8 - 2/8 = 5/8।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 बार पूछा गया"
+  },
+  {
+    "id": 47,
+    "chapter": "प्रायिकता (Probability)",
+    "question": "यदि A और B स्वतंत्र घटनाएँ (Independent events) हों, तो P(A ∩ B) बराबर होता है:",
+    "options": {
+      "A": "P(A) + P(B)",
+      "B": "P(A) / P(B)",
+      "C": "P(A) · P(B)",
+      "D": "P(A) - P(B)"
+    },
+    "correct": "C",
+    "explanation": "स्वतंत्र घटनाओं के लिए गुणन नियम: P(A ∩ B) = P(A) · P(B)।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 8 बार पूछा गया"
+  },
+  {
+    "id": 48,
+    "chapter": "प्रायिकता (Probability)",
+    "question": "P(A) + P(A') का मान क्या होता है?",
+    "options": {
+      "A": "0",
+      "B": "-1",
+      "C": "अनंत",
+      "D": "1"
+    },
+    "correct": "D",
+    "explanation": "किसी घटना के घटित होने तथा न होने की प्रायिकताओं का योग सदैव 1 होता है।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 8 बार पूछा गया"
+  },
+  {
+    "id": 49,
+    "chapter": "प्रायिकता (Probability)",
+    "question": "एक पासे को फेंकने पर विषम संख्या आने की प्रायिकता क्या है?",
+    "options": {
+      "A": "1/2",
+      "B": "1/3",
+      "C": "1/6",
+      "D": "2/3"
+    },
+    "correct": "A",
+    "explanation": "अनुकूल परिणाम {1, 3, 5} = 3, कुल = 6, अतः 3/6 = 1/2।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 6 बार पूछा गया"
+  },
+  {
+    "id": 50,
+    "chapter": "रैखिक प्रोग्रामन (LPP)",
+    "question": "रैखिक प्रोग्रामन समस्या (LPP) में उद्देश्य फलन (Objective Function) Z = ax + by का इष्टतम मान कहाँ प्राप्त होता है?",
+    "options": {
+      "A": "मूल बिंदु पर",
+      "B": "सुसंगत क्षेत्र के कोनीय बिंदुओं पर",
+      "C": "वृत्त के केंद्र पर",
+      "D": "अनंत पर"
+    },
+    "correct": "B",
+    "explanation": "मूलभूत प्रमेय के अनुसार अधिकतम या न्यूनतम मान कोनीय शीर्ष बिंदुओं पर प्राप्त होता है।",
+    "vvi_badge": "⭐ [VVI 2024] 🔁 7 बार पूछा गया"
+  },
+  {
+    "id": 51,
+    "chapter": "सांतत्य",
+    "question": "फलन f(x) = |x| x = 0 पर:",
+    "options": {
+      "A": "संतत और अवकलनीय दोनों है",
+      "B": "न संतत है न अवकलनीय",
+      "C": "संतत है परंतु अवकलनीय नहीं",
+      "D": "असंतत है"
+    },
+    "correct": "C",
+    "explanation": "|x| का आलेख x=0 पर तीक्ष्ण मोड़ बनाता है, अतः अवकलनीय नहीं है पर संतत है।",
+    "vvi_badge": "⭐ [VVI 2024]"
+  },
+  {
+    "id": 52,
+    "chapter": "अवकलन",
+    "question": "d/dx (cot x) बराबर होता है:",
+    "options": {
+      "A": "cosec² x",
+      "B": "-cot² x",
+      "C": "tan x",
+      "D": "-cosec² x"
+    },
+    "correct": "D",
+    "explanation": "d/dx(cot x) = -cosec² x।",
+    "vvi_badge": "⭐ [VVI 2024]"
+  },
+  {
+    "id": 53,
+    "chapter": "अवकलन",
+    "question": "d/dx (cosec x) का मान है:",
+    "options": {
+      "A": "-cosec x cot x",
+      "B": "cosec x cot x",
+      "C": "-cosec² x",
+      "D": "cot² x"
+    },
+    "correct": "A",
+    "explanation": "d/dx(cosec x) = -cosec x cot x।",
+    "vvi_badge": "⭐ [VVI 2024]"
+  },
+  {
+    "id": 54,
+    "chapter": "अवकलन",
+    "question": "d/dx (aˣ) का मान क्या है? (जहाँ a > 0)",
+    "options": {
+      "A": "aˣ / log(a)",
+      "B": "aˣ log(a)",
+      "C": "x aˣ⁻¹",
+      "D": "aˣ"
+    },
+    "correct": "B",
+    "explanation": "d/dx(aˣ) = aˣ ln(a)।",
+    "vvi_badge": "⭐ [VVI 2024]"
+  },
+  {
+    "id": 55,
+    "chapter": "अवकलन",
+    "question": "d/dx (log(sin x)) बराबर है:",
+    "options": {
+      "A": "tan x",
+      "B": "-cot x",
+      "C": "cot x",
+      "D": "sec x"
+    },
+    "correct": "C",
+    "explanation": "1/sin x × cos x = cot x।",
+    "vvi_badge": "⭐ [VVI 2024]"
+  },
+  {
+    "id": 56,
+    "chapter": "अवकलन",
+    "question": "d/dx (log(cos x)) का मान है:",
+    "options": {
+      "A": "tan x",
+      "B": "cot x",
+      "C": "-cot x",
+      "D": "-tan x"
+    },
+    "correct": "D",
+    "explanation": "1/cos x × (-sin x) = -tan x।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 57,
-    "chapter": "प्रायिकता",
-    "question": "यदि P(A) = 1/2, P(B) = 0 हो, तो P(A|B) का मान क्या होगा?",
+    "chapter": "समाकलन",
+    "question": "∫ tan x dx बराबर होता है:",
     "options": {
-      "A": "अपरिभाषित (Not defined)",
-      "B": "0",
-      "C": "1/2",
-      "D": "1"
+      "A": "log|sec x| + C",
+      "B": "-log|sec x| + C",
+      "C": "sec² x + C",
+      "D": "log|sin x| + C"
     },
     "correct": "A",
-    "explanation": "P(A|B) = P(A∩B)/P(B)। हर शून्य होने से अपरिभाषित।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "∫ tan x dx = log|sec x| + C = -log|cos x| + C।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 58,
-    "chapter": "अवकलन",
-    "question": "d/dx (log x) का मान क्या होगा?",
+    "chapter": "समाकलन",
+    "question": "∫ cot x dx का मान है:",
     "options": {
-      "A": "1/x",
-      "B": "-1/x",
-      "C": "1/x²",
-      "D": "eˣ"
+      "A": "-log|sin x| + C",
+      "B": "log|sin x| + C",
+      "C": "log|cos x| + C",
+      "D": "-cosec² x + C"
     },
-    "correct": "A",
-    "explanation": "d/dx(log x) = 1/x।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "∫ cot x dx = log|sin x| + C।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 59,
     "chapter": "समाकलन",
-    "question": "∫ sec²x dx का मान क्या होगा?",
+    "question": "∫ sec x dx का मान क्या है:",
     "options": {
-      "A": "tan x + k",
-      "B": "-cot x + k",
-      "C": "sec x + k",
-      "D": "tan²x + k"
+      "A": "log|sec x - tan x| + C",
+      "B": "sec x tan x + C",
+      "C": "log|sec x + tan x| + C",
+      "D": "tan x + C"
     },
-    "correct": "A",
-    "explanation": "∫ sec²x dx = tan x + k।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "∫ sec x dx = log|sec x + tan x| + C।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 60,
-    "chapter": "अवकल समीकरण",
-    "question": "अवकल समीकरण (dy/dx) + y = eˣ की कोटि (Order) क्या है?",
+    "chapter": "समाकलन",
+    "question": "∫ cosec x dx बराबर होता है:",
     "options": {
-      "A": "1",
-      "B": "2",
-      "C": "0",
-      "D": "अपरिभाषित"
+      "A": "log|cosec x + cot x| + C",
+      "B": "-cosec x cot x + C",
+      "C": "cot x + C",
+      "D": "log|cosec x - cot x| + C"
     },
-    "correct": "A",
-    "explanation": "उच्चतम अवकलज dy/dx है, अतः कोटि 1 है।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "∫ cosec x dx = log|cosec x - cot x| + C।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 61,
-    "chapter": "आव्यूह",
-    "question": "यदि A = [aᵢⱼ]ₘ×ₙ एक वर्ग आव्यूह (Square matrix) है, यदि:",
+    "chapter": "समाकलन",
+    "question": "∫ 1/√(1 - x²) dx का मान है:",
     "options": {
-      "A": "m = n",
-      "B": "m < n",
-      "C": "m > n",
-      "D": "m ≠ n"
+      "A": "sin⁻¹ x + C",
+      "B": "-sin⁻¹ x + C",
+      "C": "cos⁻¹ x + C",
+      "D": "tan⁻¹ x + C"
     },
     "correct": "A",
-    "explanation": "वर्ग आव्यूह में पंक्तियों और स्तंभों की संख्या समान होती है।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "∫ 1/√(1-x²) dx = sin⁻¹x + C।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 62,
-    "chapter": "अवकलन",
-    "question": "d/dx (sin x) का मान क्या होगा?",
+    "chapter": "समाकलन",
+    "question": "∫ 1/√(a² - x²) dx बराबर होता है:",
     "options": {
-      "A": "cos x",
-      "B": "-cos x",
-      "C": "sec x",
-      "D": "-sin x"
+      "A": "(1/a) sin⁻¹(x/a) + C",
+      "B": "sin⁻¹(x/a) + C",
+      "C": "cos⁻¹(x/a) + C",
+      "D": "tan⁻¹(x/a) + C"
     },
-    "correct": "A",
-    "explanation": "d/dx(sin x) = cos x।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "मानक सूत्र sin⁻¹(x/a) + C।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 63,
-    "chapter": "अवकलन",
-    "question": "d/dx (tan x) का मान क्या होगा?",
+    "chapter": "समाकलन",
+    "question": "∫ 1/(a² + x²) dx बराबर होता है:",
     "options": {
-      "A": "sec²x",
-      "B": "-sec²x",
-      "C": "cosec²x",
-      "D": "cot x"
+      "A": "tan⁻¹(x/a) + C",
+      "B": "(1/a) sin⁻¹(x/a) + C",
+      "C": "(1/a) tan⁻¹(x/a) + C",
+      "D": "log|x + a| + C"
     },
-    "correct": "A",
-    "explanation": "d/dx(tan x) = sec²x।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "मानक सूत्र (1/a) tan⁻¹(x/a) + C।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 64,
     "chapter": "समाकलन",
-    "question": "∫ x dx का मान होगा:",
+    "question": "∫ 0 dx का मान क्या है?",
     "options": {
-      "A": "x²/2 + k",
-      "B": "x² + k",
-      "C": "2x + k",
-      "D": "x³/3 + k"
+      "A": "0",
+      "B": "x",
+      "C": "1",
+      "D": "k (अचर)"
     },
-    "correct": "A",
-    "explanation": "∫ x dx = x²/2 + k।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "शून्य का समाकलन एक स्वेच्छ अचर k होता है।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 65,
     "chapter": "समाकलन",
-    "question": "∫ eˣ dx का मान होगा:",
+    "question": "∫ 1 dx का मान क्या है?",
     "options": {
-      "A": "eˣ + k",
-      "B": "-eˣ + k",
-      "C": "x eˣ + k",
-      "D": "e⁻ˣ + k"
+      "A": "x + C",
+      "B": "1 + C",
+      "C": "0",
+      "D": "x²/2 + C"
     },
     "correct": "A",
-    "explanation": "∫ eˣ dx = eˣ + k।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "∫ 1 dx = x + C।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 66,
-    "chapter": "समाकलन",
-    "question": "∫ (1/x) dx का मान होगा:",
+    "chapter": "निश्चित समाकलन",
+    "question": "∫₀^(π/2) sin x dx का मान क्या होगा?",
     "options": {
-      "A": "log|x| + k",
-      "B": "-1/x² + k",
-      "C": "1/x + k",
-      "D": "x + k"
+      "A": "0",
+      "B": "1",
+      "C": "-1",
+      "D": "2"
     },
-    "correct": "A",
-    "explanation": "∫ (1/x) dx = log|x| + k।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "[-cos x]₀^(π/2) = -cos(π/2) - (-cos 0) = 0 + 1 = 1।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 67,
-    "chapter": "ITF",
-    "question": "sin⁻¹(x) + cos⁻¹(x) का मान क्या होगा?",
+    "chapter": "निश्चित समाकलन",
+    "question": "∫₀^(π/2) cos x dx का मान है:",
     "options": {
-      "A": "π/2",
-      "B": "π",
-      "C": "π/4",
-      "D": "0"
+      "A": "0",
+      "B": "-1",
+      "C": "1",
+      "D": "π/2"
     },
-    "correct": "A",
-    "explanation": "सर्वसमिका: sin⁻¹x + cos⁻¹x = π/2।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "[sin x]₀^(π/2) = sin(π/2) - sin 0 = 1 - 0 = 1।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 68,
-    "chapter": "ITF",
-    "question": "tan⁻¹(1) का मुख्य मान क्या है?",
+    "chapter": "अवकल समीकरण",
+    "question": "d²y/dx² + y = 0 की घात (Degree) क्या है?",
     "options": {
-      "A": "π/4",
-      "B": "π/2",
-      "C": "π/3",
-      "D": "π/6"
+      "A": "2",
+      "B": "0",
+      "C": "परिभाषित नहीं",
+      "D": "1"
     },
-    "correct": "A",
-    "explanation": "tan(π/4) = 1, अतः π/4।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "उच्चतम अवकलज d²y/dx² की घात 1 है।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 69,
-    "chapter": "सदिश बीजगणित",
-    "question": "î · î का मान क्या होगा?",
+    "chapter": "अवकल समीकरण",
+    "question": "अवकल समीकरण dy = dx का हल क्या है?",
     "options": {
-      "A": "1",
-      "B": "0",
-      "C": "k̂",
-      "D": "-1"
+      "A": "y = x + C",
+      "B": "y = x² + C",
+      "C": "xy = C",
+      "D": "y = C"
     },
     "correct": "A",
-    "explanation": "समान एकांक सदिशों का डॉट प्रोडक्ट 1 होता है।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "दोनों ओर समाकलन करने पर y = x + C।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 70,
-    "chapter": "सदिश बीजगणित",
-    "question": "î × ĵ का मान क्या होगा?",
+    "chapter": "अवकल समीकरण",
+    "question": "अवकल समीकरण dy/dx = y/x का हल है:",
     "options": {
-      "A": "k̂",
-      "B": "-k̂",
-      "C": "0",
-      "D": "1"
+      "A": "xy = k",
+      "B": "y = kx",
+      "C": "y = k/x",
+      "D": "x² + y² = k"
     },
-    "correct": "A",
-    "explanation": "दाहिने हाथ के नियम से î × ĵ = k̂।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "dy/y = dx/x ⇒ ln y = ln x + ln k ⇒ y = kx।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 71,
     "chapter": "3D ज्यामिति",
-    "question": "x-अक्ष की दिक्-कोज्याएँ (Direction cosines) क्या हैं?",
+    "question": "बिंदु (2, 3, 4) की मूल बिंदु (0, 0, 0) से दूरी क्या है?",
     "options": {
-      "A": "(1, 0, 0)",
-      "B": "(0, 1, 0)",
-      "C": "(0, 0, 1)",
-      "D": "(1, 1, 1)"
+      "A": "9",
+      "B": "5",
+      "C": "√29",
+      "D": "√14"
     },
-    "correct": "A",
-    "explanation": "x-अक्ष के लिए cos 0°=1, cos 90°=0, cos 90°=0 ⇒ (1, 0, 0)।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "√(2² + 3² + 4²) = √(4 + 9 + 16) = √29।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 72,
-    "chapter": "प्रायिकता",
-    "question": "यदि P(A) = 1/2, P(B) = 0 हो, तो P(A|B) का मान क्या होगा?",
+    "chapter": "3D ज्यामिति",
+    "question": "दो बिंदुओं (x₁, y₁, z₁) और (x₂, y₂, z₂) के बीच की दूरी का सूत्र है:",
     "options": {
-      "A": "अपरिभाषित (Not defined)",
-      "B": "0",
-      "C": "1/2",
-      "D": "1"
+      "A": "(x₂ - x₁) + (y₂ - y₁) + (z₂ - z₁)",
+      "B": "(x₂ - x₁)² + (y₂ - y₁)² + (z₂ - z₁)²",
+      "C": "√(x₁x₂ + y₁y₂ + z₁z₂)",
+      "D": "√((x₂ - x₁)² + (y₂ - y₁)² + (z₂ - z₁)²)"
     },
-    "correct": "A",
-    "explanation": "P(A|B) = P(A∩B)/P(B)। हर शून्य होने से अपरिभाषित।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "3D दूरी सूत्र।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 73,
-    "chapter": "अवकलन",
-    "question": "d/dx (log x) का मान क्या होगा?",
+    "chapter": "3D ज्यामिति",
+    "question": "xy-समतल (xy-plane) का समीकरण क्या होता है?",
     "options": {
-      "A": "1/x",
-      "B": "-1/x",
-      "C": "1/x²",
-      "D": "eˣ"
+      "A": "z = 0",
+      "B": "x = 0",
+      "C": "y = 0",
+      "D": "x + y = 0"
     },
     "correct": "A",
-    "explanation": "d/dx(log x) = 1/x।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "xy-समतल पर प्रत्येक बिंदु का z निर्देशांक 0 होता है।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 74,
-    "chapter": "समाकलन",
-    "question": "∫ sec²x dx का मान क्या होगा?",
+    "chapter": "3D ज्यामिति",
+    "question": "yz-समतल का समीकरण है:",
     "options": {
-      "A": "tan x + k",
-      "B": "-cot x + k",
-      "C": "sec x + k",
-      "D": "tan²x + k"
+      "A": "y = 0",
+      "B": "x = 0",
+      "C": "z = 0",
+      "D": "y + z = 0"
     },
-    "correct": "A",
-    "explanation": "∫ sec²x dx = tan x + k।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "yz-समतल पर x = 0 होता है।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 75,
-    "chapter": "अवकल समीकरण",
-    "question": "अवकल समीकरण (dy/dx) + y = eˣ की कोटि (Order) क्या है?",
+    "chapter": "3D ज्यामिति",
+    "question": "zx-समतल का समीकरण है:",
     "options": {
-      "A": "1",
-      "B": "2",
-      "C": "0",
-      "D": "अपरिभाषित"
+      "A": "x = 0",
+      "B": "z = 0",
+      "C": "y = 0",
+      "D": "z + x = 0"
     },
-    "correct": "A",
-    "explanation": "उच्चतम अवकलज dy/dx है, अतः कोटि 1 है।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "zx-समतल पर y = 0 होता है।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 76,
-    "chapter": "आव्यूह",
-    "question": "यदि A = [aᵢⱼ]ₘ×ₙ एक वर्ग आव्यूह (Square matrix) है, यदि:",
+    "chapter": "3D ज्यामिति",
+    "question": "यदि दो रेखाओं के दिक्-अनुपात (a₁, b₁, c₁) तथा (a₂, b₂, c₂) हैं, तो वे लंबवत होंगी यदि:",
     "options": {
-      "A": "m = n",
-      "B": "m < n",
-      "C": "m > n",
-      "D": "m ≠ n"
+      "A": "a₁/a₂ = b₁/b₂ = c₁/c₂",
+      "B": "a₁a₂ - b₁b₂ = 0",
+      "C": "a₁ + a₂ = 0",
+      "D": "a₁a₂ + b₁b₂ + c₁c₂ = 0"
     },
-    "correct": "A",
-    "explanation": "वर्ग आव्यूह में पंक्तियों और स्तंभों की संख्या समान होती है।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "लंबवत होने की शर्त a₁a₂ + b₁b₂ + c₁c₂ = 0।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 77,
-    "chapter": "अवकलन",
-    "question": "d/dx (sin x) का मान क्या होगा?",
+    "chapter": "3D ज्यामिति",
+    "question": "यदि दो रेखाएँ समांतर हों, तो दिक्-अनुपातों में संबंध होता है:",
     "options": {
-      "A": "cos x",
-      "B": "-cos x",
-      "C": "sec x",
-      "D": "-sin x"
+      "A": "a₁/a₂ = b₁/b₂ = c₁/c₂",
+      "B": "a₁a₂ + b₁b₂ + c₁c₂ = 0",
+      "C": "a₁ = a₂, b₁ = b₂",
+      "D": "a₁b₂ - a₂b₁ = 1"
     },
     "correct": "A",
-    "explanation": "d/dx(sin x) = cos x।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "समानुपाती होने की शर्त a₁/a₂ = b₁/b₂ = c₁/c₂।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 78,
-    "chapter": "अवकलन",
-    "question": "d/dx (tan x) का मान क्या होगा?",
+    "chapter": "प्रायिकता",
+    "question": "एक सिक्के को दो बार उछालने पर ठीक एक शीर्ष (Head) आने की प्रायिकता क्या है?",
     "options": {
-      "A": "sec²x",
-      "B": "-sec²x",
-      "C": "cosec²x",
-      "D": "cot x"
+      "A": "1/4",
+      "B": "1/2",
+      "C": "3/4",
+      "D": "1"
     },
-    "correct": "A",
-    "explanation": "d/dx(tan x) = sec²x।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "प्रतिदर्श समष्टि {HH, HT, TH, TT}, अनुकूल {HT, TH} = 2/4 = 1/2।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 79,
-    "chapter": "समाकलन",
-    "question": "∫ x dx का मान होगा:",
+    "chapter": "प्रायिकता",
+    "question": "ताश के 52 पत्तों की गड्डी में से एक पत्ता खींचने पर उसके इक्का (Ace) होने की प्रायिकता:",
     "options": {
-      "A": "x²/2 + k",
-      "B": "x² + k",
-      "C": "2x + k",
-      "D": "x³/3 + k"
+      "A": "1/4",
+      "B": "1/52",
+      "C": "1/13",
+      "D": "4/13"
     },
-    "correct": "A",
-    "explanation": "∫ x dx = x²/2 + k।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "कुल 4 इक्के होते हैं, 4/52 = 1/13।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 80,
-    "chapter": "समाकलन",
-    "question": "∫ eˣ dx का मान होगा:",
+    "chapter": "प्रायिकता",
+    "question": "ताश के पत्तों में से लाल रंग का पत्ता निकलने की प्रायिकता है:",
     "options": {
-      "A": "eˣ + k",
-      "B": "-eˣ + k",
-      "C": "x eˣ + k",
-      "D": "e⁻ˣ + k"
+      "A": "1/4",
+      "B": "1/13",
+      "C": "26/51",
+      "D": "1/2"
     },
-    "correct": "A",
-    "explanation": "∫ eˣ dx = eˣ + k।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "26 लाल पत्ते होते हैं (पान + ईंट) = 26/52 = 1/2।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 81,
-    "chapter": "समाकलन",
-    "question": "∫ (1/x) dx का मान होगा:",
+    "chapter": "प्रायिकता",
+    "question": "यदि P(A) = 0.4 और P(B) = 0.8 तथा P(B|A) = 0.6 हो, तो P(A ∩ B) का मान क्या है?",
     "options": {
-      "A": "log|x| + k",
-      "B": "-1/x² + k",
-      "C": "1/x + k",
-      "D": "x + k"
+      "A": "0.24",
+      "B": "0.48",
+      "C": "0.32",
+      "D": "0.16"
     },
     "correct": "A",
-    "explanation": "∫ (1/x) dx = log|x| + k।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "P(A ∩ B) = P(A) · P(B|A) = 0.4 × 0.6 = 0.24।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 82,
-    "chapter": "ITF",
-    "question": "sin⁻¹(x) + cos⁻¹(x) का मान क्या होगा?",
-    "options": {
-      "A": "π/2",
-      "B": "π",
-      "C": "π/4",
-      "D": "0"
-    },
-    "correct": "A",
-    "explanation": "सर्वसमिका: sin⁻¹x + cos⁻¹x = π/2।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
-  },
-  {
-    "id": 83,
-    "chapter": "ITF",
-    "question": "tan⁻¹(1) का मुख्य मान क्या है?",
-    "options": {
-      "A": "π/4",
-      "B": "π/2",
-      "C": "π/3",
-      "D": "π/6"
-    },
-    "correct": "A",
-    "explanation": "tan(π/4) = 1, अतः π/4।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
-  },
-  {
-    "id": 84,
-    "chapter": "सदिश बीजगणित",
-    "question": "î · î का मान क्या होगा?",
+    "chapter": "प्रायिकता",
+    "question": "यदि A और B परस्पर अपवर्जी (Mutually Exclusive) घटनाएँ हैं, तो P(A ∩ B) बराबर है:",
     "options": {
       "A": "1",
       "B": "0",
-      "C": "k̂",
-      "D": "-1"
+      "C": "P(A) · P(B)",
+      "D": "P(A) + P(B)"
     },
-    "correct": "A",
-    "explanation": "समान एकांक सदिशों का डॉट प्रोडक्ट 1 होता है।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "परस्पर अपवर्जी घटनाएँ एक साथ नहीं घट सकतीं, अतः P(A ∩ B) = 0।",
+    "vvi_badge": "⭐ [VVI 2024]"
+  },
+  {
+    "id": 83,
+    "chapter": "आव्यूह",
+    "question": "एक तत्समक आव्यूह (Identity Matrix) I के लिए I² बराबर होता है:",
+    "options": {
+      "A": "2I",
+      "B": "0",
+      "C": "I",
+      "D": "I³"
+    },
+    "correct": "C",
+    "explanation": "I · I = I।",
+    "vvi_badge": "⭐ [VVI 2024]"
+  },
+  {
+    "id": 84,
+    "chapter": "आव्यूह",
+    "question": "यदि A एक वर्ग आव्यूह है तो A + A' (परिवर्त) हमेशा होता है:",
+    "options": {
+      "A": "विषम-सममित आव्यूह",
+      "B": "शून्य आव्यूह",
+      "C": "अदिश आव्यूह",
+      "D": "सममित आव्यूह (Symmetric)"
+    },
+    "correct": "D",
+    "explanation": "(A + A')' = A' + A = A + A', अतः सदैव सममित।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 85,
-    "chapter": "सदिश बीजगणित",
-    "question": "î × ĵ का मान क्या होगा?",
+    "chapter": "आव्यूह",
+    "question": "यदि A एक वर्ग आव्यूह है तो A - A' हमेशा होता है:",
     "options": {
-      "A": "k̂",
-      "B": "-k̂",
-      "C": "0",
-      "D": "1"
+      "A": "विषम-सममित आव्यूह (Skew-symmetric)",
+      "B": "सममित आव्यूह",
+      "C": "तत्समक",
+      "D": "विकर्ण आव्यूह"
     },
     "correct": "A",
-    "explanation": "दाहिने हाथ के नियम से î × ĵ = k̂।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "(A - A')' = -(A - A'), अतः सदैव विषम-सममित।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 86,
-    "chapter": "3D ज्यामिति",
-    "question": "x-अक्ष की दिक्-कोज्याएँ (Direction cosines) क्या हैं?",
+    "chapter": "आव्यूह",
+    "question": "एक 2 × 2 आव्यूह A के लिए A · (adj A) बराबर होता है:",
     "options": {
-      "A": "(1, 0, 0)",
-      "B": "(0, 1, 0)",
-      "C": "(0, 0, 1)",
-      "D": "(1, 1, 1)"
+      "A": "|A|² · I",
+      "B": "|A| · I",
+      "C": "adj(A) / |A|",
+      "D": "I"
     },
-    "correct": "A",
-    "explanation": "x-अक्ष के लिए cos 0°=1, cos 90°=0, cos 90°=0 ⇒ (1, 0, 0)।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "मानक प्रमेय A · (adj A) = (adj A) · A = |A| I।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 87,
-    "chapter": "प्रायिकता",
-    "question": "यदि P(A) = 1/2, P(B) = 0 हो, तो P(A|B) का मान क्या होगा?",
+    "chapter": "आव्यूह",
+    "question": "व्युत्क्रमणीय आव्यूह (Invertible matrix) के लिए आवश्यक शर्त है:",
     "options": {
-      "A": "अपरिभाषित (Not defined)",
-      "B": "0",
-      "C": "1/2",
-      "D": "1"
+      "A": "|A| = 0",
+      "B": "|A| > 0",
+      "C": "|A| ≠ 0",
+      "D": "|A| = 1"
     },
-    "correct": "A",
-    "explanation": "P(A|B) = P(A∩B)/P(B)। हर शून्य होने से अपरिभाषित।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "A⁻¹ = adj(A)/|A| अस्तित्व में रहने के लिए |A| अशून्य होना चाहिए।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 88,
-    "chapter": "अवकलन",
-    "question": "d/dx (log x) का मान क्या होगा?",
+    "chapter": "अवकल समीकरण",
+    "question": "अवकलन समीकरण d²y/dx² = y की कोटि (Order) और घात (Degree) क्रमशः हैं:",
     "options": {
-      "A": "1/x",
-      "B": "-1/x",
-      "C": "1/x²",
-      "D": "eˣ"
+      "A": "1, 2",
+      "B": "2, 2",
+      "C": "1, 1",
+      "D": "2, 1"
     },
-    "correct": "A",
-    "explanation": "d/dx(log x) = 1/x।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "कोटि 2 और घात 1।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 89,
     "chapter": "समाकलन",
-    "question": "∫ sec²x dx का मान क्या होगा?",
+    "question": "∫ 1/(x log x) dx का मान क्या है?",
     "options": {
-      "A": "tan x + k",
-      "B": "-cot x + k",
-      "C": "sec x + k",
-      "D": "tan²x + k"
+      "A": "log|log x| + C",
+      "B": "log|x| + C",
+      "C": "(log x)² / 2 + C",
+      "D": "1/(log x) + C"
     },
     "correct": "A",
-    "explanation": "∫ sec²x dx = tan x + k।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "log x = t रखने पर dt = dx/x ⇒ ∫ dt/t = log|t| = log|log x| + C।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 90,
-    "chapter": "अवकल समीकरण",
-    "question": "अवकल समीकरण (dy/dx) + y = eˣ की कोटि (Order) क्या है?",
+    "chapter": "समाकलन",
+    "question": "∫ cot² x dx का मान क्या है?",
     "options": {
-      "A": "1",
-      "B": "2",
-      "C": "0",
-      "D": "अपरिभाषित"
+      "A": "cot x + x + C",
+      "B": "-cot x - x + C",
+      "C": "-tan x - x + C",
+      "D": "cosec² x + C"
     },
-    "correct": "A",
-    "explanation": "उच्चतम अवकलज dy/dx है, अतः कोटि 1 है।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "cot²x = cosec²x - 1 ⇒ ∫ (cosec²x - 1) dx = -cot x - x + C।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 91,
-    "chapter": "आव्यूह",
-    "question": "यदि A = [aᵢⱼ]ₘ×ₙ एक वर्ग आव्यूह (Square matrix) है, यदि:",
+    "chapter": "समाकलन",
+    "question": "∫ tan² x dx का मान है:",
     "options": {
-      "A": "m = n",
-      "B": "m < n",
-      "C": "m > n",
-      "D": "m ≠ n"
+      "A": "-tan x - x + C",
+      "B": "sec x - x + C",
+      "C": "tan x - x + C",
+      "D": "tan x + x + C"
     },
-    "correct": "A",
-    "explanation": "वर्ग आव्यूह में पंक्तियों और स्तंभों की संख्या समान होती है।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "tan²x = sec²x - 1 ⇒ tan x - x + C।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 92,
     "chapter": "अवकलन",
-    "question": "d/dx (sin x) का मान क्या होगा?",
+    "question": "यदि y = sin(x²), तो dy/dx बराबर है:",
     "options": {
-      "A": "cos x",
-      "B": "-cos x",
-      "C": "sec x",
-      "D": "-sin x"
+      "A": "cos(x²)",
+      "B": "-2x cos(x²)",
+      "C": "x cos(x²)",
+      "D": "2x cos(x²)"
     },
-    "correct": "A",
-    "explanation": "d/dx(sin x) = cos x।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "श्रृंखला नियम (Chain rule): cos(x²) · d/dx(x²) = 2x cos(x²)।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 93,
     "chapter": "अवकलन",
-    "question": "d/dx (tan x) का मान क्या होगा?",
+    "question": "यदि y = log(log x), तो dy/dx का मान है:",
     "options": {
-      "A": "sec²x",
-      "B": "-sec²x",
-      "C": "cosec²x",
-      "D": "cot x"
+      "A": "1 / (x log x)",
+      "B": "1 / log x",
+      "C": "1 / x",
+      "D": "-1 / (x log x)²"
     },
     "correct": "A",
-    "explanation": "d/dx(tan x) = sec²x।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "(1/log x) · (1/x) = 1/(x log x)।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 94,
-    "chapter": "समाकलन",
-    "question": "∫ x dx का मान होगा:",
+    "chapter": "अवकलज के अनुप्रयोग",
+    "question": "वक्र y = x² के बिंदु (1, 1) पर स्पर्श रेखा की प्रवणता (Slope of tangent) है:",
     "options": {
-      "A": "x²/2 + k",
-      "B": "x² + k",
-      "C": "2x + k",
-      "D": "x³/3 + k"
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
     },
-    "correct": "A",
-    "explanation": "∫ x dx = x²/2 + k।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "dy/dx = 2x, x=1 पर 2(1) = 2।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 95,
-    "chapter": "समाकलन",
-    "question": "∫ eˣ dx का मान होगा:",
+    "chapter": "अवकलज के अनुप्रयोग",
+    "question": "वक्र y = x³ के बिंदु (1, 1) पर स्पर्श रेखा की ढाल क्या है?",
     "options": {
-      "A": "eˣ + k",
-      "B": "-eˣ + k",
-      "C": "x eˣ + k",
-      "D": "e⁻ˣ + k"
+      "A": "2",
+      "B": "1",
+      "C": "3",
+      "D": "6"
     },
-    "correct": "A",
-    "explanation": "∫ eˣ dx = eˣ + k।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "dy/dx = 3x² = 3(1)² = 3।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 96,
-    "chapter": "समाकलन",
-    "question": "∫ (1/x) dx का मान होगा:",
+    "chapter": "सदिश बीजगणित",
+    "question": "सदिश a⃗ = î + ĵ का एकांक सदिश (Unit Vector) क्या है?",
     "options": {
-      "A": "log|x| + k",
-      "B": "-1/x² + k",
-      "C": "1/x + k",
-      "D": "x + k"
+      "A": "(î + ĵ) / 2",
+      "B": "î + ĵ",
+      "C": "√2(î + ĵ)",
+      "D": "(î + ĵ) / √2"
     },
-    "correct": "A",
-    "explanation": "∫ (1/x) dx = log|x| + k।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "â = a⃗ / |a⃗| = (î + ĵ) / √(1² + 1²) = (î + ĵ)/√2।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 97,
-    "chapter": "ITF",
-    "question": "sin⁻¹(x) + cos⁻¹(x) का मान क्या होगा?",
+    "chapter": "सदिश बीजगणित",
+    "question": "सदिश î + ĵ + k̂ की दिक्-कोज्याएँ क्या होंगी?",
     "options": {
-      "A": "π/2",
-      "B": "π",
-      "C": "π/4",
-      "D": "0"
+      "A": "(1/√3, 1/√3, 1/√3)",
+      "B": "(1/3, 1/3, 1/3)",
+      "C": "(1, 1, 1)",
+      "D": "(√3, √3, √3)"
     },
     "correct": "A",
-    "explanation": "सर्वसमिका: sin⁻¹x + cos⁻¹x = π/2।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "explanation": "|r⃗| = √3, अतः l = m = n = 1/√3।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 98,
-    "chapter": "ITF",
-    "question": "tan⁻¹(1) का मुख्य मान क्या है?",
+    "chapter": "3D ज्यामिति",
+    "question": "समतल 3x + 4y - 12z + 13 = 0 की मूल बिंदु से लंबवत दूरी है:",
     "options": {
-      "A": "π/4",
-      "B": "π/2",
-      "C": "π/3",
-      "D": "π/6"
+      "A": "13",
+      "B": "1",
+      "C": "13/5",
+      "D": "2"
     },
-    "correct": "A",
-    "explanation": "tan(π/4) = 1, अतः π/4।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "B",
+    "explanation": "d = |13| / √(3² + 4² + (-12)²) = 13 / √169 = 13/13 = 1।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 99,
-    "chapter": "सदिश बीजगणित",
-    "question": "î · î का मान क्या होगा?",
+    "chapter": "3D ज्यामिति",
+    "question": "दो रेखाओं के बीच का कोण θ = 0° होने पर वे परस्पर:",
     "options": {
-      "A": "1",
-      "B": "0",
-      "C": "k̂",
-      "D": "-1"
+      "A": "लंबवत होती हैं",
+      "B": "प्रतिच्छेदी नहीं होतीं",
+      "C": "समांतर होती हैं",
+      "D": "संपाती नहीं होतीं"
     },
-    "correct": "A",
-    "explanation": "समान एकांक सदिशों का डॉट प्रोडक्ट 1 होता है।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "C",
+    "explanation": "θ = 0° का अर्थ है रेखाएँ समांतर हैं।",
+    "vvi_badge": "⭐ [VVI 2024]"
   },
   {
     "id": 100,
-    "chapter": "सदिश बीजगणित",
-    "question": "î × ĵ का मान क्या होगा?",
+    "chapter": "3D ज्यामिति",
+    "question": "गोले का समीकरण x² + y² + z² = a² का केंद्र क्या है?",
     "options": {
-      "A": "k̂",
-      "B": "-k̂",
-      "C": "0",
-      "D": "1"
+      "A": "(a, a, a)",
+      "B": "(1, 1, 1)",
+      "C": "(a/2, a/2, a/2)",
+      "D": "(0, 0, 0)"
     },
-    "correct": "A",
-    "explanation": "दाहिने हाथ के नियम से î × ĵ = k̂।",
-    "vvi_badge": "⭐ [VVI Board Model Paper]"
+    "correct": "D",
+    "explanation": "मानक रूप जिसका केंद्र मूल बिंदु (0, 0, 0) तथा त्रिज्या a होती है।",
+    "vvi_badge": "⭐ [VVI 2024]"
   }
 ]
