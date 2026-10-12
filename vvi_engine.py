@@ -126,28 +126,34 @@ async def call_gemini(prompt: str) -> Optional[str]:
 
 async def call_deepseek(prompt: str, system_prompt: str = "") -> Optional[str]:
     """Agent Caller: DeepSeek v3.1 (Bedrock Mantle)."""
-    key = os.getenv("OPENAI_API_KEY", "").strip()
-    base_url = os.getenv("OPENAI_BASE_URL", "").strip()
+    keys = [
+        os.getenv("OPENAI_API_KEY", "").strip(),
+        os.getenv("OPENAI_API_KEY_BACKUP", "").strip()
+    ]
+    base_url = os.getenv("OPENAI_BASE_URL", "https://bedrock-mantle.ap-southeast-2.api.aws/v1").strip()
     model = os.getenv("AI_MODEL", "deepseek.v3.1")
-    if not key or not base_url:
-        return None
 
     url = f"{base_url.rstrip('/')}/chat/completions"
-    headers = {"Authorization": f"Bearer {key}", "Content-Type": "application/json"}
     messages = []
     if system_prompt:
         messages.append({"role": "system", "content": system_prompt})
     messages.append({"role": "user", "content": prompt})
 
     payload = {"model": model, "messages": messages, "temperature": 0.1, "max_tokens": 3000}
-    try:
-        async with httpx.AsyncClient(timeout=40.0) as client:
-            resp = await client.post(url, json=payload, headers=headers)
-            if resp.status_code == 200:
-                data = resp.json()
-                return data["choices"][0]["message"]["content"]
-    except Exception as e:
-        logger.warning(f"DeepSeek call error: {e}")
+    for key in keys:
+        if not key:
+            continue
+        headers = {"Authorization": f"Bearer {key}", "Content-Type": "application/json"}
+        try:
+            async with httpx.AsyncClient(timeout=40.0) as client:
+                resp = await client.post(url, json=payload, headers=headers)
+                if resp.status_code == 200:
+                    data = resp.json()
+                    return data["choices"][0]["message"]["content"]
+                else:
+                    logger.warning(f"DeepSeek returned {resp.status_code}: {resp.text[:120]}")
+        except Exception as e:
+            logger.warning(f"DeepSeek call error: {e}")
     return None
 
 async def call_chatgpt(prompt: str, system_prompt: str = "") -> Optional[str]:
